@@ -1,0 +1,31 @@
+/* heap_sort.c */
+/* 程序能够运行但是结果不对，调试了很长时间没有发现错误 */
+/* 暂停，等一段再调试 */
+#include <stdio.h>
+#include <stdlib.h>
+#include "max_heapify.h"
+#include "build_max_heap.h"
+#include "getnum.h"
+#define M 10
+#define N 10
+
+int main(void)
+{
+	int i, tmp, a[M];
+	getnum(a, M, N);
+	build_max_heap(a, M);
+	for (i = M - 1; i > 0; i--) {
+		tmp = a[0];
+		a[0] = a[i];
+		a[i] = tmp;
+		max_heapify(a, 0, i);
+	}
+	printf ( "\nThe sorted array:\n");
+	for (i = 0; i < M; i++) {
+		printf("%d\t", a[i]);
+		if ((i+1) % 10 == 0) printf("\n");
+
+	}
+	return 0;
+
+}

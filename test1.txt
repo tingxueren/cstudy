@@ -1,0 +1,10 @@
+This is a line with example text
+text sample text
+sample text
+text aample text
+sample text
+text
+{
+	ghj()
+	ZZ\\\
+}

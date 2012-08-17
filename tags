@@ -1,0 +1,1012 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	18.2.c	/^const int A = 10;$/;"	v
+A	random.c	2;"	d	file:
+Advisor	f1001.cpp	/^class Advisor$/;"	c	file:
+Advisor	graduatestudent.h	/^class Advisor$/;"	c
+Advisor::noOfMeeting	f1001.cpp	/^      int noOfMeeting;$/;"	m	class:Advisor	file:	access:private
+Advisor::noOfMeeting	graduatestudent.h	/^     int noOfMeeting;  	$/;"	m	class:Advisor	access:private
+BINARYTREE_H	25.3/binarytree.h	3;"	d
+BST_H	25.4/bst.h	3;"	d
+Base	f1003.cpp	/^class Base$/;"	c	file:
+Base::b1	f1003.cpp	/^    int b1;$/;"	m	class:Base	file:	access:private
+Base::b2	f1003.cpp	/^    int b2;$/;"	m	class:Base	file:	access:protected
+Base::b3	f1003.cpp	/^    int b3;$/;"	m	class:Base	file:	access:public
+Base::fb2	f1003.cpp	/^    void fb2() { b1 = 1;}$/;"	f	class:Base	access:protected	signature:()
+Base::fb3	f1003.cpp	/^    void fb3() { b1 = 1;}$/;"	f	class:Base	access:public	signature:()
+Bear	cplusplusprimer/gnu_files/17/virt.h	/^    Bear() : dance_flag(two_left_feet) { }$/;"	f	class:Bear	access:protected	signature:()
+Bear	cplusplusprimer/gnu_files/17/virt.h	/^    Bear(std::string name, bool onExhibit=true);$/;"	p	class:Bear	access:public	signature:(std::string name, bool onExhibit=true)
+Bear	cplusplusprimer/gnu_files/17/virt.h	/^Bear::Bear(std::string name, bool onExhibit):$/;"	f	class:Bear	signature:(std::string name, bool onExhibit)
+Bear	cplusplusprimer/gnu_files/17/virt.h	/^class Bear : virtual public ZooAnimal {$/;"	c	inherits:ZooAnimal
+Bear::Bear	cplusplusprimer/gnu_files/17/virt.h	/^    Bear() : dance_flag(two_left_feet) { }$/;"	f	class:Bear	access:protected	signature:()
+Bear::Bear	cplusplusprimer/gnu_files/17/virt.h	/^    Bear(std::string name, bool onExhibit=true);$/;"	p	class:Bear	access:public	signature:(std::string name, bool onExhibit=true)
+Bear::Bear	cplusplusprimer/gnu_files/17/virt.h	/^Bear::Bear(std::string name, bool onExhibit):$/;"	f	class:Bear	signature:(std::string name, bool onExhibit)
+Bear::DanceType	cplusplusprimer/gnu_files/17/virt.h	/^    enum DanceType { two_left_feet, macarena, fandango };$/;"	g	class:Bear	access:public
+Bear::dance	cplusplusprimer/gnu_files/17/virt.h	/^    void dance(DanceType) const;$/;"	p	class:Bear	access:public	signature:(DanceType) const
+Bear::dance_flag	cplusplusprimer/gnu_files/17/virt.h	/^    DanceType dance_flag;$/;"	m	class:Bear	access:private
+Bear::fandango	cplusplusprimer/gnu_files/17/virt.h	/^    enum DanceType { two_left_feet, macarena, fandango };$/;"	e	enum:Bear::DanceType
+Bear::isA	cplusplusprimer/gnu_files/17/virt.h	/^    virtual std::string isA() const;$/;"	p	class:Bear	access:public	signature:() const
+Bear::ival	cplusplusprimer/gnu_files/17/virt.h	/^    int    ival;$/;"	m	class:Bear	access:private
+Bear::macarena	cplusplusprimer/gnu_files/17/virt.h	/^    enum DanceType { two_left_feet, macarena, fandango };$/;"	e	enum:Bear::DanceType
+Bear::mumble	cplusplusprimer/gnu_files/17/virt.h	/^    int mumble(int);$/;"	p	class:Bear	access:public	signature:(int)
+Bear::name	cplusplusprimer/gnu_files/17/virt.h	/^    std::string name;$/;"	m	class:Bear	access:private
+Bear::print	cplusplusprimer/gnu_files/17/virt.h	/^    virtual std::ostream &print(std::ostream&) const;$/;"	p	class:Bear	access:public	signature:(std::ostream&) const
+Bear::two_left_feet	cplusplusprimer/gnu_files/17/virt.h	/^    enum DanceType { two_left_feet, macarena, fandango };$/;"	e	enum:Bear::DanceType
+Bear::~Bear	cplusplusprimer/gnu_files/17/virt.h	/^virtual ~Bear();$/;"	p	class:Bear	access:public	signature:()
+Bed	f1006.cpp	/^      Bed(): weight(0){}$/;"	f	class:Bed	access:public	signature:()
+Bed	f1006.cpp	/^class Bed$/;"	c	file:
+Bed::Bed	f1006.cpp	/^      Bed(): weight(0){}$/;"	f	class:Bed	access:public	signature:()
+Bed::setWeight	f1006.cpp	/^      void setWeight(int i){ weight = i;}$/;"	f	class:Bed	access:public	signature:(int i)
+Bed::sleep	f1006.cpp	/^      void sleep()const{ cout << "Sleeping...\\n";}$/;"	f	class:Bed	access:public	signature:() const
+Bed::weight	f1006.cpp	/^      int weight;$/;"	m	class:Bed	file:	access:protected
+C	random.c	3;"	d	file:
+COUNTING_SORT_H	counting_sort.h	3;"	d
+COUNTING_SORT_VER2_H	counting_sort_ver2.h	3;"	d
+DIRS	cplusplusprimer/gnu_files/makefile	/^DIRS = 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18$/;"	m
+DanceType	cplusplusprimer/gnu_files/17/virt.h	/^    enum DanceType { two_left_feet, macarena, fandango };$/;"	g	class:Bear	access:public
+Date	f0801.cpp	/^struct Date{$/;"	s	file:
+Date	f0802.cpp	/^class Date{$/;"	c	file:
+Date	f0904.cpp	/^      Date(const string& s);$/;"	p	class:Date	file:	access:public	signature:(const string& s)
+Date	f0904.cpp	/^      Date(int year = 2000, int month = 1, int day = 1);$/;"	p	class:Date	file:	access:public	signature:(int year = 2000, int month = 1, int day = 1)
+Date	f0904.cpp	/^Date::Date(const string& s){$/;"	f	class:Date	signature:(const string& s)
+Date	f0904.cpp	/^Date::Date(int y,int m,int d){$/;"	f	class:Date	signature:(int y,int m,int d)
+Date	f0904.cpp	/^class Date{$/;"	c	file:
+Date::Date	f0904.cpp	/^      Date(const string& s);$/;"	p	class:Date	file:	access:public	signature:(const string& s)
+Date::Date	f0904.cpp	/^      Date(int year = 2000, int month = 1, int day = 1);$/;"	p	class:Date	file:	access:public	signature:(int year = 2000, int month = 1, int day = 1)
+Date::Date	f0904.cpp	/^Date::Date(const string& s){$/;"	f	class:Date	signature:(const string& s)
+Date::Date	f0904.cpp	/^Date::Date(int y,int m,int d){$/;"	f	class:Date	signature:(int y,int m,int d)
+Date::day	f0801.cpp	/^       int day;$/;"	m	struct:Date	file:	access:public
+Date::day	f0802.cpp	/^  int day;$/;"	m	class:Date	file:	access:private
+Date::day	f0904.cpp	/^      int year, month, day;$/;"	m	class:Date	file:	access:private
+Date::init	f0904.cpp	/^      void init();$/;"	p	class:Date	file:	access:private	signature:()
+Date::init	f0904.cpp	/^void Date::init(){$/;"	f	class:Date	signature:()
+Date::isLeapYear	f0802.cpp	/^  bool isLeapYear();$/;"	p	class:Date	file:	access:public	signature:()
+Date::isLeapYear	f0802.cpp	/^bool Date::isLeapYear(){$/;"	f	class:Date	signature:()
+Date::isLeapYear	f0904.cpp	/^      bool isLeapYear()const;$/;"	p	class:Date	file:	access:public	signature:() const
+Date::isLeapYear	f0904.cpp	/^bool Date::isLeapYear()const{$/;"	f	class:Date	signature:() const
+Date::month	f0801.cpp	/^       int month;$/;"	m	struct:Date	file:	access:public
+Date::month	f0802.cpp	/^  int month;$/;"	m	class:Date	file:	access:private
+Date::month	f0904.cpp	/^      int year, month, day;$/;"	m	class:Date	file:	access:private
+Date::operator <<	f0904.cpp	/^      friend ostream& operator<<(ostream& o,const Date& d);$/;"	p	class:Date	file:	access:friend	signature:(ostream& o,const Date& d)
+Date::print	f0802.cpp	/^  void print();$/;"	p	class:Date	file:	access:public	signature:()
+Date::print	f0802.cpp	/^void Date::print(){$/;"	f	class:Date	signature:()
+Date::set	f0802.cpp	/^  void set(int y,int m,int d);$/;"	p	class:Date	file:	access:public	signature:(int y,int m,int d)
+Date::set	f0802.cpp	/^void Date::set(int y,int m, int d){$/;"	f	class:Date	signature:(int y,int m, int d)
+Date::year	f0801.cpp	/^       int year;$/;"	m	struct:Date	file:	access:public
+Date::year	f0802.cpp	/^  int year;$/;"	m	class:Date	file:	access:private
+Date::year	f0904.cpp	/^      int year, month, day;$/;"	m	class:Date	file:	access:private
+Endangered	cplusplusprimer/gnu_files/17/virt.h	/^    Endangered(Status stat): animal_status(stat) { }$/;"	f	class:Endangered	access:public	signature:(Status stat)
+Endangered	cplusplusprimer/gnu_files/17/virt.h	/^class Endangered {$/;"	c
+Endangered::Endangered	cplusplusprimer/gnu_files/17/virt.h	/^    Endangered(Status stat): animal_status(stat) { }$/;"	f	class:Endangered	access:public	signature:(Status stat)
+Endangered::Status	cplusplusprimer/gnu_files/17/virt.h	/^    enum Status { critical, environment, improving };$/;"	g	class:Endangered	access:public
+Endangered::animal_status	cplusplusprimer/gnu_files/17/virt.h	/^    Status animal_status;$/;"	m	class:Endangered	access:private
+Endangered::critical	cplusplusprimer/gnu_files/17/virt.h	/^    enum Status { critical, environment, improving };$/;"	e	enum:Endangered::Status
+Endangered::environment	cplusplusprimer/gnu_files/17/virt.h	/^    enum Status { critical, environment, improving };$/;"	e	enum:Endangered::Status
+Endangered::highlight	cplusplusprimer/gnu_files/17/virt.h	/^    virtual void highlight() const;$/;"	p	class:Endangered	access:public	signature:() const
+Endangered::improving	cplusplusprimer/gnu_files/17/virt.h	/^    enum Status { critical, environment, improving };$/;"	e	enum:Endangered::Status
+Endangered::print	cplusplusprimer/gnu_files/17/virt.h	/^    virtual std::ostream& print(std::ostream&) const;$/;"	p	class:Endangered	access:public	signature:(std::ostream&) const
+Endangered::~Endangered	cplusplusprimer/gnu_files/17/virt.h	/^    virtual ~Endangered();$/;"	p	class:Endangered	access:public	signature:()
+FindAndSum	my 字符串.c	/^int FindAndSum(char *str)$/;"	f	signature:(char *str)
+FindAndSum	字符串.c	/^int FindAndSum(char *str)      \/\/ 求和函数$/;"	f	signature:(char *str)
+Foo	cplusplusprimer/test02.cc	/^class Foo {$/;"	c	file:
+FromPri	f1003.cpp	/^class FromPri : public Pri$/;"	c	file:	inherits:Pri
+FromPri::test	f1003.cpp	/^    void test()$/;"	f	class:FromPri	access:public	signature:()
+FromPro	f1003.cpp	/^class FromPro : public Base$/;"	c	file:	inherits:Base
+FromPro::test	f1003.cpp	/^    void test()$/;"	f	class:FromPro	access:public	signature:()
+FromPub	f1003.cpp	/^class FromPub : public Bade$/;"	c	file:	inherits:Bade
+FromPub::test	f1003.cpp	/^    void test()$/;"	f	class:FromPub	access:public	signature:()
+GE	cplusplusprimer/get.h	2;"	d
+GETLINE_H	c_programming_language/5.6/getline.h	3;"	d
+GETNUM_DIFFERENT_H	getnum_different.h	3;"	d
+GETNUM_H	getnum.h	4;"	d
+GT4	cplusplusprimer/11.9.cc	/^bool GT4(const string &s)$/;"	f	signature:(const string &s)
+GetUglyNumber_Solution1	getuglynumber_solution1.cpp	/^int GetUglyNumber_Solution1(int index)$/;"	f	signature:(int index)
+GraduateStudent	f1001.cpp	/^class GraduateStudent : public Student$/;"	c	file:	inherits:Student
+GraduateStudent::advisor	f1001.cpp	/^    Advisor advisor;$/;"	m	class:GraduateStudent	file:	access:private
+GraduateStudent::getQualifier	f1001.cpp	/^    int getQualifier()$/;"	f	class:GraduateStudent	access:public	signature:()
+GraduateStudent::qualifierGrade	f1001.cpp	/^    int qualifierGrade;$/;"	m	class:GraduateStudent	file:	access:private
+Graduatestudent	graduatestudent.h	/^Graduatestudent(string pName = "noNmae"):Student(pName),qualifierGrade(0){}$/;"	f	class:Graduatestudent	access:public	signature:(string pName = �)
+Graduatestudent	graduatestudent.h	/^class Graduatestudent : public Student$/;"	c	inherits:Student
+Graduatestudent::Graduatestudent	graduatestudent.h	/^Graduatestudent(string pName = "noNmae"):Student(pName),qualifierGrade(0){}$/;"	f	class:Graduatestudent	access:public	signature:(string pName = �)
+Graduatestudent::advisor	graduatestudent.h	/^	Advisor advisor;$/;"	m	class:Graduatestudent	access:private
+Graduatestudent::display	graduatestudent.h	/^  void display()$/;"	f	class:Graduatestudent	access:public	signature:()
+Graduatestudent::getQualifier	graduatestudent.h	/^  int getQualifier(){ return qualifierGrade;}$/;"	f	class:Graduatestudent	access:public	signature:()
+Graduatestudent::qualifierGrade	graduatestudent.h	/^	int qualifierGrade;$/;"	m	class:Graduatestudent	access:private
+HEADER_GRADUATESTUDENT	graduatestudent.h	5;"	d
+HeapAdjust	internet_heapsort.c	/^ void HeapAdjust(int SortData[],int StartIndex, int Length)$/;"	f	signature:(int SortData[],int StartIndex, int Length)
+HeapSortData	internet_heapsort.c	/^ void HeapSortData(int SortData[], int Length)$/;"	f	signature:(int SortData[], int Length)
+INSERTION_SORT_PART_H	insertion_sort_part.h	4;"	d
+IsUgly	getuglynumber_solution1.cpp	/^int IsUgly(int num)$/;"	f	signature:(int num)
+LEN	11.1.c	3;"	d	file:
+LEN	11.2.c	3;"	d	file:
+LEN	insertion_sort_ver2.c	4;"	d	file:
+LEN	main_counting_sort.c	5;"	d	file:
+LEN	main_counting_sort_ver2.c	6;"	d	file:
+LEN	main_quick_sort_ver3.c	6;"	d	file:
+LEN	main_radix_sort.c	6;"	d	file:
+LEN	merge_sort.c	3;"	d	file:
+LEN	merge_sort_v2.c	4;"	d	file:
+LEN	quick_sort.c	4;"	d	file:
+LEN	quick_sortpro.c	4;"	d	file:
+LEN	quick_sortpro_v2.c	4;"	d	file:
+LEN	selection_sort.c	3;"	d	file:
+LINELEN	more01.c	8;"	d	file:
+LINELEN	more02.c	9;"	d	file:
+LINKEDLIST_H	25.1/linkedlist.h	3;"	d
+M	countnum_rand.c	5;"	d	file:
+M	fibonacci_sequence.c	3;"	d	file:
+M	heap_sort.c	9;"	d	file:
+M	insertion_sort_ver3.c	7;"	d	file:
+M	main_counting_sort.c	6;"	d	file:
+M	main_counting_sort_ver2.c	7;"	d	file:
+M	main_quick_sort_ver3.c	7;"	d	file:
+M	main_radix_sort.c	7;"	d	file:
+M	quick_sort.c	5;"	d	file:
+M	quick_sortpro.c	5;"	d	file:
+M	quick_sortpro_v2.c	5;"	d	file:
+M	random.c	4;"	d	file:
+M	test_heap_sort.c	6;"	d	file:
+MAIN_H	maze/main.h	3;"	d
+MAX	20.2.c	/^inline int MAX(int a, int b)$/;"	f	signature:(int a, int b)
+MAX	insertion_sort_ver2.c	5;"	d	file:
+MAX	merge_sort.c	4;"	d	file:
+MAX	merge_sort_v2.c	5;"	d	file:
+MAX	quanpailie_1.c	3;"	d	file:
+MAXLEN	c_programming_language/5.6/readlines.c	8;"	d	file:
+MAXLINE	24.8.c	7;"	d	file:
+MAXLINE	4_1.c	2;"	d	file:
+MAXLINES	c_programming_language/5.6/main.c	9;"	d	file:
+MAX_COL	12.3.c	4;"	d	file:
+MAX_COL	12.4.c	4;"	d	file:
+MAX_COL	maze/main.h	8;"	d
+MAX_ROW	12.3.c	3;"	d	file:
+MAX_ROW	12.4.c	3;"	d	file:
+MAX_ROW	maze/main.h	7;"	d
+MAZE_H	maze/maze.h	3;"	d
+N	25.4/main.c	8;"	d	file:
+N	countnum_rand.c	4;"	d	file:
+N	heap_sort.c	10;"	d	file:
+N	insertion_sort_ver3.c	8;"	d	file:
+N	internet_radix_sort.c	2;"	d	file:
+N	quanpailie_1.c	/^int N; $/;"	v
+N	random.c	5;"	d	file:
+N	test_heap_sort.c	7;"	d	file:
+OPEN_FILE	cplusplusprimer/open_file.h	3;"	d
+PAGELEN	more01.c	7;"	d	file:
+PAGELEN	more02.c	8;"	d	file:
+PARA_ALLOCATOR_H	23.4/para_allocator.h	3;"	d
+POPULATOR_H	23.2/populator.h	3;"	d
+Panda	cplusplusprimer/gnu_files/17/virt.h	/^    Panda();$/;"	p	class:Panda	access:public	signature:()
+Panda	cplusplusprimer/gnu_files/17/virt.h	/^    Panda(std::string name, bool onExhibit=true);$/;"	p	class:Panda	access:public	signature:(std::string name, bool onExhibit=true)
+Panda	cplusplusprimer/gnu_files/17/virt.h	/^Panda::Panda(std::string name, bool onExhibit)$/;"	f	class:Panda	signature:(std::string name, bool onExhibit)
+Panda	cplusplusprimer/gnu_files/17/virt.h	/^class Panda : public Bear,$/;"	c	inherits:Bear,Raccoon,Endangered
+Panda::Panda	cplusplusprimer/gnu_files/17/virt.h	/^    Panda();$/;"	p	class:Panda	access:public	signature:()
+Panda::Panda	cplusplusprimer/gnu_files/17/virt.h	/^    Panda(std::string name, bool onExhibit=true);$/;"	p	class:Panda	access:public	signature:(std::string name, bool onExhibit=true)
+Panda::Panda	cplusplusprimer/gnu_files/17/virt.h	/^Panda::Panda(std::string name, bool onExhibit)$/;"	f	class:Panda	signature:(std::string name, bool onExhibit)
+Panda::print	cplusplusprimer/gnu_files/17/virt.h	/^    virtual std::ostream& print(std::ostream&) const;$/;"	p	class:Panda	access:public	signature:(std::ostream&) const
+Panda::sleeping	cplusplusprimer/gnu_files/17/virt.h	/^    bool sleeping() const {return sleeping_flag;}$/;"	f	class:Panda	access:public	signature:() const
+Panda::sleeping	cplusplusprimer/gnu_files/17/virt.h	/^    void sleeping(bool newval) {sleeping_flag = newval;}$/;"	f	class:Panda	access:public	signature:(bool newval)
+Panda::sleeping_flag	cplusplusprimer/gnu_files/17/virt.h	/^    bool sleeping_flag;$/;"	m	class:Panda	access:protected
+Partition	internetquicksort.c	/^int Partition(int a[],int low,int high)$/;"	f	signature:(int a[],int low,int high)
+Person	f0911.cpp	/^       Person(char*pN="noName")$/;"	f	class:Person	access:public	signature:(char*pN=�)
+Person	f0911.cpp	/^class Person$/;"	c	file:
+Person::Person	f0911.cpp	/^       Person(char*pN="noName")$/;"	f	class:Person	access:public	signature:(char*pN=�)
+Person::pName	f0911.cpp	/^      char*pName;$/;"	m	class:Person	file:	access:private
+Person::~Person	f0911.cpp	/^      ~Person()$/;"	f	class:Person	access:public	signature:()
+Pri	f1003.cpp	/^class Pri : private Base$/;"	c	file:	inherits:Base
+Pri::test	f1003.cpp	/^    void test()$/;"	f	class:Pri	access:public	signature:()
+Pro	f1003.cpp	/^class Pro : protected Base$/;"	c	file:	inherits:Base
+Pro::test	f1003.cpp	/^    void test()$/;"	f	class:Pro	access:public	signature:()
+Pub	f1003.cpp	/^class Pub : public Base$/;"	c	file:	inherits:Base
+Pub::test	f1003.cpp	/^    void test()$/;"	f	class:Pub	access:public	signature:()
+QSORT_H	c_programming_language/5.6/qsort.h	3;"	d
+Quick_Sort	internetquicksort.c	/^void Quick_Sort(int a[],int low,int high)$/;"	f	signature:(int a[],int low,int high)
+RADIX_SORT_H	radix_sort.h	3;"	d
+RANGE	25.4/main.c	7;"	d	file:
+READLINES_H	c_programming_language/5.6/readlines.h	3;"	d
+REDIRECT_PTR_H	23.3/redirect_ptr.h	3;"	d
+RET_PTR_H	23.5/ret_ptr.h	3;"	d
+Raccoon	cplusplusprimer/gnu_files/17/virt.h	/^    Raccoon();$/;"	p	class:Raccoon	access:public	signature:()
+Raccoon	cplusplusprimer/gnu_files/17/virt.h	/^    Raccoon(std::string name, bool onExhibit=true);$/;"	p	class:Raccoon	access:public	signature:(std::string name, bool onExhibit=true)
+Raccoon	cplusplusprimer/gnu_files/17/virt.h	/^Raccoon::Raccoon(std::string name, bool onExhibit)$/;"	f	class:Raccoon	signature:(std::string name, bool onExhibit)
+Raccoon	cplusplusprimer/gnu_files/17/virt.h	/^class Raccoon : public virtual ZooAnimal {$/;"	c	inherits:ZooAnimal
+Raccoon::Raccoon	cplusplusprimer/gnu_files/17/virt.h	/^    Raccoon();$/;"	p	class:Raccoon	access:public	signature:()
+Raccoon::Raccoon	cplusplusprimer/gnu_files/17/virt.h	/^    Raccoon(std::string name, bool onExhibit=true);$/;"	p	class:Raccoon	access:public	signature:(std::string name, bool onExhibit=true)
+Raccoon::Raccoon	cplusplusprimer/gnu_files/17/virt.h	/^Raccoon::Raccoon(std::string name, bool onExhibit)$/;"	f	class:Raccoon	signature:(std::string name, bool onExhibit)
+Raccoon::pettable	cplusplusprimer/gnu_files/17/virt.h	/^    bool pettable() const {return pettable_flag;  }$/;"	f	class:Raccoon	access:public	signature:() const
+Raccoon::pettable	cplusplusprimer/gnu_files/17/virt.h	/^    void pettable(bool petval) {pettable_flag = petval;}$/;"	f	class:Raccoon	access:public	signature:(bool petval)
+Raccoon::pettable_flag	cplusplusprimer/gnu_files/17/virt.h	/^    bool pettable_flag;$/;"	m	class:Raccoon	access:protected
+Raccoon::print	cplusplusprimer/gnu_files/17/virt.h	/^    virtual std::ostream& print(std::ostream&) const;$/;"	p	class:Raccoon	access:public	signature:(std::ostream&) const
+RadixCountSort	internet_radix_sort_ver2.c	/^int RadixCountSort(int* npIndex, int nMax, int* npData, int nLen)$/;"	f	signature:(int* npIndex, int nMax, int* npData, int nLen)
+RadixSort	internet_radix_sort_ver2.c	/^int RadixSort(int* nPData, int nLen)$/;"	f	signature:(int* nPData, int nLen)
+SALESITEM_H	cplusplusprimer/Sales_item.h	6;"	d
+SEED	random.c	6;"	d	file:
+SEQUENCE_STACK_H	sequence_stack.h	3;"	d
+STACKINCREMENT	sequence_stack.h	6;"	d
+STACK_H	maze/stack.h	3;"	d
+STACK_INIT_SIZE	sequence_stack.h	5;"	d
+Sales_item	cplusplusprimer/Sales_item.h	/^	Sales_item(): units_sold(0), revenue(0.0) {} $/;"	f	class:Sales_item	access:public	signature:()
+Sales_item	cplusplusprimer/Sales_item.h	/^class Sales_item {$/;"	c
+Sales_item::Sales_item	cplusplusprimer/Sales_item.h	/^	Sales_item(): units_sold(0), revenue(0.0) {} $/;"	f	class:Sales_item	access:public	signature:()
+Sales_item::avg_price	cplusplusprimer/Sales_item.cc	/^double Sales_item::avg_price() const$/;"	f	class:Sales_item	signature:() const
+Sales_item::avg_price	cplusplusprimer/Sales_item.h	/^	double avg_price() const;$/;"	p	class:Sales_item	access:public	signature:() const
+Sales_item::input	cplusplusprimer/Sales_item.cc	/^std::istream& Sales_item::input(std::istream& in)$/;"	f	class:Sales_item	signature:(std::istream& in)
+Sales_item::input	cplusplusprimer/Sales_item.h	/^	std::istream &input(std::istream &in);$/;"	p	class:Sales_item	access:public	signature:(std::istream &in)
+Sales_item::isbn	cplusplusprimer/Sales_item.h	/^	std::string isbn;$/;"	m	class:Sales_item	access:private
+Sales_item::output	cplusplusprimer/Sales_item.cc	/^std::ostream& Sales_item::output(std::ostream& out) const$/;"	f	class:Sales_item	signature:(std::ostream& out) const
+Sales_item::output	cplusplusprimer/Sales_item.h	/^	std::ostream &output(std::ostream &out) const;$/;"	p	class:Sales_item	access:public	signature:(std::ostream &out) const
+Sales_item::revenue	cplusplusprimer/Sales_item.h	/^	double revenue;$/;"	m	class:Sales_item	access:private
+Sales_item::same_isbn	cplusplusprimer/Sales_item.h	/^	bool same_isbn(const Sales_item &rhs) const {$/;"	f	class:Sales_item	access:public	signature:(const Sales_item &rhs) const
+Sales_item::units_sold	cplusplusprimer/Sales_item.h	/^	unsigned units_sold;$/;"	m	class:Sales_item	access:private
+SleeperSofa	f1006.cpp	/^      SleeperSofa(){}$/;"	f	class:SleeperSofa	access:public	signature:()
+SleeperSofa	f1006.cpp	/^class SleeperSofa : public Bed, public Sofa$/;"	c	file:	inherits:Bed,Sofa
+SleeperSofa::SleeperSofa	f1006.cpp	/^      SleeperSofa(){}$/;"	f	class:SleeperSofa	access:public	signature:()
+SleeperSofa::foldOut	f1006.cpp	/^      void foldOut()const{ cout << "Fold out the sofa.\\n";}$/;"	f	class:SleeperSofa	access:public	signature:() const
+Sofa	f1006.cpp	/^      Sofa():weight(0){}$/;"	f	class:Sofa	access:public	signature:()
+Sofa	f1006.cpp	/^class Sofa$/;"	c	file:
+Sofa::Sofa	f1006.cpp	/^      Sofa():weight(0){}$/;"	f	class:Sofa	access:public	signature:()
+Sofa::setWeight	f1006.cpp	/^      void setWeight(int i){ weight = i;}$/;"	f	class:Sofa	access:public	signature:(int i)
+Sofa::watchTV	f1006.cpp	/^      void watchTV()const{ cout << "Watching TV.\\n";}$/;"	f	class:Sofa	access:public	signature:() const
+Sofa::weight	f1006.cpp	/^      int weight;$/;"	m	class:Sofa	file:	access:protected
+Status	cplusplusprimer/gnu_files/17/virt.h	/^    enum Status { critical, environment, improving };$/;"	g	class:Endangered	access:public
+Student	f1001.cpp	/^  Student(string pName = "noName"): name(pName), average(0), semesterHours(0) {}$/;"	f	class:Student	access:public	signature:(string pName = �)
+Student	f1001.cpp	/^class Student$/;"	c	file:
+Student::Student	f1001.cpp	/^  Student(string pName = "noName"): name(pName), average(0), semesterHours(0) {}$/;"	f	class:Student	access:public	signature:(string pName = �)
+Student::addCourse	f1001.cpp	/^  void addCourse(int hours, double grade)$/;"	f	class:Student	access:public	signature:(int hours, double grade)
+Student::average	f1001.cpp	/^       double average;$/;"	m	class:Student	file:	access:private
+Student::display	f1001.cpp	/^  void display()$/;"	f	class:Student	access:public	signature:()
+Student::getAverage	f1001.cpp	/^  double getAverage()$/;"	f	class:Student	access:public	signature:()
+Student::getHours	f1001.cpp	/^  int getHours()$/;"	f	class:Student	access:public	signature:()
+Student::name	f1001.cpp	/^       string name;$/;"	m	class:Student	file:	access:private
+Student::semesterHours	f1001.cpp	/^       int semesterHours;$/;"	m	class:Student	file:	access:private
+Vector	cplusplusprimer/gnu_files/18/vec.cc	/^    Vector(): elements(0), first_free(0), end(0) { }$/;"	f	class:Vector	access:public	signature:()
+Vector	cplusplusprimer/gnu_files/18/vec.cc	/^template <class T> class Vector {$/;"	c	file:
+Vector::Vector	cplusplusprimer/gnu_files/18/vec.cc	/^    Vector(): elements(0), first_free(0), end(0) { }$/;"	f	class:Vector	access:public	signature:()
+Vector::alloc	cplusplusprimer/gnu_files/18/vec.cc	/^    static std::allocator<T> alloc; \/\/ member to handle allocation$/;"	m	class:Vector	file:	access:private
+Vector::capacity	cplusplusprimer/gnu_files/18/vec.cc	/^    size_t capacity() const { return end - elements; }$/;"	f	class:Vector	access:public	signature:() const
+Vector::elements	cplusplusprimer/gnu_files/18/vec.cc	/^    T* elements;       \/\/ pointer to first element in the array$/;"	m	class:Vector	file:	access:private
+Vector::end	cplusplusprimer/gnu_files/18/vec.cc	/^    T* end;            \/\/ pointer to one past the end of the array$/;"	m	class:Vector	file:	access:private
+Vector::first_free	cplusplusprimer/gnu_files/18/vec.cc	/^    T* first_free;     \/\/ pointer to first free element in the array$/;"	m	class:Vector	file:	access:private
+Vector::operator []	cplusplusprimer/gnu_files/18/vec.cc	/^    T& operator[](size_t n) { return elements[n]; }$/;"	f	class:Vector	access:public	signature:(size_t n)
+Vector::operator []	cplusplusprimer/gnu_files/18/vec.cc	/^    const T& operator[](size_t n) const { return elements[n]; }$/;"	f	class:Vector	access:public	signature:(size_t n) const
+Vector::push_back	cplusplusprimer/gnu_files/18/vec.cc	/^    void push_back(const T&);$/;"	p	class:Vector	file:	access:public	signature:(const T&)
+Vector::push_back	cplusplusprimer/gnu_files/18/vec.cc	/^template <class T> void Vector<T>::push_back(const T& t)$/;"	f	class:Vector	signature:(const T& t)
+Vector::reallocate	cplusplusprimer/gnu_files/18/vec.cc	/^    void reallocate(); \/\/ get more space and copy existing elements$/;"	p	class:Vector	file:	access:private	signature:()
+Vector::reallocate	cplusplusprimer/gnu_files/18/vec.cc	/^template <class T> void Vector<T>::reallocate()$/;"	f	class:Vector	signature:()
+Vector::size	cplusplusprimer/gnu_files/18/vec.cc	/^    size_t size() const { return first_free - elements; }$/;"	f	class:Vector	access:public	signature:() const
+WRITELINES_H	c_programming_language/5.6/writelines.h	3;"	d
+ZooAnimal	cplusplusprimer/gnu_files/17/virt.h	/^    ZooAnimal() { }$/;"	f	class:ZooAnimal	access:public	signature:()
+ZooAnimal	cplusplusprimer/gnu_files/17/virt.h	/^    ZooAnimal(std::string animal, bool exhibit,$/;"	f	class:ZooAnimal	access:public	signature:(std::string animal, bool exhibit, std::string family)
+ZooAnimal	cplusplusprimer/gnu_files/17/virt.h	/^class ZooAnimal {$/;"	c
+ZooAnimal::ZooAnimal	cplusplusprimer/gnu_files/17/virt.h	/^    ZooAnimal() { }$/;"	f	class:ZooAnimal	access:public	signature:()
+ZooAnimal::ZooAnimal	cplusplusprimer/gnu_files/17/virt.h	/^    ZooAnimal(std::string animal, bool exhibit,$/;"	f	class:ZooAnimal	access:public	signature:(std::string animal, bool exhibit, std::string family)
+ZooAnimal::exhibit_stat	cplusplusprimer/gnu_files/17/virt.h	/^    bool        exhibit_stat;$/;"	m	class:ZooAnimal	access:protected
+ZooAnimal::fam_name	cplusplusprimer/gnu_files/17/virt.h	/^    std::string fam_name;$/;"	m	class:ZooAnimal	access:protected
+ZooAnimal::family_name	cplusplusprimer/gnu_files/17/virt.h	/^    std::string family_name() const { return fam_name; }$/;"	f	class:ZooAnimal	access:public	signature:() const
+ZooAnimal::name	cplusplusprimer/gnu_files/17/virt.h	/^    std::string name() const { return nm; }$/;"	f	class:ZooAnimal	access:public	signature:() const
+ZooAnimal::nm	cplusplusprimer/gnu_files/17/virt.h	/^    std::string nm;$/;"	m	class:ZooAnimal	access:protected
+ZooAnimal::onExhibit	cplusplusprimer/gnu_files/17/virt.h	/^    bool onExhibit() const { return exhibit_stat; }$/;"	f	class:ZooAnimal	access:public	signature:() const
+ZooAnimal::population	cplusplusprimer/gnu_files/17/virt.h	/^    virtual int population() const;$/;"	p	class:ZooAnimal	access:public	signature:() const
+ZooAnimal::print	cplusplusprimer/gnu_files/17/virt.h	/^    virtual std::ostream& print(std::ostream&) const;$/;"	p	class:ZooAnimal	access:public	signature:(std::ostream&) const
+ZooAnimal::~ZooAnimal	cplusplusprimer/gnu_files/17/virt.h	/^    virtual ~ZooAnimal();$/;"	p	class:ZooAnimal	access:public	signature:()
+_ZN6myname3varE	ManualNameMangling.cpp	/^extern "C"  double  _ZN6myname3varE; $/;"	v
+__anon1::msg	23.2/populator.h	/^	char msg[20];$/;"	m	struct:__anon1	access:public
+__anon1::number	23.2/populator.h	/^	int number;$/;"	m	struct:__anon1	access:public
+__anon2::msg	malloc_free.c	/^    char *msg;$/;"	m	struct:__anon2	file:	access:public
+__anon2::number	malloc_free.c	/^    int number;$/;"	m	struct:__anon2	file:	access:public
+__anon3::base	sequence_stack.h	/^	selemtype *base;$/;"	m	struct:__anon3	access:public
+__anon3::stacksize	sequence_stack.h	/^	int stacksize;$/;"	m	struct:__anon3	access:public
+__anon3::top	sequence_stack.h	/^	selemtype *top;$/;"	m	struct:__anon3	access:public
+__anon4::msg	23.4/para_allocator.h	/^	char *msg;$/;"	m	struct:__anon4	access:public
+__anon4::number	23.4/para_allocator.h	/^	int number;$/;"	m	struct:__anon4	access:public
+_start	max.s	/^_start:$/;"	l
+a	11.1.c	/^int a[LEN] = { 10, 5, 2, 4, 7};$/;"	v
+a	11.2.c	/^int a[LEN] = { 5, 2, 4, 7, 1, 3, 2, 6};$/;"	v
+a	18.2.c	/^int a = 20;$/;"	v
+a	20.2.c	/^int a[] = { 9, 3, 5, 2, 1, 0, 8, 7, 6, 4 };$/;"	v
+a	countnum_rand.c	/^int a[N], count[10];$/;"	v
+a	internet_radix_sort.c	/^int a[N]={12,78,895,24,158,369,58,621,1475,2};$/;"	v
+a	merge_sort.c	/^int a[LEN] = {5, 2, 4, 7, 1, 3, 2, 6};$/;"	v
+a	quick_sort.c	/^int a[LEN];$/;"	v
+a	selection_sort.c	/^int a[LEN] = { 10, 5, 2, 4, 7};$/;"	v
+addCourse	f1001.cpp	/^  void addCourse(int hours, double grade)$/;"	f	class:Student	access:public	signature:(int hours, double grade)
+add_range	10.1.c	/^int add_range(int low, int high)$/;"	f	signature:(int low, int high)
+add_rational	7.2.2.c	/^struct rational add_rational(struct rational a, struct rational b)$/;"	f	signature:(struct rational a, struct rational b)
+advisor	f1001.cpp	/^    Advisor advisor;$/;"	m	class:GraduateStudent	file:	access:private
+advisor	graduatestudent.h	/^	Advisor advisor;$/;"	m	class:Graduatestudent	access:private
+age	readrec.c	/^	int age;$/;"	m	struct:record	file:	access:public
+age	writerec.c	/^	int age;$/;"	m	struct:record	file:	access:public
+alloc	cplusplusprimer/gnu_files/18/vec.cc	/^    static std::allocator<T> alloc; \/\/ member to handle allocation$/;"	m	class:Vector	file:	access:private
+alloc_unit	23.4/para_allocator.c	/^void alloc_unit(unit_t **pp)$/;"	f	signature:(unit_t **pp)
+alloc_unit	23.4/para_allocator.h	/^void alloc_unit(unit_t **);$/;"	p	signature:(unit_t **)
+animal_status	cplusplusprimer/gnu_files/17/virt.h	/^    Status animal_status;$/;"	m	class:Endangered	access:private
+any	2-5.c	/^int any(char s1[], char s2[]){$/;"	f	signature:(char s1[], char s2[])
+average	f1001.cpp	/^       double average;$/;"	m	class:Student	file:	access:private
+avg_price	cplusplusprimer/Sales_item.cc	/^double Sales_item::avg_price() const$/;"	f	class:Sales_item	signature:() const
+avg_price	cplusplusprimer/Sales_item.h	/^	double avg_price() const;$/;"	p	class:Sales_item	access:public	signature:() const
+b	18.2.c	/^static int b = 30;$/;"	v	file:
+b1	f1003.cpp	/^    int b1;$/;"	m	class:Base	file:	access:private
+b2	f1003.cpp	/^    int b2;$/;"	m	class:Base	file:	access:protected
+b3	f1003.cpp	/^    int b3;$/;"	m	class:Base	file:	access:public
+bar	18.1.c	/^int bar(int c, int d)$/;"	f	signature:(int c, int d)
+base	sequence_stack.h	/^	selemtype *base;$/;"	m	struct:__anon3	access:public
+big_digit	internet_radix_sort.c	/^int big_digit(int no)$/;"	f	signature:(int no)
+bigger	cplusplusprimer/7.5.cc	/^int bigger(int i, const int *ip) \/\/此处不需要修改*ip所指向的对象的数值,最好加上const$/;"	f	signature:(int i, const int *ip)
+build_max_heap	build_max_heap.c	/^void build_max_heap(int *p, int length)$/;"	f	signature:(int *p, int length)
+build_max_heap	build_max_heap.h	/^void build_max_heap(int *p, int M);$/;"	p	signature:(int *p, int M)
+c	18.2.c	/^int c;$/;"	v
+capacity	cplusplusprimer/gnu_files/18/vec.cc	/^    size_t capacity() const { return end - elements; }$/;"	f	class:Vector	access:public	signature:() const
+chinese	结构体.c	/^ int  chinese;$/;"	m	struct:student	file:	access:public
+chinese	结构体操作.c	/^       int chinese;$/;"	m	struct:student	file:	access:public
+clearstack	sequence_stack.h	/^void clearstack(sqstack *s);$/;"	p	signature:(sqstack *s)
+cmp	结构体操作.c	/^bool cmp(const student& a, const student& b)$/;"	f	signature:(const student& a, const student& b)
+col	12.3.c	/^struct point { int row, col; } stack[512];$/;"	m	struct:point	file:	access:public
+col	12.4.c	/^struct point { int row, col, predecessor; } queue[512];$/;"	m	struct:point	file:	access:public
+col	maze/main.h	/^typedef struct point {int row, col; } item_t;$/;"	m	struct:point	access:public
+count	25.3/binarytree.c	/^int count(link t)$/;"	f	signature:(link t)
+count	25.3/binarytree.h	/^int count(link t);$/;"	p	signature:(link t)
+count	countnum_rand.c	/^int a[N], count[10];$/;"	v
+countingsort	counting_sort.c	/^void countingsort(int a[], int b[], int LEN, int M)$/;"	f	signature:(int a[], int b[], int LEN, int M)
+countingsort	counting_sort.h	/^void countingsort(int a[], int b[], int LEN, int M);$/;"	p	signature:(int a[], int b[], int LEN, int M)
+countingsort	counting_sort_ver2.c	/^void countingsort(int index[], int data[], int LEN, int M)$/;"	f	signature:(int index[], int data[], int LEN, int M)
+countingsort	counting_sort_ver2.h	/^void countingsort(int index[], int data[], int LEN, int M);$/;"	p	signature:(int index[], int data[], int LEN, int M)
+critical	cplusplusprimer/gnu_files/17/virt.h	/^    enum Status { critical, environment, improving };$/;"	e	enum:Endangered::Status
+dance	cplusplusprimer/gnu_files/17/virt.h	/^    void dance(DanceType) const;$/;"	p	class:Bear	access:public	signature:(DanceType) const
+dance_flag	cplusplusprimer/gnu_files/17/virt.h	/^    DanceType dance_flag;$/;"	m	class:Bear	access:private
+data_items	max.s	/^data_items: 		#These are the data items$/;"	l
+day	f0801.cpp	/^       int day;$/;"	m	struct:Date	file:	access:public
+day	f0802.cpp	/^  int day;$/;"	m	class:Date	file:	access:private
+day	f0904.cpp	/^      int year, month, day;$/;"	m	class:Date	file:	access:private
+day	writetest.c	/^	char day[20];$/;"	m	struct:record	file:	access:public
+day	writetext.c	/^	char day[20];$/;"	m	struct:record	file:	access:public
+delete	25.1/linkedlist.c	/^void delete(link p)$/;"	f	signature:(link p)
+delete	25.4/bst.c	/^link delete(link t, unsigned char elem)$/;"	f	signature:(link t, unsigned char elem)
+den	7.2.2.c	/^	int num, den;$/;"	m	struct:rational	file:	access:public
+depth	25.3/binarytree.c	/^int depth(link t)$/;"	f	signature:(link t)
+depth	25.3/binarytree.h	/^int depth(link t);$/;"	p	signature:(link t)
+dequeue	12.4.c	/^struct point dequeue(void)$/;"	f	signature:(void)
+destorystack	sequence_stack.h	/^void destorystack(sqstack *s);$/;"	p	signature:(sqstack *s)
+destroy	25.1/linkedlist.c	/^void destroy(void)$/;"	f	signature:(void)
+destroy	25.1/linkedlist.h	/^void destroy(void);$/;"	p	signature:(void)
+destroy	25.3/binarytree.c	/^void destroy(link t)$/;"	f	signature:(link t)
+destroy	25.3/binarytree.h	/^void destroy(link t);$/;"	p	signature:(link t)
+digitk	internet_radix_sort.c	/^int digitk(int no,int k)$/;"	f	signature:(int no,int k)
+display	f1001.cpp	/^  void display()$/;"	f	class:Student	access:public	signature:()
+display	graduatestudent.h	/^  void display()$/;"	f	class:Graduatestudent	access:public	signature:()
+div_rational	7.2.2.c	/^struct rational div_rational(struct rational a, struct rational b)$/;"	f	signature:(struct rational a, struct rational b)
+do_more	more01.c	/^void do_more(FILE *);$/;"	p	file:	signature:(FILE *)
+do_more	more01.c	/^void do_more(FILE *fp)$/;"	f	signature:(FILE *fp)
+do_more	more02.c	/^void do_more(FILE *);$/;"	p	file:	signature:(FILE *)
+do_more	more02.c	/^void do_more(FILE *fp)$/;"	f	signature:(FILE *fp)
+elem	25.1/linkedlist.h	/^	unsigned char elem;$/;"	m	struct:node	access:public
+elem	25.3/binarytree.h	/^	unsigned char elem;$/;"	m	struct:node	access:public
+elem	25.4/bst.h	/^	unsigned char elem;$/;"	m	struct:node	access:public
+elements	cplusplusprimer/gnu_files/18/vec.cc	/^    T* elements;       \/\/ pointer to first element in the array$/;"	m	class:Vector	file:	access:private
+end	cplusplusprimer/gnu_files/18/vec.cc	/^    T* end;            \/\/ pointer to one past the end of the array$/;"	m	class:Vector	file:	access:private
+english	结构体.c	/^ int  english;$/;"	m	struct:student	file:	access:public
+english	结构体操作.c	/^       int english;$/;"	m	struct:student	file:	access:public
+enqueue	12.4.c	/^void enqueue(struct point p)$/;"	f	signature:(struct point p)
+environment	cplusplusprimer/gnu_files/17/virt.h	/^    enum Status { critical, environment, improving };$/;"	e	enum:Endangered::Status
+err_sys	24.8.c	/^void err_sys(const char *fmt, ...)$/;"	f	signature:(const char *fmt, ...)
+exhibit_stat	cplusplusprimer/gnu_files/17/virt.h	/^    bool        exhibit_stat;$/;"	m	class:ZooAnimal	access:protected
+fact	cplusplusprimer/gnu_files/7/fact.cc	/^int fact(int val)$/;"	f	signature:(int val)
+factorial	cplusplusprimer/gnu_files/7/fact.cc	/^int factorial(int val) $/;"	f	signature:(int val)
+fam_name	cplusplusprimer/gnu_files/17/virt.h	/^    std::string fam_name;$/;"	m	class:ZooAnimal	access:protected
+family_name	cplusplusprimer/gnu_files/17/virt.h	/^    std::string family_name() const { return fam_name; }$/;"	f	class:ZooAnimal	access:public	signature:() const
+fandango	cplusplusprimer/gnu_files/17/virt.h	/^    enum DanceType { two_left_feet, macarena, fandango };$/;"	e	enum:Bear::DanceType
+fb2	f1003.cpp	/^    void fb2() { b1 = 1;}$/;"	f	class:Base	access:protected	signature:()
+fb3	f1003.cpp	/^    void fb3() { b1 = 1;}$/;"	f	class:Base	access:public	signature:()
+ff	cplusplusprimer/gnu_files/7/ff.h	/^int ff(int = 0);$/;"	p	signature:(int = 0)
+fib	linuxc011.c	/^int fib(int n)$/;"	f	signature:(int n)
+fibonacci	fibonacci_sequence.c	/^int fibonacci[M];$/;"	v
+fibonacci	linuc011.c	/^int fibonacci(int n)$/;"	f	signature:(int n)
+first_free	cplusplusprimer/gnu_files/18/vec.cc	/^    T* first_free;     \/\/ pointer to first free element in the array$/;"	m	class:Vector	file:	access:private
+foldOut	f1006.cpp	/^      void foldOut()const{ cout << "Fold out the sofa.\\n";}$/;"	f	class:SleeperSofa	access:public	signature:() const
+foo	18.1.c	/^int foo(int a, int b)$/;"	f	signature:(int a, int b)
+foo	22.3.c	/^void foo(char buf3[20])$/;"	f	signature:(char buf3[20])
+foo	linuxc006.c	/^void foo(void)$/;"	f	signature:(void)
+foo	point01.c	/^int *foo(void)$/;"	f	signature:(void)
+foo	strcpy01.c	/^void foo(char *str)$/;"	f	signature:(char *str)
+free_node	25.1/linkedlist.c	/^void free_node(link p)$/;"	f	signature:(link p)
+free_node	25.1/linkedlist.h	/^void free_node(link p);$/;"	p	signature:(link p)
+free_node	25.3/binarytree.c	/^static void free_node(link p)$/;"	f	file:	signature:(link p)
+free_node	25.4/bst.c	/^static void free_node(link p)$/;"	f	file:	signature:(link p)
+free_unit	23.4/para_allocator.c	/^void free_unit(unit_t *p)$/;"	f	signature:(unit_t *p)
+free_unit	23.4/para_allocator.h	/^void free_unit(unit_t *);$/;"	p	signature:(unit_t *)
+fun	test4.c	/^void fun(void)$/;"	f	signature:(void)
+func1	simplesection.c	/^void func1(int i)$/;"	f	signature:(int i)
+gcd	7.2.2.c	/^int gcd(int a, int b)$/;"	f	signature:(int a, int b)
+gcd	linuxc010.c	/^int gcd(int a, int b)$/;"	f	signature:(int a, int b)
+get	cplusplusprimer/8.3.cc	/^std::istream& get(std::istream& in)$/;"	f	signature:(std::istream& in)
+get	cplusplusprimer/get.cc	/^std::istream& get(std::istream& in)$/;"	f	signature:(std::istream& in)
+getAverage	f1001.cpp	/^  double getAverage()$/;"	f	class:Student	access:public	signature:()
+getHours	f1001.cpp	/^  int getHours()$/;"	f	class:Student	access:public	signature:()
+getQualifier	f1001.cpp	/^    int getQualifier()$/;"	f	class:GraduateStudent	access:public	signature:()
+getQualifier	graduatestudent.h	/^  int getQualifier(){ return qualifierGrade;}$/;"	f	class:Graduatestudent	access:public	signature:()
+get_a_day	23.3/redirect_ptr.c	/^void get_a_day(const char **pp)$/;"	f	signature:(const char **pp)
+get_a_day	23.3/redirect_ptr.h	/^void get_a_day(const char **);$/;"	p	signature:(const char **)
+get_a_day	23.5/ret_ptr.c	/^char *get_a_day(int idx)$/;"	f	signature:(int idx)
+get_a_day	23.5/ret_ptr.h	/^char *get_a_day(int idx);$/;"	p	signature:(int idx)
+getline_self	4_1.c	/^int getline_self(char line[], int max);$/;"	p	file:	signature:(char line[], int max)
+getline_self	4_1.c	/^int getline_self(char s[], int lim)$/;"	f	signature:(char s[], int lim)
+getlineown	c_programming_language/5.6/getline.c	/^int getlineown(char *s, int lim)$/;"	f	signature:(char *s, int lim)
+getlineown	c_programming_language/5.6/getline.h	/^int getlineown(char *s; int lim);$/;"	p	signature:(char *s; int lim)
+getnum	getnum.c	/^void getnum(int *p, int LEN, int M)$/;"	f	signature:(int *p, int LEN, int M)
+getnum	getnum.h	/^void getnum(int *p, int M, int N); \/* ; 不能少,有冒号代表是声明 *\/$/;"	p	signature:(int *p, int M, int N)
+getnum	getnum_different.c	/^void getnum(int *p, int LEN, int M)$/;"	f	signature:(int *p, int LEN, int M)
+getnum	getnum_different.h	/^void getnum(int *p, int LEN, int M);$/;"	p	signature:(int *p, int LEN, int M)
+getnum	insertion_sort_ver2.c	/^void getnum(int *p)$/;"	f	signature:(int *p)
+getnum	merge_sort_v2.c	/^void getnum(int *p )$/;"	f	signature:(int *p )
+getnum	quick_sort.c	/^void getnum() $/;"	f
+getnum	quick_sortpro.c	/^void getnum( )$/;"	f
+getnum	quick_sortpro_v2.c	/^void getnum(int *p )$/;"	f	signature:(int *p )
+gettop	sequence_stack.h	/^selemtype gettop(sqstack *s, selemtype *e);$/;"	p	signature:(sqstack *s, selemtype *e)
+global_init_var	simplesection.c	/^int global_init_var = 84;$/;"	v
+global_int	cplusplusprimer/test.cc	/^int global_int;$/;"	v
+global_uninit_var	simplesection.c	/^int global_uninit_var;$/;"	v
+head	12.4.c	/^int head = 0, tail = 0;$/;"	v
+head	25.1/linkedlist.c	/^static link head = NULL;$/;"	v	file:
+highlight	cplusplusprimer/gnu_files/17/virt.h	/^    virtual void highlight() const;$/;"	p	class:Endangered	access:public	signature:() const
+hour	linuxc005.c	/^int hour = 23,minute = 59;$/;"	v
+id	结构体.c	/^ char id[20];$/;"	m	struct:student	file:	access:public
+id	结构体操作.c	/^       char id[20];$/;"	m	struct:student	file:	access:public
+improving	cplusplusprimer/gnu_files/17/virt.h	/^    enum Status { critical, environment, improving };$/;"	e	enum:Endangered::Status
+in_order	25.3/binarytree.c	/^void in_order(link t, void (*visit)(link))$/;"	f	signature:(link t, void (*visit)(link))
+in_order	25.3/binarytree.h	/^void in_order(link t, void (*visit)(link));$/;"	p	signature:(link t, void (*visit)(link))
+init	25.3/binarytree.c	/^link init(unsigned char VLR[], unsigned char LVR[], int n )$/;"	f	signature:(unsigned char VLR[], unsigned char LVR[], int n )
+init	25.3/binarytree.h	/^link init(unsigned char VLR[], unsigned char LVR[], int n);$/;"	p	signature:(unsigned char VLR[], unsigned char LVR[], int n)
+init	f0904.cpp	/^      void init();$/;"	p	class:Date	file:	access:private	signature:()
+init	f0904.cpp	/^void Date::init(){$/;"	f	class:Date	signature:()
+initstack	sequence_stack.h	/^void initstack(sqstack *s);$/;"	p	signature:(sqstack *s)
+input	cplusplusprimer/Sales_item.cc	/^std::istream& Sales_item::input(std::istream& in)$/;"	f	class:Sales_item	signature:(std::istream& in)
+input	cplusplusprimer/Sales_item.h	/^	std::istream &input(std::istream &in);$/;"	p	class:Sales_item	access:public	signature:(std::istream &in)
+insert	25.1/linkedlist.c	/^void insert(link p)$/;"	f	signature:(link p)
+insert	25.1/linkedlist.h	/^void insert(link p);$/;"	p	signature:(link p)
+insert	25.4/bst.c	/^link insert(link t, unsigned char elem)$/;"	f	signature:(link t, unsigned char elem)
+insert	25.4/bst.h	/^link insert(link t, unsigned char elem);$/;"	p	signature:(link t, unsigned char elem)
+insertion_sort	11.1.c	/^void insertion_sort(void)$/;"	f	signature:(void)
+insertion_sort	insertion_sort_part.c	/^void insertion_sort(int *p, int M)$/;"	f	signature:(int *p, int M)
+insertion_sort	insertion_sort_part.h	/^void insertion_sort(int *p, int M); \/* ; 不能少*\/$/;"	p	signature:(int *p, int M)
+insertion_sort	insertion_sort_ver2.c	/^void insertion_sort(int *p)$/;"	f	signature:(int *p)
+isA	cplusplusprimer/gnu_files/17/virt.h	/^    virtual std::string isA() const;$/;"	p	class:Bear	access:public	signature:() const
+isLeapYear	f0801.cpp	/^bool isLeapYear(Date d);$/;"	p	file:	signature:(Date d)
+isLeapYear	f0801.cpp	/^bool isLeapYear(Date d){$/;"	f	signature:(Date d)
+isLeapYear	f0802.cpp	/^  bool isLeapYear();$/;"	p	class:Date	file:	access:public	signature:()
+isLeapYear	f0802.cpp	/^bool Date::isLeapYear(){$/;"	f	class:Date	signature:()
+isLeapYear	f0904.cpp	/^      bool isLeapYear()const;$/;"	p	class:Date	file:	access:public	signature:() const
+isLeapYear	f0904.cpp	/^bool Date::isLeapYear()const{$/;"	f	class:Date	signature:() const
+isShorter	cplusplusprimer/11.9.cc	/^bool isShorter(const string &s1, const string &s2)$/;"	f	signature:(const string &s1, const string &s2)
+is_empty	12.3.c	/^int is_empty(void)$/;"	f	signature:(void)
+is_empty	12.4.c	/^int is_empty(void)$/;"	f	signature:(void)
+is_empty	maze/stack.h	/^extern int is_empty(void);$/;"	p	signature:(void)
+is_leap_year	linuxc008.c	/^int is_leap_year(int yearnum)$/;"	f	signature:(int yearnum)
+is_pos	cplusplusprimer/gnu_files/7/fact.cc	/^bool is_pos(int i)$/;"	f	signature:(int i)
+isbn	cplusplusprimer/Sales_item.h	/^	std::string isbn;$/;"	m	class:Sales_item	access:private
+isprime	f0207_1.cpp	/^bool isprime(int n)$/;"	f	signature:(int n)
+isugly	uglynumber.cpp	/^int isugly(int num)$/;"	f	signature:(int num)
+item_t	maze/main.h	/^typedef struct point {int row, col; } item_t;$/;"	t	typeref:struct:point
+ival	cplusplusprimer/gnu_files/17/virt.h	/^    int    ival;$/;"	m	class:Bear	access:private
+l	25.3/binarytree.h	/^	link l,r;$/;"	m	struct:node	access:public
+l	25.4/bst.h	/^	link l, r;$/;"	m	struct:node	access:public
+len	insertion_sort.c	2;"	d	file:
+lineptr	c_programming_language/5.6/main.c	/^char *lineptr[MAXLINES]; \/* pointers to text lines *\/$/;"	v
+link	25.1/linkedlist.h	/^typedef struct node *link;$/;"	t	typeref:struct:node
+link	25.3/binarytree.h	/^typedef struct node *link;$/;"	t	typeref:struct:node
+link	25.4/bst.h	/^typedef struct node *link;$/;"	t	typeref:struct:node
+load	结构体.c	/^void load()   \/\/�����ݴӴ��̶����ڴ�$/;"	f
+load	结构体操作.c	/^void load()         \/\/ �����ݴӴ��̶����ڴ�$/;"	f
+loop_exit	max.s	/^loop_exit:$/;"	l
+macarena	cplusplusprimer/gnu_files/17/virt.h	/^    enum DanceType { two_left_feet, macarena, fandango };$/;"	e	enum:Bear::DanceType
+main	10.1.c	/^int main(void)$/;"	f	signature:(void)
+main	10.2.1.c	/^int main(void)$/;"	f	signature:(void)
+main	10.2.2.c	/^int main(void)$/;"	f	signature:(void)
+main	11.1.c	/^int main(void)$/;"	f	signature:(void)
+main	11.2.c	/^int main(void)$/;"	f	signature:(void)
+main	12.3.c	/^int main(void)$/;"	f	signature:(void)
+main	12.4.c	/^int main(void)$/;"	f	signature:(void)
+main	15.1.c	/^int main(void)$/;"	f	signature:(void)
+main	15.2.c	/^int main(void)$/;"	f	signature:(void)
+main	18.1.c	/^int main(void)$/;"	f	signature:(void)
+main	18.2.c	/^int main(void)$/;"	f	signature:(void)
+main	18.3.c	/^int main(void)$/;"	f	signature:(void)
+main	2-5.c	/^int main(void)$/;"	f	signature:(void)
+main	20.2.c	/^int main(void)$/;"	f	signature:(void)
+main	22.1.c	/^int main(void)$/;"	f	signature:(void)
+main	22.2.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	22.3.c	/^int main(void)$/;"	f	signature:(void)
+main	22.4.c	/^int main(void)$/;"	f	signature:(void)
+main	22.7.c	/^int main(void)$/;"	f	signature:(void)
+main	23.2/main.c	/^int main(void)$/;"	f	signature:(void)
+main	23.3/main.c	/^int main(void)$/;"	f	signature:(void)
+main	23.4/main.c	/^int main(void)$/;"	f	signature:(void)
+main	23.5/main.c	/^int main(void)$/;"	f	signature:(void)
+main	23.9/myprintf.c	/^int main(void)$/;"	f	signature:(void)
+main	24.1.c	/^int main(void)$/;"	f	signature:(void)
+main	24.5.c	/^int main(void)$/;"	f	signature:(void)
+main	24.6.c	/^int main(void)$/;"	f	signature:(void)
+main	24.8.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	24.9.1.c	/^int main(void) $/;"	f	signature:(void)
+main	24.9.c	/^int main(void) \/* rudimentary calculator *\/$/;"	f	signature:(void)
+main	25.1/main.c	/^int main(void)$/;"	f	signature:(void)
+main	25.3/main.c	/^int main(void)$/;"	f	signature:(void)
+main	25.4/main.c	/^int main(void)$/;"	f	signature:(void)
+main	2_1.c	/^int main(void)$/;"	f	signature:(void)
+main	4_1.c	/^int main()$/;"	f
+main	6.1.3.c	/^int main(void)$/;"	f	signature:(void)
+main	7.2.2.c	/^int main(void)$/;"	f	signature:(void)
+main	ManualNameMangling.cpp	/^int main(void)$/;"	f	signature:(void)
+main	SpecialSymbol.c	/^int main(void)$/;"	f	signature:(void)
+main	c_programming_language/5.10.2.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	c_programming_language/5.6/main.c	/^int main(void)$/;"	f	signature:(void)
+main	countnum.c	/^int  main()$/;"	f
+main	countnum100.c	/^int main(void)$/;"	f	signature:(void)
+main	countnum_rand.c	/^int main(void)$/;"	f	signature:(void)
+main	countnumsimple.c	/^int main(void)$/;"	f	signature:(void)
+main	countsize.c	/^int  main()$/;"	f
+main	cplusplusprimer/1.14.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/1.2.2.1.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/1.25.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/10.1.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/10.18.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/10.26.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/10.9.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/11.19.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/11.20.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/11.21.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/11.22.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/11.9.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/3.13.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/3.17_a.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/3.24.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/3.24_v2.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/4.25.1.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/4.25.2.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/4.28.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/4.34.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/4.8.1.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/4.8.2.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/6.12.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/6.16.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/6.16_a.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/6.25.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/6.9.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/7.20.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/7.31_a.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/7.5.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/8.4.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/9.18.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/9.20.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/9.26.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/9.27.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/9.42.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/9.43.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/gnu_files/1/add.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/gnu_files/18/vec.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/gnu_files/2/pow2.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/gnu_files/3/bits.cc	/^int main() $/;"	f	signature:()
+main	cplusplusprimer/gnu_files/5/cond.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/gnu_files/5/incr.cc	/^int main() $/;"	f	signature:()
+main	cplusplusprimer/gnu_files/5/prec.cc	/^int main() $/;"	f	signature:()
+main	cplusplusprimer/gnu_files/7/fact.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/gnu_files/7/rgcd.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/gnu_files/8/buf.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/gnu_files/8/getc.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/gnu_files/8/prec.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/gnu_files/8/seek.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/gnu_files/8/setw.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test01.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test02.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test03.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test04.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test05.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test06.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test07.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test08.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test09.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test10.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test11.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test12.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test13.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test14.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test15.cc	/^int main(int argc, char *argv[]) \/\/ argv 是个指针数组,每个指向个参数$/;"	f	signature:(int argc, char *argv[])
+main	cplusplusprimer/test16.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test17.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test18.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/test19.cc	/^int main()$/;"	f	signature:()
+main	cplusplusprimer/tranwords.cc	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	cplusplusprimer/tranwords_ver2.cc	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	cplusplusprimer/tranwords_ver3.cc	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	f0201.cpp	/^int main()$/;"	f	signature:()
+main	f0203.cpp	/^int main()$/;"	f	signature:()
+main	f0204.cpp	/^int main()$/;"	f	signature:()
+main	f0205.cpp	/^int main()$/;"	f	signature:()
+main	f0206.cpp	/^int main()$/;"	f	signature:()
+main	f0207.cpp	/^int main()$/;"	f	signature:()
+main	f0207_1.cpp	/^int main()$/;"	f	signature:()
+main	f0801.cpp	/^int main(){$/;"	f	signature:()
+main	f0802.cpp	/^int main(){$/;"	f	signature:()
+main	f0904.cpp	/^int main(){$/;"	f	signature:()
+main	f0911.cpp	/^int main()$/;"	f	signature:()
+main	f1001.cpp	/^int main()$/;"	f	signature:()
+main	f1003.cpp	/^int main()$/;"	f	signature:()
+main	f1006.cpp	/^int main()$/;"	f	signature:()
+main	f1201.cpp	/^int main(void)$/;"	f	signature:(void)
+main	fibonacci_sequence.c	/^int main(void)$/;"	f	signature:(void)
+main	getmemory.c	/^int  main(void)$/;"	f	signature:(void)
+main	getrand.c	/^int main(void)$/;"	f	signature:(void)
+main	getuglynumber_solution1.cpp	/^int main() \/\/找到规定位置的丑数$/;"	f	signature:()
+main	heap_sort.c	/^int main(void)$/;"	f	signature:(void)
+main	hell.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	hello.c	/^int main(void)$/;"	f	signature:(void)
+main	insertion_sort.c	/^int main(void)$/;"	f	signature:(void)
+main	insertion_sort_ver2.c	/^int main(void)$/;"	f	signature:(void)
+main	insertion_sort_ver3.c	/^int main(void)$/;"	f	signature:(void)
+main	internet_heapsort.c	/^void main(void)$/;"	f	signature:(void)
+main	internet_radix_sort.c	/^int main()$/;"	f
+main	internet_radix_sort_ver2.c	/^int main()$/;"	f
+main	internetquicksort.c	/^int main()$/;"	f
+main	linuc011.c	/^int main(void)$/;"	f	signature:(void)
+main	linuxc001.c	/^int main(void)$/;"	f	signature:(void)
+main	linuxc002.c	/^int main(void)$/;"	f	signature:(void)
+main	linuxc003.c	/^int main(void)$/;"	f	signature:(void)
+main	linuxc004.c	/^int main(void)$/;"	f	signature:(void)
+main	linuxc005.c	/^int main(void)$/;"	f	signature:(void)
+main	linuxc006.c	/^int main(void)$/;"	f	signature:(void)
+main	linuxc007.c	/^int main(void)$/;"	f	signature:(void)
+main	linuxc008.c	/^int main(void)$/;"	f	signature:(void)
+main	linuxc009.c	/^int main(void)$/;"	f	signature:(void)
+main	linuxc010.c	/^int main(void)$/;"	f	signature:(void)
+main	linuxc011.c	/^int main(void)$/;"	f	signature:(void)
+main	linuxc_1.c	/^int main(){$/;"	f
+main	main.c	/^int main(void)$/;"	f	signature:(void)
+main	main2.c	/^ int main(void)$/;"	f	signature:(void)
+main	main_counting_sort.c	/^int main(void)$/;"	f	signature:(void)
+main	main_counting_sort_ver2.c	/^int main(void)$/;"	f	signature:(void)
+main	main_quick_sort_ver3.c	/^int main(void)$/;"	f	signature:(void)
+main	main_radix_sort.c	/^int main(void)$/;"	f	signature:(void)
+main	malloc_free.c	/^int main(void)$/;"	f	signature:(void)
+main	maze/main.c	/^int main(void)$/;"	f	signature:(void)
+main	memory.c	/^void main(void)$/;"	f	signature:(void)
+main	merge_sort.c	/^int main(void)$/;"	f	signature:(void)
+main	merge_sort_v2.c	/^int main(void)$/;"	f	signature:(void)
+main	more01.c	/^int main( int ac, char *av[])$/;"	f	signature:( int ac, char *av[])
+main	more02.c	/^int main( int ac, char *av[])$/;"	f	signature:( int ac, char *av[])
+main	my 字符串.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	my 猜数字.c	/^int main(void)$/;"	f	signature:(void)
+main	overmemory.c	/^int main(void)$/;"	f	signature:(void)
+main	perm_swap.c	/^int main()$/;"	f
+main	permutation01.c	/^int main()$/;"	f
+main	point01.c	/^ int main(void)$/;"	f	signature:(void)
+main	point2.c	/^int main(void)$/;"	f	signature:(void)
+main	pointer.c	/^int main(void)$/;"	f	signature:(void)
+main	power.c	/^int main()                              \/\/ 主程式$/;"	f
+main	pthread_creat.c	/^int main(void)$/;"	f	signature:(void)
+main	quanpailie_1.c	/^int  main(){ $/;"	f
+main	quick_sort.c	/^int main(void)$/;"	f	signature:(void)
+main	quick_sortpro.c	/^int main(void)$/;"	f	signature:(void)
+main	quick_sortpro_v2.c	/^int main(void)$/;"	f	signature:(void)
+main	random.c	/^int main()$/;"	f
+main	readrec.c	/^int main(void)$/;"	f	signature:(void)
+main	selection_sort.c	/^int main(void)$/;"	f	signature:(void)
+main	shrink_space.c	/^int main(void)$/;"	f	signature:(void)
+main	simplesection.c	/^int main(void)$/;"	f	signature:(void)
+main	sizeof.c	/^int main(void)$/;"	f	signature:(void)
+main	strcpy01.c	/^int main(void)$/;"	f	signature:(void)
+main	stringcheck.cpp	/^int main()$/;"	f	signature:()
+main	test.c	/^int main (int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	test2.c	/^int main(void)$/;"	f	signature:(void)
+main	test3.c	/^int main(void)$/;"	f	signature:(void)
+main	test4.c	/^int main(void)$/;"	f	signature:(void)
+main	test5.c	/^int main(void)$/;"	f	signature:(void)
+main	test6.c	/^int main()$/;"	f
+main	test_heap_sort.c	/^int main(void)$/;"	f	signature:(void)
+main	uglynumber.cpp	/^int main()$/;"	f	signature:()
+main	writerec.c	/^int main(void)$/;"	f	signature:(void)
+main	writetest.c	/^int main(void)$/;"	f	signature:(void)
+main	writetext.c	/^int main(void)$/;"	f	signature:(void)
+main	三角形判断.c	/^int main (void)$/;"	f	signature:(void)
+main	字符串.c	/^int main(void)$/;"	f	signature:(void)
+main	猜数字.c	/^int main(void)$/;"	f	signature:(void)
+main	结构体.c	/^ int main()$/;"	f
+main	结构体操作.c	/^int main(void)$/;"	f	signature:(void)
+make_node	25.1/linkedlist.c	/^link make_node(unsigned char elem)$/;"	f	signature:(unsigned char elem)
+make_node	25.1/linkedlist.h	/^link make_node(unsigned char elem);$/;"	p	signature:(unsigned char elem)
+make_node	25.3/binarytree.c	/^static link make_node(unsigned char elem)$/;"	f	file:	signature:(unsigned char elem)
+make_node	25.4/bst.c	/^static link make_node(unsigned char elem)$/;"	f	file:	signature:(unsigned char elem)
+make_plural	cplusplusprimer/11.9.cc	/^string make_plural(size_t ctr, const string &word, const string &ending)$/;"	f	signature:(size_t ctr, const string &word, const string &ending)
+make_rational	7.2.2.c	/^struct rational make_rational(int x, int y)$/;"	f	signature:(int x, int y)
+math	结构体.c	/^ int  math;$/;"	m	struct:student	file:	access:public
+math	结构体操作.c	/^       int math;$/;"	m	struct:student	file:	access:public
+max	20.2.c	/^int max(int n)$/;"	f	signature:(int n)
+maxNumber	internet_radix_sort.c	/^int maxNumber(int *a,int n)$/;"	f	signature:(int *a,int n)
+max_heapify	max_heapify.c	/^void max_heapify(int *p, int startindex, int length)$/;"	f	signature:(int *p, int startindex, int length)
+max_heapify	max_heapify.h	/^void max_heapify(int *p, int i, int M);$/;"	p	signature:(int *p, int i, int M)
+maze	12.3.c	/^int maze[MAX_ROW][MAX_COL] = {$/;"	v
+maze	12.4.c	/^int maze[MAX_ROW][MAX_COL] = {$/;"	v
+maze	maze/maze.c	/^int maze[MAX_ROW][MAX_COL] = {$/;"	v
+merge	11.2.c	/^void merge(int start, int mid, int end)$/;"	f	signature:(int start, int mid, int end)
+merge	merge_sort.c	/^void merge(int start, int mid, int end)$/;"	f	signature:(int start, int mid, int end)
+merge	merge_sort_v2.c	/^void merge(int *p, int start, int mid, int end)$/;"	f	signature:(int *p, int start, int mid, int end)
+merge_sort	merge_sort.c	/^void merge_sort(int start, int end)$/;"	f	signature:(int start, int end)
+merge_sort	merge_sort_v2.c	/^void merge_sort(int *p, int start, int end)$/;"	f	signature:(int *p, int start, int end)
+minute	linuxc005.c	/^int hour = 23,minute = 59;$/;"	v
+month	f0801.cpp	/^       int month;$/;"	m	struct:Date	file:	access:public
+month	f0802.cpp	/^  int month;$/;"	m	class:Date	file:	access:private
+month	f0904.cpp	/^      int year, month, day;$/;"	m	class:Date	file:	access:private
+msg	23.2/populator.h	/^	char msg[20];$/;"	m	struct:__anon1	access:public
+msg	23.3/redirect_ptr.c	/^static const char *msg[] = {"Sunday", "Monday", "Tuesday", "Wednesday",$/;"	v	file:
+msg	23.4/para_allocator.h	/^	char *msg;$/;"	m	struct:__anon4	access:public
+msg	23.5/ret_ptr.c	/^static const char *msg[] = {"Sunday", "Tuesday", "Wednesday", "Thursday",$/;"	v	file:
+msg	malloc_free.c	/^    char *msg;$/;"	m	struct:__anon2	file:	access:public
+mul_rational	7.2.2.c	/^struct rational mul_rational(struct rational a, struct rational b)$/;"	f	signature:(struct rational a, struct rational b)
+mumble	cplusplusprimer/gnu_files/17/virt.h	/^    int mumble(int);$/;"	p	class:Bear	access:public	signature:(int)
+myfunc	main.c	/^void myfunc(void)$/;"	f	signature:(void)
+myname	ManualNameMangling.cpp	/^namespace myname {$/;"	n	file:
+myname::var	ManualNameMangling.cpp	/^	int var = 42;$/;"	m	namespace:myname	file:
+myprintf	23.9/myprintf.c	/^void myprintf(const char *format, ...)$/;"	f	signature:(const char *format, ...)
+myround	linuxc009.c	/^double myround(double x)$/;"	f	signature:(double x)
+n	perm_swap.c	/^int n = 0;$/;"	v
+n	permutation01.c	/^int n = 0;$/;"	v
+name	cplusplusprimer/gnu_files/17/virt.h	/^    std::string name() const { return nm; }$/;"	f	class:ZooAnimal	access:public	signature:() const
+name	cplusplusprimer/gnu_files/17/virt.h	/^    std::string name;$/;"	m	class:Bear	access:private
+name	f1001.cpp	/^       string name;$/;"	m	class:Student	file:	access:private
+name	readrec.c	/^	char name[10];$/;"	m	struct:record	file:	access:public
+name	writerec.c	/^	char name[10];$/;"	m	struct:record	file:	access:public
+name	结构体.c	/^ char name[20];$/;"	m	struct:student	file:	access:public
+name	结构体操作.c	/^       char name[20];$/;"	m	struct:student	file:	access:public
+newline	linuxc004.c	/^void newline(void)$/;"	f	signature:(void)
+next	25.1/linkedlist.h	/^	link next;$/;"	m	struct:node	access:public
+nm	cplusplusprimer/gnu_files/17/virt.h	/^    std::string nm;$/;"	m	class:ZooAnimal	access:protected
+noOfMeeting	f1001.cpp	/^      int noOfMeeting;$/;"	m	class:Advisor	file:	access:private
+noOfMeeting	graduatestudent.h	/^     int noOfMeeting;  	$/;"	m	class:Advisor	access:private
+node	25.1/linkedlist.h	/^struct node {$/;"	s
+node	25.3/binarytree.h	/^struct node {$/;"	s
+node	25.4/bst.h	/^struct node {$/;"	s
+node::elem	25.1/linkedlist.h	/^	unsigned char elem;$/;"	m	struct:node	access:public
+node::elem	25.3/binarytree.h	/^	unsigned char elem;$/;"	m	struct:node	access:public
+node::elem	25.4/bst.h	/^	unsigned char elem;$/;"	m	struct:node	access:public
+node::l	25.3/binarytree.h	/^	link l,r;$/;"	m	struct:node	access:public
+node::l	25.4/bst.h	/^	link l, r;$/;"	m	struct:node	access:public
+node::next	25.1/linkedlist.h	/^	link next;$/;"	m	struct:node	access:public
+node::r	25.3/binarytree.h	/^	link l,r;$/;"	m	struct:node	access:public
+node::r	25.4/bst.h	/^	link l, r;$/;"	m	struct:node	access:public
+num	7.2.2.c	/^	int num, den;$/;"	m	struct:rational	file:	access:public
+num	结构体操作.c	/^int num;$/;"	v
+number	23.2/populator.h	/^	int number;$/;"	m	struct:__anon1	access:public
+number	23.4/para_allocator.h	/^	int number;$/;"	m	struct:__anon4	access:public
+number	malloc_free.c	/^    int number;$/;"	m	struct:__anon2	file:	access:public
+onExhibit	cplusplusprimer/gnu_files/17/virt.h	/^    bool onExhibit() const { return exhibit_stat; }$/;"	f	class:ZooAnimal	access:public	signature:() const
+open_file	cplusplusprimer/open_file.cc	/^ifstream& open_file(ifstream &in, const string &file)$/;"	f	signature:(ifstream &in, const string &file)
+open_file	cplusplusprimer/open_file.cpp	/^ifstream& open_file(ifstream &in, const string &file)$/;"	f	signature:(ifstream &in, const string &file)
+operator <<	cplusplusprimer/gnu_files/17/virt.h	/^operator<<(std::ostream&, const ZooAnimal&);$/;"	p	signature:(std::ostream&, const ZooAnimal&)
+operator <<	f0904.cpp	/^      friend ostream& operator<<(ostream& o,const Date& d);$/;"	p	class:Date	file:	access:friend	signature:(ostream& o,const Date& d)
+operator <<	f0904.cpp	/^ostream& operator << (ostream& o,const Date &d){$/;"	f	signature:(ostream& o,const Date &d)
+operator []	cplusplusprimer/gnu_files/18/vec.cc	/^    T& operator[](size_t n) { return elements[n]; }$/;"	f	class:Vector	access:public	signature:(size_t n)
+operator []	cplusplusprimer/gnu_files/18/vec.cc	/^    const T& operator[](size_t n) const { return elements[n]; }$/;"	f	class:Vector	access:public	signature:(size_t n) const
+output	cplusplusprimer/Sales_item.cc	/^std::ostream& Sales_item::output(std::ostream& out) const$/;"	f	class:Sales_item	signature:(std::ostream& out) const
+output	cplusplusprimer/Sales_item.h	/^	std::ostream &output(std::ostream &out) const;$/;"	p	class:Sales_item	access:public	signature:(std::ostream &out) const
+p	25.1/linkedlist.h	/^void delete(link p);$/;"	v
+pName	f0911.cpp	/^      char*pName;$/;"	m	class:Person	file:	access:private
+partition	quick_sort.c	/^int partition(int start, int end)$/;"	f	signature:(int start, int end)
+partition	quick_sort_ver3.c	/^int partition(int *p, int start, int end)$/;"	f	signature:(int *p, int start, int end)
+partition	quick_sortpro.c	/^int partition(int start, int end)$/;"	f	signature:(int start, int end)
+partition	quick_sortpro_v2.c	/^int partition(int *p, int start, int end)$/;"	f	signature:(int *p, int start, int end)
+pattern	4_1.c	/^char pattern[] = "ould"; \/* pattern to search for *\/$/;"	v
+perm	perm_swap.c	/^void perm(int list[], int k, int m)$/;"	f	signature:(int list[], int k, int m)
+perm	permutation01.c	/^void perm(int list[], int k, int m)$/;"	f	signature:(int list[], int k, int m)
+pettable	cplusplusprimer/gnu_files/17/virt.h	/^    bool pettable() const {return pettable_flag;  }$/;"	f	class:Raccoon	access:public	signature:() const
+pettable	cplusplusprimer/gnu_files/17/virt.h	/^    void pettable(bool petval) {pettable_flag = petval;}$/;"	f	class:Raccoon	access:public	signature:(bool petval)
+pettable_flag	cplusplusprimer/gnu_files/17/virt.h	/^    bool pettable_flag;$/;"	m	class:Raccoon	access:protected
+point	12.3.c	/^struct point { int row, col; } stack[512];$/;"	s	file:
+point	12.4.c	/^struct point { int row, col, predecessor; } queue[512];$/;"	s	file:
+point	maze/main.h	/^typedef struct point {int row, col; } item_t;$/;"	s
+point::col	12.3.c	/^struct point { int row, col; } stack[512];$/;"	m	struct:point	file:	access:public
+point::col	12.4.c	/^struct point { int row, col, predecessor; } queue[512];$/;"	m	struct:point	file:	access:public
+point::col	maze/main.h	/^typedef struct point {int row, col; } item_t;$/;"	m	struct:point	access:public
+point::predecessor	12.4.c	/^struct point { int row, col, predecessor; } queue[512];$/;"	m	struct:point	file:	access:public
+point::row	12.3.c	/^struct point { int row, col; } stack[512];$/;"	m	struct:point	file:	access:public
+point::row	12.4.c	/^struct point { int row, col, predecessor; } queue[512];$/;"	m	struct:point	file:	access:public
+point::row	maze/main.h	/^typedef struct point {int row, col; } item_t;$/;"	m	struct:point	access:public
+pop	12.3.c	/^struct point pop(void)$/;"	f	signature:(void)
+pop	25.1/linkedlist.c	/^link pop(void)$/;"	f	signature:(void)
+pop	25.1/linkedlist.h	/^link pop(void);$/;"	p	signature:(void)
+pop	maze/stack.h	/^extern item_t pop(void);$/;"	p	signature:(void)
+pop	sequence_stack.h	/^selemtype pop(sqstack *s, selemtype *e);$/;"	p	signature:(sqstack *s, selemtype *e)
+population	cplusplusprimer/gnu_files/17/virt.h	/^    virtual int population() const;$/;"	p	class:ZooAnimal	access:public	signature:() const
+post_order	25.3/binarytree.c	/^void post_order(link t, void (*visit)(link))$/;"	f	signature:(link t, void (*visit)(link))
+post_order	25.3/binarytree.h	/^void post_order(link t, void (*visit)(link));$/;"	p	signature:(link t, void (*visit)(link))
+power	power.c	/^power(int base, int level)          \/\/ 接受變量 base(基底), level(級數)$/;"	f	signature:(int base, int level)
+pre_order	25.3/binarytree.c	/^void pre_order(link t, void (*visit)(link))$/;"	f	signature:(link t, void (*visit)(link))
+pre_order	25.3/binarytree.h	/^void pre_order(link t, void (*visit)(link));$/;"	p	signature:(link t, void (*visit)(link))
+predecessor	12.3.c	/^struct point predecessor[MAX_ROW][MAX_COL] = {$/;"	v	typeref:struct:point
+predecessor	12.4.c	/^struct point { int row, col, predecessor; } queue[512];$/;"	m	struct:point	file:	access:public
+predecessor	maze/main.c	/^struct point predecessor[MAX_ROW][MAX_COL] = {$/;"	v	typeref:struct:point
+print	cplusplusprimer/gnu_files/17/virt.h	/^    virtual std::ostream &print(std::ostream&) const;$/;"	p	class:Bear	access:public	signature:(std::ostream&) const
+print	cplusplusprimer/gnu_files/17/virt.h	/^    virtual std::ostream& print(std::ostream&) const;$/;"	p	class:Endangered	access:public	signature:(std::ostream&) const
+print	cplusplusprimer/gnu_files/17/virt.h	/^    virtual std::ostream& print(std::ostream&) const;$/;"	p	class:Panda	access:public	signature:(std::ostream&) const
+print	cplusplusprimer/gnu_files/17/virt.h	/^    virtual std::ostream& print(std::ostream&) const;$/;"	p	class:Raccoon	access:public	signature:(std::ostream&) const
+print	cplusplusprimer/gnu_files/17/virt.h	/^    virtual std::ostream& print(std::ostream&) const;$/;"	p	class:ZooAnimal	access:public	signature:(std::ostream&) const
+print	f0801.cpp	/^void print(Date s){$/;"	f	signature:(Date s)
+print	f0801.cpp	/^void print(Date);$/;"	p	file:	signature:(Date)
+print	f0802.cpp	/^  void print();$/;"	p	class:Date	file:	access:public	signature:()
+print	f0802.cpp	/^void Date::print(){$/;"	f	class:Date	signature:()
+print	quanpailie_1.c	/^void print(){ $/;"	f
+print_elem	25.1/main.c	/^void print_elem(link p)$/;"	f	signature:(link p)
+print_elem	25.3/main.c	/^void print_elem(link p)$/;"	f	signature:(link p)
+print_elem	25.4/main.c	/^void print_elem(link p)$/;"	f	signature:(link p)
+print_maze	12.3.c	/^void print_maze(void)$/;"	f	signature:(void)
+print_maze	12.4.c	/^void print_maze(void)$/;"	f	signature:(void)
+print_maze	maze/maze.c	/^void print_maze(void)$/;"	f	signature:(void)
+print_maze	maze/maze.h	/^void print_maze(void);$/;"	p	signature:(void)
+print_rational	7.2.2.c	/^int  print_rational(struct rational z)$/;"	f	signature:(struct rational z)
+print_time	linuxc005.c	/^void print_time(void)$/;"	f	signature:(void)
+print_time	test4.c	/^void print_time(int a, int b)$/;"	f	signature:(int a, int b)
+print_tree	25.4/bst.c	/^void print_tree(link t)$/;"	f	signature:(link t)
+print_tree	25.4/bst.h	/^void print_tree(link t);$/;"	p	signature:(link t)
+printf	simplesection.c	/^int printf(const char *format, ...);$/;"	p	file:	signature:(const char *format, ...)
+proc	quanpailie_1.c	/^void proc(int step){ $/;"	f	signature:(int step)
+pthread_creat	pthread_creat.c	/^__attribute__ ((weakref)) int pthread_creat(pthread_t*,$/;"	p	file:	signature:(pthread_t*, const pthread_attr_t*, void* (*) (void*), void*)
+push	12.3.c	/^void push(struct point p)$/;"	f	signature:(struct point p)
+push	25.1/linkedlist.c	/^void push(link p)$/;"	f	signature:(link p)
+push	25.1/linkedlist.h	/^void push(link p);$/;"	p	signature:(link p)
+push	maze/stack.h	/^extern void push(item_t);$/;"	p	signature:(item_t)
+push	sequence_stack.h	/^void push(sqstack *s, selemtype *e);$/;"	p	signature:(sqstack *s, selemtype *e)
+push_back	cplusplusprimer/gnu_files/18/vec.cc	/^    void push_back(const T&);$/;"	p	class:Vector	file:	access:public	signature:(const T&)
+push_back	cplusplusprimer/gnu_files/18/vec.cc	/^template <class T> void Vector<T>::push_back(const T& t)$/;"	f	class:Vector	signature:(const T& t)
+putnum	countnum_rand.c	/^void putnum()$/;"	f
+qualifierGrade	f1001.cpp	/^    int qualifierGrade;$/;"	m	class:GraduateStudent	file:	access:private
+qualifierGrade	graduatestudent.h	/^	int qualifierGrade;$/;"	m	class:Graduatestudent	access:private
+queue	12.4.c	/^struct point { int row, col, predecessor; } queue[512];$/;"	v	typeref:struct:point
+quicksort	c_programming_language/5.6/qsort.c	/^void quicksort(char *v[], int left, int right)$/;"	f	signature:(char *v[], int left, int right)
+quicksort	c_programming_language/5.6/qsort.h	/^void quicksort(char *v[], int left, int right);$/;"	p	signature:(char *v[], int left, int right)
+quicksort	quick_sort.c	/^	void quicksort(int start, int end)$/;"	f	signature:(int start, int end)
+quicksort	quick_sort_ver3.c	/^void quicksort(int *p, int start, int end)$/;"	f	signature:(int *p, int start, int end)
+quicksort	quick_sort_ver3.h	/^void quicksort(int *p, int start, int end);$/;"	p	signature:(int *p, int start, int end)
+quicksort	quick_sortpro.c	/^void quicksort(int start, int end)$/;"	f	signature:(int start, int end)
+quicksort	quick_sortpro_v2.c	/^void quicksort(int *p, int start, int end)$/;"	f	signature:(int *p, int start, int end)
+r	25.3/binarytree.h	/^	link l,r;$/;"	m	struct:node	access:public
+r	25.4/bst.h	/^	link l, r;$/;"	m	struct:node	access:public
+radixsort	radix_sort.c	/^void radixsort(int data[], int LEN)$/;"	f	signature:(int data[], int LEN)
+radixsort	radix_sort.h	/^void radixsort(int data[], int LEN);$/;"	p	signature:(int data[], int LEN)
+rational	7.2.2.c	/^struct rational{$/;"	s	file:
+rational::den	7.2.2.c	/^	int num, den;$/;"	m	struct:rational	file:	access:public
+rational::num	7.2.2.c	/^	int num, den;$/;"	m	struct:rational	file:	access:public
+readlines	c_programming_language/5.6/readlines.c	/^int readlines(char *lineptr[], int maxlines)$/;"	f	signature:(char *lineptr[], int maxlines)
+readlines	c_programming_language/5.6/readlines.h	/^int readlines(char *lineptr[], int maxlines);$/;"	p	signature:(char *lineptr[], int maxlines)
+reallocate	cplusplusprimer/gnu_files/18/vec.cc	/^    void reallocate(); \/\/ get more space and copy existing elements$/;"	p	class:Vector	file:	access:private	signature:()
+reallocate	cplusplusprimer/gnu_files/18/vec.cc	/^template <class T> void Vector<T>::reallocate()$/;"	f	class:Vector	signature:()
+record	readrec.c	/^struct record {$/;"	s	file:
+record	writerec.c	/^struct record {$/;"	s	file:
+record	writetest.c	/^struct record {$/;"	s	file:
+record	writetext.c	/^struct record {$/;"	s	file:
+record::age	readrec.c	/^	int age;$/;"	m	struct:record	file:	access:public
+record::age	writerec.c	/^	int age;$/;"	m	struct:record	file:	access:public
+record::day	writetest.c	/^	char day[20];$/;"	m	struct:record	file:	access:public
+record::day	writetext.c	/^	char day[20];$/;"	m	struct:record	file:	access:public
+record::name	readrec.c	/^	char name[10];$/;"	m	struct:record	file:	access:public
+record::name	writerec.c	/^	char name[10];$/;"	m	struct:record	file:	access:public
+record::sequence	writetest.c	/^	int sequence;$/;"	m	struct:record	file:	access:public
+record::sequence	writetext.c	/^	int sequence;$/;"	m	struct:record	file:	access:public
+record::time	writetest.c	/^	char time[20];$/;"	m	struct:record	file:	access:public
+result	quanpailie_1.c	/^int result[MAX]; $/;"	v
+revenue	cplusplusprimer/Sales_item.h	/^	double revenue;$/;"	m	class:Sales_item	access:private
+rgcd	cplusplusprimer/gnu_files/7/rgcd.cc	/^int rgcd(int v1, int v2)$/;"	f	signature:(int v1, int v2)
+ridax_sort	internet_radix_sort.c	/^void ridax_sort(int *a,int n)$/;"	f	signature:(int *a,int n)
+row	12.3.c	/^struct point { int row, col; } stack[512];$/;"	m	struct:point	file:	access:public
+row	12.4.c	/^struct point { int row, col, predecessor; } queue[512];$/;"	m	struct:point	file:	access:public
+row	maze/main.h	/^typedef struct point {int row, col; } item_t;$/;"	m	struct:point	access:public
+same_isbn	cplusplusprimer/Sales_item.h	/^	bool same_isbn(const Sales_item &rhs) const {$/;"	f	class:Sales_item	access:public	signature:(const Sales_item &rhs) const
+science	结构体.c	/^ int  science; $/;"	m	struct:student	file:	access:public
+science	结构体操作.c	/^       int science;$/;"	m	struct:student	file:	access:public
+score	结构体操作.c	/^       int score;$/;"	m	struct:student	file:	access:public
+search	25.1/linkedlist.c	/^link search(unsigned char elem)$/;"	f	signature:(unsigned char elem)
+search	25.1/linkedlist.h	/^link search(unsigned char elem);$/;"	p	signature:(unsigned char elem)
+search	25.4/bst.c	/^link search(link t, unsigned char elem)$/;"	f	signature:(link t, unsigned char elem)
+search	25.4/bst.h	/^link search(link t, unsigned char elem);$/;"	p	signature:(link t, unsigned char elem)
+see_more	more01.c	/^int see_more()$/;"	f
+see_more	more01.c	/^int see_more();$/;"	p	file:
+see_more	more02.c	/^int see_more(FILE *);$/;"	p	file:	signature:(FILE *)
+see_more	more02.c	/^int see_more(FILE *cmd)                             \/* NEW: accepts arg *\/$/;"	f	signature:(FILE *cmd)
+selection_sort	selection_sort.c	/^void selection_sort(void)$/;"	f	signature:(void)
+semesterHours	f1001.cpp	/^       int semesterHours;$/;"	m	class:Student	file:	access:private
+sequence	writetest.c	/^	int sequence;$/;"	m	struct:record	file:	access:public
+sequence	writetext.c	/^	int sequence;$/;"	m	struct:record	file:	access:public
+set	f0802.cpp	/^  void set(int y,int m,int d);$/;"	p	class:Date	file:	access:public	signature:(int y,int m,int d)
+set	f0802.cpp	/^void Date::set(int y,int m, int d){$/;"	f	class:Date	signature:(int y,int m, int d)
+setWeight	f1006.cpp	/^      void setWeight(int i){ weight = i;}$/;"	f	class:Bed	access:public	signature:(int i)
+setWeight	f1006.cpp	/^      void setWeight(int i){ weight = i;}$/;"	f	class:Sofa	access:public	signature:(int i)
+set_unit	23.2/populator.c	/^void set_unit(unit_t *p)$/;"	f	signature:(unit_t *p)
+set_unit	23.2/populator.h	/^void set_unit(unit_t *);$/;"	p	signature:(unit_t *)
+show	结构体.c	/^ void show()\/\/���򲢴�ӡ������$/;"	f
+show	结构体操作.c	/^void show()$/;"	f
+shrink_space	shrink_space.c	/^char *shrink_space(char *dest, const char *src, size_t n)$/;"	f	signature:(char *dest, const char *src, size_t n)
+singlenum	6.1.3.c	/^int singlenum(int x)$/;"	f	signature:(int x)
+singlenum	linuxc007.c	/^int singlenum(int x)$/;"	f	signature:(int x)
+size	cplusplusprimer/gnu_files/18/vec.cc	/^    size_t size() const { return first_free - elements; }$/;"	f	class:Vector	access:public	signature:() const
+sleep	f1006.cpp	/^      void sleep()const{ cout << "Sleeping...\\n";}$/;"	f	class:Bed	access:public	signature:() const
+sleeping	cplusplusprimer/gnu_files/17/virt.h	/^    bool sleeping() const {return sleeping_flag;}$/;"	f	class:Panda	access:public	signature:() const
+sleeping	cplusplusprimer/gnu_files/17/virt.h	/^    void sleeping(bool newval) {sleeping_flag = newval;}$/;"	f	class:Panda	access:public	signature:(bool newval)
+sleeping_flag	cplusplusprimer/gnu_files/17/virt.h	/^    bool sleeping_flag;$/;"	m	class:Panda	access:protected
+sort	11.2.c	/^void sort(int start, int end)$/;"	f	signature:(int start, int end)
+sphere	f0203.cpp	/^ void sphere(){$/;"	f	signature:()
+sphere	f0203.cpp	/^void sphere();$/;"	p	file:	signature:()
+sqstack	sequence_stack.h	/^} sqstack;$/;"	t	typeref:struct:__anon3
+stack	12.3.c	/^struct point { int row, col; } stack[512];$/;"	v	typeref:struct:point
+stackempty	sequence_stack.h	/^bool stackempty(sqstack *s);$/;"	p	signature:(sqstack *s)
+stacklength	sequence_stack.h	/^int stacklength(sqstack *s);$/;"	p	signature:(sqstack *s)
+stacksize	sequence_stack.h	/^	int stacksize;$/;"	m	struct:__anon3	access:public
+stacktraverse	sequence_stack.h	/^status stacktraverse(sqstack *s, status(*visit()) );$/;"	p	signature:(sqstack *s, status(*visit()) )
+start_loop	max.s	/^start_loop: 		# start loop$/;"	l
+std	结构体操作.c	/^using namespace std;$/;"	v
+str	quick_sortpro.c	/^int str[LEN];$/;"	v
+strindex	4_1.c	/^int strindex(char s[], char t[])$/;"	f	signature:(char s[], char t[])
+strindex	4_1.c	/^int strindex(char source[], char searchfo[]);$/;"	p	file:	signature:(char source[], char searchfo[])
+stringcheck	stringcheck.cpp	/^int stringcheck(char a[])$/;"	f	signature:(char a[])
+stu	结构体.c	/^}stu[100];$/;"	v	typeref:struct:student
+stu	结构体操作.c	/^}stu[65];$/;"	v	typeref:struct:student
+student	结构体.c	/^struct student \/\/����ṹ��$/;"	s	file:
+student	结构体操作.c	/^struct student$/;"	s	file:
+student::chinese	结构体.c	/^ int  chinese;$/;"	m	struct:student	file:	access:public
+student::chinese	结构体操作.c	/^       int chinese;$/;"	m	struct:student	file:	access:public
+student::english	结构体.c	/^ int  english;$/;"	m	struct:student	file:	access:public
+student::english	结构体操作.c	/^       int english;$/;"	m	struct:student	file:	access:public
+student::id	结构体.c	/^ char id[20];$/;"	m	struct:student	file:	access:public
+student::id	结构体操作.c	/^       char id[20];$/;"	m	struct:student	file:	access:public
+student::math	结构体.c	/^ int  math;$/;"	m	struct:student	file:	access:public
+student::math	结构体操作.c	/^       int math;$/;"	m	struct:student	file:	access:public
+student::name	结构体.c	/^ char name[20];$/;"	m	struct:student	file:	access:public
+student::name	结构体操作.c	/^       char name[20];$/;"	m	struct:student	file:	access:public
+student::science	结构体.c	/^ int  science; $/;"	m	struct:student	file:	access:public
+student::science	结构体操作.c	/^       int science;$/;"	m	struct:student	file:	access:public
+student::score	结构体操作.c	/^       int score;$/;"	m	struct:student	file:	access:public
+sub_rational	7.2.2.c	/^struct rational sub_rational(struct rational a, struct rational b)$/;"	f	signature:(struct rational a, struct rational b)
+swap	22.1.c	/^int *swap(int *px, int *py)$/;"	f	signature:(int *px, int *py)
+swap	c_programming_language/5.6/qsort.c	/^void swap(char *v[], int i, int j)$/;"	f	signature:(char *v[], int i, int j)
+swap	cplusplusprimer/gnu_files/7/decl1.h	/^void swap(int, int);$/;"	p	signature:(int, int)
+swap	cplusplusprimer/gnu_files/7/decl2.h	/^void swap(int&, int&);$/;"	p	signature:(int&, int&)
+swap	cplusplusprimer/gnu_files/7/swap.cc	/^void swap(int &v1, int &v2) $/;"	f	signature:(int &v1, int &v2)
+swap	perm_swap.c	/^void swap(int *a, int *b)$/;"	f	signature:(int *a, int *b)
+swap	permutation01.c	/^void swap(int *a, int *b)$/;"	f	signature:(int *a, int *b)
+tail	12.4.c	/^int head = 0, tail = 0;$/;"	v
+tenum	6.1.3.c	/^int tenum(int x)$/;"	f	signature:(int x)
+tenum	linuxc007.c	/^int tenum(int x)$/;"	f	signature:(int x)
+test	f1003.cpp	/^    void test()$/;"	f	class:FromPri	access:public	signature:()
+test	f1003.cpp	/^    void test()$/;"	f	class:FromPro	access:public	signature:()
+test	f1003.cpp	/^    void test()$/;"	f	class:FromPub	access:public	signature:()
+test	f1003.cpp	/^    void test()$/;"	f	class:Pri	access:public	signature:()
+test	f1003.cpp	/^    void test()$/;"	f	class:Pro	access:public	signature:()
+test	f1003.cpp	/^    void test()$/;"	f	class:Pub	access:public	signature:()
+test	test6.c	/^int test(int a) $/;"	f	signature:(int a)
+time	writetest.c	/^	char time[20];$/;"	m	struct:record	file:	access:public
+top	12.3.c	/^int top = 0;$/;"	v
+top	sequence_stack.h	/^	selemtype *top;$/;"	m	struct:__anon3	access:public
+traverse	25.1/linkedlist.c	/^void traverse(void (*visit)(link))$/;"	f	signature:(void (*visit)(link))
+traverse	25.1/linkedlist.h	/^void traverse(void (*visit)(link));$/;"	p	signature:(void (*visit)(link))
+two_left_feet	cplusplusprimer/gnu_files/17/virt.h	/^    enum DanceType { two_left_feet, macarena, fandango };$/;"	e	enum:Bear::DanceType
+unit_t	23.2/populator.h	/^} unit_t;$/;"	t	typeref:struct:__anon1
+unit_t	23.4/para_allocator.h	/^} unit_t;$/;"	t	typeref:struct:__anon4
+unit_t	malloc_free.c	/^} unit_t;$/;"	t	typeref:struct:__anon2	file:
+units_sold	cplusplusprimer/Sales_item.h	/^	unsigned units_sold;$/;"	m	class:Sales_item	access:private
+used	quanpailie_1.c	/^int used[MAX]; $/;"	v
+var	ManualNameMangling.cpp	/^	int var = 42;$/;"	m	namespace:myname	file:
+visit	12.3.c	/^void visit(int row, int col, struct point pre)$/;"	f	signature:(int row, int col, struct point pre)
+visit	12.4.c	/^void visit(int row, int col)$/;"	f	signature:(int row, int col)
+visit	maze/main.c	/^void visit(int row, int col, struct point pre)$/;"	f	signature:(int row, int col, struct point pre)
+watchTV	f1006.cpp	/^      void watchTV()const{ cout << "Watching TV.\\n";}$/;"	f	class:Sofa	access:public	signature:() const
+weight	f1006.cpp	/^      int weight;$/;"	m	class:Bed	file:	access:protected
+weight	f1006.cpp	/^      int weight;$/;"	m	class:Sofa	file:	access:protected
+writelines	c_programming_language/5.6/writelines.c	/^void writelines(char *lineptr[], int nlines)$/;"	f	signature:(char *lineptr[], int nlines)
+writelines	c_programming_language/5.6/writelines.h	/^void writelines(char *lineptr[], int nlines);$/;"	p	signature:(char *lineptr[], int nlines)
+x	linuxc005.c	/^int x = 10;$/;"	v
+year	f0801.cpp	/^       int year;$/;"	m	struct:Date	file:	access:public
+year	f0802.cpp	/^  int year;$/;"	m	class:Date	file:	access:private
+year	f0904.cpp	/^      int year, month, day;$/;"	m	class:Date	file:	access:private
+~Bear	cplusplusprimer/gnu_files/17/virt.h	/^virtual ~Bear();$/;"	p	class:Bear	access:public	signature:()
+~Endangered	cplusplusprimer/gnu_files/17/virt.h	/^    virtual ~Endangered();$/;"	p	class:Endangered	access:public	signature:()
+~Person	f0911.cpp	/^      ~Person()$/;"	f	class:Person	access:public	signature:()
+~ZooAnimal	cplusplusprimer/gnu_files/17/virt.h	/^    virtual ~ZooAnimal();$/;"	p	class:ZooAnimal	access:public	signature:()

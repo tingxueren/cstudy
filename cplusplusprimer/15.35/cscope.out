@@ -1,0 +1,789 @@
+cscope 15 $HOME/Dropbox/cstudy/cplusplusprimer/15.35               0000003533
+	@basket.h
+
+1 #iâdeà
+BASKET_H
+
+
+2 
+	#BASKET_H
+
+
+	)
+
+4 
+	~<£t
+>
+
+5 
+	~"§Ës_™em.h
+"
+
+7 
+šlše
+ 
+boÞ
+
+
+8 
+	$com·»
+(cÚ¡ 
+§Ës_™em
+ &
+lhs
+, cÚ¡ s®es_™em &
+rhs
+)
+
+10  
+lhs
+->
+	`book
+(è< 
+rhs
+->book();
+
+11 
+	}
+}
+
+13 þas 
+	cBask‘
+ {
+
+14 
+	$boÞ
+ (*
+	tcomp
+è(cÚ¡ 
+	t§Ës_™em
+&, const sales_item&);
+
+15 
+public
+:
+
+16 
+¡d
+::
+	tmuÉ›s
+<
+	t§Ës_™em
+, 
+	tcomp
+> 
+	t£t_ty³
+;
+
+17 
+£t_ty³
+::
+	tsize_ty³
+ size_type;
+
+18 
+£t_ty³
+::
+	tcÚ¡_™”©Ü
+ 
+	tcÚ¡_™”
+;
+
+20 
+	$Bask‘
+(): 
+	$™ems
+(
+com·»
+) {}
+
+22 
+	$add_™em
+(cÚ¡ 
+§Ës_™em
+ &
+™em
+)
+
+24 
+™em
+.
+	`š£¹
+(item);
+
+25 
+	}
+}
+
+27 
+size_ty³
+ 
+	$size
+(cÚ¡ 
+§Ës_™em
+ &
+i
+) const
+
+29  
+™ems
+.
+	`couÁ
+(
+i
+)
+
+30 
+	}
+}
+
+32 
+	$tÙ®
+() const;
+
+34 
+´iv©e
+:
+
+35 
+¡d
+::
+muÉi£t
+<
+§Ës_™em
+, 
+comp
+> 
+™ems
+;
+
+37 
+	}
+};
+
+	@item.h
+
+1 #iâdeà
+ITEM_H
+
+
+2 
+	#ITEM_H
+
+
+	)
+
+3 
+	~<¡ršg
+>
+
+5 þas 
+	cI‹m_ba£
+ {
+
+6 
+	mpublic
+:
+
+7 
+I‹m_ba£
+(cÚ¡ 
+¡d
+::
+¡ršg
+ &
+book
+ = "",
+
+8 
+§Ës_´iû
+ = 0.0):
+
+9 
+isbn
+(
+book
+), 
+	$´iû
+(
+§Ës_´iû
+) {}
+
+11 
+¡d
+::
+¡ršg
+ 
+	$book
+() const
+
+13  
+isbn
+;
+
+14 
+	}
+}
+
+16 
+vœtu®
+ 
+	$Ãt_´iû
+(
+size_t
+ 
+n
+) const
+
+18  
+n
+ * 
+´iû
+;
+
+19 
+	}
+}
+
+21 
+vœtu®
+ 
+I‹m_ba£
+* 
+	$þÚe
+() const
+
+23  
+Ãw
+ 
+	`I‹m_ba£
+(*
+this
+);
+
+24 
+	}
+}
+
+26 
+	gvœtu®
+ ~
+	$I‹m_ba£
+(è{
+	}
+}
+
+28 
+	g´iv©e
+:
+
+29 
+¡d
+::
+¡ršg
+ 
+isbn
+;
+
+31 
+	g´Ùeùed
+:
+
+32 
+´iû
+;
+
+36 þas 
+	cDisc_™em
+ : 
+public
+ 
+I‹m_ba£
+ {
+
+37 
+public
+:
+
+38 
+Disc_™em
+(cÚ¡ 
+¡d
+::
+¡ršg
+& 
+book
+ = "",
+
+39 
+§Ës_´iû
+ = 0.0,
+
+40 
+size_t
+ 
+qty
+ = 0, 
+disc_¿‹
+ = 0.0):
+
+41 
+I‹m_ba£
+(
+book
+, 
+§Ës_´iû
+),
+
+42 
+quªt™y
+(
+qty
+), 
+	$discouÁ
+(
+disc_¿‹
+) {}
+
+44 
+	$Ãt_´iû
+(
+size_t
+) const = 0;
+
+46 
+¡d
+::
+·œ
+<
+size_t
+, > 
+	$discouÁ_pÞicy
+() const
+
+48  
+¡d
+::
+	`make_·œ
+(
+quªt™y
+, 
+discouÁ
+);
+
+49 
+	}
+}
+
+51 
+	g´Ùeùed
+:
+
+52 
+size_t
+ 
+quªt™y
+;
+
+53 
+	gdiscouÁ
+;
+
+57 þas 
+	cBulk_™em
+ : 
+public
+ 
+Disc_™em
+ {
+
+58 
+public
+:
+
+59 
+Bulk_™em
+(cÚ¡ 
+¡d
+::
+¡ršg
+& 
+book
+ = "",
+
+60 
+§Ës_´iû
+ = 0.0,
+
+61 
+size_t
+ 
+qty
+ = 0, 
+disc_¿‹
+ = 0.0):
+
+62 
+	$Disc_™em
+(
+book
+, 
+§Ës_´iû
+, 
+qty
+, 
+disc_¿‹
+) {}
+
+64 
+	$Ãt_´iû
+(
+size_t
+ 
+út
+) const
+
+66 ià(
+út
+ >ð
+quªt™y
+)
+
+67  
+út
+ * (1 - 
+discouÁ
+è* 
+´iû
+;
+
+69  
+út
+ * 
+´iû
+;
+
+71 
+	}
+}
+
+73 
+vœtu®
+ 
+Bulk_™em
+* 
+	$þÚe
+() const
+
+75  
+Ãw
+ 
+	`Bulk_™em
+(*
+this
+)
+
+76 
+	}
+}
+
+80 þas 
+	cLds_™em
+ : 
+public
+ 
+Disc_™em
+ {
+
+81 
+public
+:
+
+82 
+Lds_™em
+(cÚ¡ 
+¡d
+::
+¡ršg
+& 
+book
+ = "",
+
+83 
+§Ës_´iû
+ = 0.0,
+
+84 
+size_t
+ 
+qty
+ = 0, 
+dŸc_¿‹
+ = 0.0):
+
+85 
+	$Disc_™em
+(
+book
+, 
+§Ës_´iû
+, 
+qty
+, 
+disc_¿‹
+) {}
+
+87 
+	$Ãt_´iû
+(
+size_t
+ 
+út
+) const
+
+89 ià(
+út
+ <ð
+quªt™y
+)
+
+90  
+út
+ * (1 - 
+discouÁ
+è* 
+´iû
+;
+
+92  
+út
+ * 
+´iû
+ - 
+quªt™y
+ * 
+discouÁ
+ *…rice;
+
+93 
+	}
+}
+
+95 
+vœtu®
+ 
+Lds_™em
+* 
+	$þÚe
+() const
+
+97  
+Ãw
+ 
+	`Lds_™em
+(*
+this
+);
+
+98 
+	}
+}
+
+	@sales_item.h
+
+1 #iâdeà
+SALESITEM_H
+
+
+2 
+	#SALESITEM_H
+
+
+	)
+
+3 
+	~"™em.h
+"
+
+5 þas 
+	cS®es_™em
+ {
+
+6 
+	mpublic
+:
+
+7 
+	$S®es_™em
+(): 
+	`p
+(0), 
+	`u£
+(
+Ãw
+ 
+¡d
+::
+	$size_t
+(1)) {}
+
+9 
+	$S®e_™em
+(cÚ¡ 
+I‹m_ba£
+& 
+™em
+):
+
+10 
+	`p
+(
+™em
+.
+	`þÚe
+()), 
+	`u£
+(
+Ãw
+ 
+¡d
+::
+	$size_t
+(1)è{
+	}
+}
+
+12 
+	$S®e_™em
+(cÚ¡ 
+S®es_™em
+ &
+i
+):
+
+13 
+	`p
+(
+i
+.
+p
+), 
+	$u£
+(
+i
+.
+u£
+è{ ++*u£; 
+	}
+}
+
+15 ~
+	$S®e_™em
+(è{ 
+	`deü_u£
+(); 
+	}
+}
+
+16 
+	gS®e_™em
+& 
+	gÝ”©Ü
+=(cÚ¡ 
+S®es_™em
+&);
+
+18 cÚ¡ 
+I‹m_ba£
+ *
+	gÝ”©Ü
+->() const
+
+20 ià(
+	gp
+)
+
+21  
+	gp
+;
+
+23 
+throw
+ 
+	g¡d
+::
+logic_”rÜ
+("unbound Sales_item");
+
+28 cÚ¡ 
+	gI‹m_ba£
+ &
+	gÝ”©Ü
+*() const
+
+30 ià(
+	gp
+)
+
+31  *
+	gp
+;
+
+33  
+	g¡d
+::
+logic_”rÜ
+("unbound Sales_items");
+
+36 
+	g´iv©e
+:
+
+37 
+I‹m_ba£
+ *
+p
+;
+
+38 
+	g¡d
+::
+size_t
+ *
+u£
+;
+
+40 
+	$deü_u£
+()
+
+42 ià(--*
+u£
+ == 0) {
+
+43 
+d–‘e
+ 
+p
+;
+
+44 
+d–‘e
+ 
+u£
+;
+
+46 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+3
+29
+basket.h
+item.h
+sales_item.h

@@ -1,0 +1,95 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BASKET_H	basket.h	2;"	d
+Basket	basket.h	/^	Basket(): items(compare) {}$/;"	f	class:Basket	access:public	signature:()
+Basket	basket.h	/^class Basket {$/;"	c
+Basket::Basket	basket.h	/^	Basket(): items(compare) {}$/;"	f	class:Basket	access:public	signature:()
+Basket::add_item	basket.h	/^	void add_item(const sales_item &item)$/;"	f	class:Basket	access:public	signature:(const sales_item &item)
+Basket::comp	basket.h	/^	typedef bool (*comp) (const sales_item&, const sales_item&);$/;"	t	class:Basket	access:private
+Basket::const_iter	basket.h	/^	typedef set_type::const_iterator const_iter;$/;"	t	class:Basket	access:public
+Basket::items	basket.h	/^	std::multiset<sales_item, comp> items;$/;"	m	class:Basket	access:private
+Basket::set_type	basket.h	/^	typedef std::multies<sales_item, comp> set_type;$/;"	t	class:Basket	access:public
+Basket::size	basket.h	/^	size_type size(const sales_item &i) const$/;"	f	class:Basket	access:public	signature:(const sales_item &i) const
+Basket::size_type	basket.h	/^	typedef set_type::size_type size_type;$/;"	t	class:Basket	access:public
+Basket::total	basket.cc	/^double Basket::total() const$/;"	f	class:Basket	signature:() const
+Basket::total	basket.h	/^	double total() const;$/;"	p	class:Basket	access:public	signature:() const
+Bulk_item	item.h	/^	Bulk_item(const std::string& book = "",$/;"	f	class:Bulk_item	access:public	signature:(const std::string& book = Ó, double sales_price = 0.0, size_t qty = 0, double disc_rate = 0.0)
+Bulk_item	item.h	/^class Bulk_item : public Disc_item {$/;"	c	inherits:Disc_item
+Bulk_item::Bulk_item	item.h	/^	Bulk_item(const std::string& book = "",$/;"	f	class:Bulk_item	access:public	signature:(const std::string& book = Ó, double sales_price = 0.0, size_t qty = 0, double disc_rate = 0.0)
+Bulk_item::clone	item.h	/^	virtual Bulk_item* clone() const$/;"	f	class:Bulk_item	access:public	signature:() const
+Bulk_item::net_price	item.h	/^	double net_price(size_t cnt) const$/;"	f	class:Bulk_item	access:public	signature:(size_t cnt) const
+Disc_item	item.h	/^	Disc_item(const std::string& book = "",$/;"	f	class:Disc_item	access:public	signature:(const std::string& book = Ó, double sales_price = 0.0, size_t qty = 0, double disc_rate = 0.0)
+Disc_item	item.h	/^class Disc_item : public Item_base {$/;"	c	inherits:Item_base
+Disc_item::Disc_item	item.h	/^	Disc_item(const std::string& book = "",$/;"	f	class:Disc_item	access:public	signature:(const std::string& book = Ó, double sales_price = 0.0, size_t qty = 0, double disc_rate = 0.0)
+Disc_item::discount	item.h	/^	double discount;$/;"	m	class:Disc_item	access:protected
+Disc_item::discount_policy	item.h	/^	std::pair<size_t, double> discount_policy() const$/;"	f	class:Disc_item	access:public	signature:() const
+Disc_item::net_price	item.h	/^	double net_price(size_t) const = 0;$/;"	p	class:Disc_item	access:public	signature:(size_t) const
+Disc_item::quantity	item.h	/^	size_t quantity;$/;"	m	class:Disc_item	access:protected
+ITEM_H	item.h	2;"	d
+Item_base	item.h	/^	Item_base(const std::string &book = "",$/;"	f	class:Item_base	access:public	signature:(const std::string &book = Ó, double sales_price = 0.0)
+Item_base	item.h	/^class Item_base {$/;"	c
+Item_base::Item_base	item.h	/^	Item_base(const std::string &book = "",$/;"	f	class:Item_base	access:public	signature:(const std::string &book = Ó, double sales_price = 0.0)
+Item_base::book	item.h	/^	std::string book() const$/;"	f	class:Item_base	access:public	signature:() const
+Item_base::clone	item.h	/^	virtual Item_base* clone() const$/;"	f	class:Item_base	access:public	signature:() const
+Item_base::isbn	item.h	/^	std::string isbn;$/;"	m	class:Item_base	access:private
+Item_base::net_price	item.h	/^	virtual double net_price(size_t n) const$/;"	f	class:Item_base	access:public	signature:(size_t n) const
+Item_base::price	item.h	/^	double price;$/;"	m	class:Item_base	access:protected
+Item_base::~Item_base	item.h	/^	virtual ~Item_base() {}$/;"	f	class:Item_base	access:public	signature:()
+Lds_item	item.h	/^	Lds_item(const std::string& book = "",$/;"	f	class:Lds_item	access:public	signature:(const std::string& book = Ó, double sales_price = 0.0, size_t qty = 0, double diac_rate = 0.0)
+Lds_item	item.h	/^class Lds_item : public Disc_item {$/;"	c	inherits:Disc_item
+Lds_item::Lds_item	item.h	/^	Lds_item(const std::string& book = "",$/;"	f	class:Lds_item	access:public	signature:(const std::string& book = Ó, double sales_price = 0.0, size_t qty = 0, double diac_rate = 0.0)
+Lds_item::clone	item.h	/^	virtual Lds_item* clone() const$/;"	f	class:Lds_item	access:public	signature:() const
+Lds_item::net_price	item.h	/^	double net_price(size_t cnt) const$/;"	f	class:Lds_item	access:public	signature:(size_t cnt) const
+SALESITEM_H	sales_item.h	2;"	d
+Sale_item	sales_item.h	/^	Sale_item(const Item_base& item):$/;"	f	class:Sales_item	access:public	signature:(const Item_base& item)
+Sale_item	sales_item.h	/^	Sale_item(const Sales_item &i):$/;"	f	class:Sales_item	access:public	signature:(const Sales_item &i)
+Sales_item	sales_item.h	/^	Sales_item(): p(0), use(new std::size_t(1)) {}$/;"	f	class:Sales_item	access:public	signature:()
+Sales_item	sales_item.h	/^class Sales_item {$/;"	c
+Sales_item::Sale_item	sales_item.h	/^	Sale_item(const Item_base& item):$/;"	f	class:Sales_item	access:public	signature:(const Item_base& item)
+Sales_item::Sale_item	sales_item.h	/^	Sale_item(const Sales_item &i):$/;"	f	class:Sales_item	access:public	signature:(const Sales_item &i)
+Sales_item::Sales_item	sales_item.h	/^	Sales_item(): p(0), use(new std::size_t(1)) {}$/;"	f	class:Sales_item	access:public	signature:()
+Sales_item::decr_use	sales_item.h	/^	void decr_use()$/;"	f	class:Sales_item	access:private	signature:()
+Sales_item::operator *	sales_item.h	/^	const Item_base &operator*() const$/;"	f	class:Sales_item	access:public	signature:() const
+Sales_item::operator ->	sales_item.h	/^	const Item_base *operator->() const$/;"	f	class:Sales_item	access:public	signature:() const
+Sales_item::operator =	sales_item.cc	/^Sales_item& Sales_item::operator=(const Sales_item &rhs)$/;"	f	class:Sales_item	signature:(const Sales_item &rhs)
+Sales_item::operator =	sales_item.h	/^	Sale_item& operator=(const Sales_item&);$/;"	p	class:Sales_item	access:public	signature:(const Sales_item&)
+Sales_item::p	sales_item.h	/^	Item_base *p;$/;"	m	class:Sales_item	access:private
+Sales_item::use	sales_item.h	/^	std::size_t *use;$/;"	m	class:Sales_item	access:private
+Sales_item::~Sale_item	sales_item.h	/^	~Sale_item() { decr_use(); }$/;"	f	class:Sales_item	access:public	signature:()
+add_item	basket.h	/^	void add_item(const sales_item &item)$/;"	f	class:Basket	access:public	signature:(const sales_item &item)
+book	item.h	/^	std::string book() const$/;"	f	class:Item_base	access:public	signature:() const
+clone	item.h	/^	virtual Bulk_item* clone() const$/;"	f	class:Bulk_item	access:public	signature:() const
+clone	item.h	/^	virtual Item_base* clone() const$/;"	f	class:Item_base	access:public	signature:() const
+clone	item.h	/^	virtual Lds_item* clone() const$/;"	f	class:Lds_item	access:public	signature:() const
+comp	basket.h	/^	typedef bool (*comp) (const sales_item&, const sales_item&);$/;"	t	class:Basket	access:private
+compare	basket.h	/^compare(const sales_item &lhs, const sales_item &rhs)$/;"	f	signature:(const sales_item &lhs, const sales_item &rhs)
+const_iter	basket.h	/^	typedef set_type::const_iterator const_iter;$/;"	t	class:Basket	access:public
+decr_use	sales_item.h	/^	void decr_use()$/;"	f	class:Sales_item	access:private	signature:()
+discount	item.h	/^	double discount;$/;"	m	class:Disc_item	access:protected
+discount_policy	item.h	/^	std::pair<size_t, double> discount_policy() const$/;"	f	class:Disc_item	access:public	signature:() const
+isbn	item.h	/^	std::string isbn;$/;"	m	class:Item_base	access:private
+items	basket.h	/^	std::multiset<sales_item, comp> items;$/;"	m	class:Basket	access:private
+main	15.35.cc	/^int main()$/;"	f	signature:()
+net_price	item.h	/^	double net_price(size_t cnt) const$/;"	f	class:Bulk_item	access:public	signature:(size_t cnt) const
+net_price	item.h	/^	double net_price(size_t cnt) const$/;"	f	class:Lds_item	access:public	signature:(size_t cnt) const
+net_price	item.h	/^	double net_price(size_t) const = 0;$/;"	p	class:Disc_item	access:public	signature:(size_t) const
+net_price	item.h	/^	virtual double net_price(size_t n) const$/;"	f	class:Item_base	access:public	signature:(size_t n) const
+operator *	sales_item.h	/^	const Item_base &operator*() const$/;"	f	class:Sales_item	access:public	signature:() const
+operator ->	sales_item.h	/^	const Item_base *operator->() const$/;"	f	class:Sales_item	access:public	signature:() const
+operator =	sales_item.cc	/^Sales_item& Sales_item::operator=(const Sales_item &rhs)$/;"	f	class:Sales_item	signature:(const Sales_item &rhs)
+operator =	sales_item.h	/^	Sale_item& operator=(const Sales_item&);$/;"	p	class:Sales_item	access:public	signature:(const Sales_item&)
+p	sales_item.h	/^	Item_base *p;$/;"	m	class:Sales_item	access:private
+price	item.h	/^	double price;$/;"	m	class:Item_base	access:protected
+quantity	item.h	/^	size_t quantity;$/;"	m	class:Disc_item	access:protected
+set_type	basket.h	/^	typedef std::multies<sales_item, comp> set_type;$/;"	t	class:Basket	access:public
+size	basket.h	/^	size_type size(const sales_item &i) const$/;"	f	class:Basket	access:public	signature:(const sales_item &i) const
+size_type	basket.h	/^	typedef set_type::size_type size_type;$/;"	t	class:Basket	access:public
+total	basket.cc	/^double Basket::total() const$/;"	f	class:Basket	signature:() const
+total	basket.h	/^	double total() const;$/;"	p	class:Basket	access:public	signature:() const
+use	sales_item.h	/^	std::size_t *use;$/;"	m	class:Sales_item	access:private
+~Item_base	item.h	/^	virtual ~Item_base() {}$/;"	f	class:Item_base	access:public	signature:()
+~Sale_item	sales_item.h	/^	~Sale_item() { decr_use(); }$/;"	f	class:Sales_item	access:public	signature:()

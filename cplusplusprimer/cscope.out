@@ -1,0 +1,1956 @@
+cscope 15 $HOME/Dropbox/cstudy/cplusplusprimer               0000008515
+	@15.35/basket.h
+
+1 #iâdeà
+BASKET_H
+
+
+2 
+	#BASKET_H
+
+
+	)
+
+4 
+	~<£t
+>
+
+5 
+	~"§Ës_™em.h
+"
+
+7 
+šlše
+ 
+boŞ
+
+
+8 
+	$com·»
+(cÚ¡ 
+§Ës_™em
+ &
+lhs
+, cÚ¡ s®es_™em &
+rhs
+)
+
+10  
+lhs
+->
+	`book
+(è< 
+rhs
+->book();
+
+11 
+	}
+}
+
+13 şas 
+	cBask‘
+ {
+
+14 
+	$boŞ
+ (*
+	tcomp
+è(cÚ¡ 
+	t§Ës_™em
+&, const sales_item&);
+
+15 
+public
+:
+
+16 
+¡d
+::
+	tmuÉ›s
+<
+	t§Ës_™em
+, 
+	tcomp
+> 
+	t£t_ty³
+;
+
+17 
+£t_ty³
+::
+	tsize_ty³
+ size_type;
+
+18 
+£t_ty³
+::
+	tcÚ¡_™”©Ü
+ 
+	tcÚ¡_™”
+;
+
+20 
+	$Bask‘
+(): 
+	$™ems
+(
+com·»
+) {}
+
+22 
+	$add_™em
+(cÚ¡ 
+§Ës_™em
+ &
+™em
+)
+
+24 
+™em
+.
+	`š£¹
+(item);
+
+25 
+	}
+}
+
+27 
+size_ty³
+ 
+	$size
+(cÚ¡ 
+§Ës_™em
+ &
+i
+) const
+
+29  
+™ems
+.
+	`couÁ
+(
+i
+)
+
+30 
+	}
+}
+
+32 
+	$tÙ®
+() const;
+
+34 
+´iv©e
+:
+
+35 
+¡d
+::
+muÉi£t
+<
+§Ës_™em
+, 
+comp
+> 
+™ems
+;
+
+37 
+	}
+};
+
+	@15.35/item.h
+
+1 #iâdeà
+ITEM_H
+
+
+2 
+	#ITEM_H
+
+
+	)
+
+3 
+	~<¡ršg
+>
+
+5 şas 
+	cI‹m_ba£
+ {
+
+6 
+	mpublic
+:
+
+7 
+I‹m_ba£
+(cÚ¡ 
+¡d
+::
+¡ršg
+ &
+book
+ = "",
+
+8 
+§Ës_´iû
+ = 0.0):
+
+9 
+isbn
+(
+book
+), 
+	$´iû
+(
+§Ës_´iû
+) {}
+
+11 
+¡d
+::
+¡ršg
+ 
+	$book
+() const
+
+13  
+isbn
+;
+
+14 
+	}
+}
+
+16 
+vœtu®
+ 
+	$Ãt_´iû
+(
+size_t
+ 
+n
+) const
+
+18  
+n
+ * 
+´iû
+;
+
+19 
+	}
+}
+
+21 
+vœtu®
+ 
+I‹m_ba£
+* 
+	$şÚe
+() const
+
+23  
+Ãw
+ 
+	`I‹m_ba£
+(*
+this
+);
+
+24 
+	}
+}
+
+26 
+	gvœtu®
+ ~
+	$I‹m_ba£
+(è{
+	}
+}
+
+28 
+	g´iv©e
+:
+
+29 
+¡d
+::
+¡ršg
+ 
+isbn
+;
+
+31 
+	g´Ùeùed
+:
+
+32 
+´iû
+;
+
+36 şas 
+	cDisc_™em
+ : 
+public
+ 
+I‹m_ba£
+ {
+
+37 
+public
+:
+
+38 
+Disc_™em
+(cÚ¡ 
+¡d
+::
+¡ršg
+& 
+book
+ = "",
+
+39 
+§Ës_´iû
+ = 0.0,
+
+40 
+size_t
+ 
+qty
+ = 0, 
+disc_¿‹
+ = 0.0):
+
+41 
+I‹m_ba£
+(
+book
+, 
+§Ës_´iû
+),
+
+42 
+quªt™y
+(
+qty
+), 
+	$discouÁ
+(
+disc_¿‹
+) {}
+
+44 
+	$Ãt_´iû
+(
+size_t
+) const = 0;
+
+46 
+¡d
+::
+·œ
+<
+size_t
+, > 
+	$discouÁ_pŞicy
+() const
+
+48  
+¡d
+::
+	`make_·œ
+(
+quªt™y
+, 
+discouÁ
+);
+
+49 
+	}
+}
+
+51 
+	g´Ùeùed
+:
+
+52 
+size_t
+ 
+quªt™y
+;
+
+53 
+	gdiscouÁ
+;
+
+57 şas 
+	cBulk_™em
+ : 
+public
+ 
+Disc_™em
+ {
+
+58 
+public
+:
+
+59 
+Bulk_™em
+(cÚ¡ 
+¡d
+::
+¡ršg
+& 
+book
+ = "",
+
+60 
+§Ës_´iû
+ = 0.0,
+
+61 
+size_t
+ 
+qty
+ = 0, 
+disc_¿‹
+ = 0.0):
+
+62 
+	$Disc_™em
+(
+book
+, 
+§Ës_´iû
+, 
+qty
+, 
+disc_¿‹
+) {}
+
+64 
+	$Ãt_´iû
+(
+size_t
+ 
+út
+) const
+
+66 ià(
+út
+ >ğ
+quªt™y
+)
+
+67  
+út
+ * (1 - 
+discouÁ
+è* 
+´iû
+;
+
+69  
+út
+ * 
+´iû
+;
+
+71 
+	}
+}
+
+73 
+vœtu®
+ 
+Bulk_™em
+* 
+	$şÚe
+() const
+
+75  
+Ãw
+ 
+	`Bulk_™em
+(*
+this
+)
+
+76 
+	}
+}
+
+80 şas 
+	cLds_™em
+ : 
+public
+ 
+Disc_™em
+ {
+
+81 
+public
+:
+
+82 
+Lds_™em
+(cÚ¡ 
+¡d
+::
+¡ršg
+& 
+book
+ = "",
+
+83 
+§Ës_´iû
+ = 0.0,
+
+84 
+size_t
+ 
+qty
+ = 0, 
+dŸc_¿‹
+ = 0.0):
+
+85 
+	$Disc_™em
+(
+book
+, 
+§Ës_´iû
+, 
+qty
+, 
+disc_¿‹
+) {}
+
+87 
+	$Ãt_´iû
+(
+size_t
+ 
+út
+) const
+
+89 ià(
+út
+ <ğ
+quªt™y
+)
+
+90  
+út
+ * (1 - 
+discouÁ
+è* 
+´iû
+;
+
+92  
+út
+ * 
+´iû
+ - 
+quªt™y
+ * 
+discouÁ
+ *…rice;
+
+93 
+	}
+}
+
+95 
+vœtu®
+ 
+Lds_™em
+* 
+	$şÚe
+() const
+
+97  
+Ãw
+ 
+	`Lds_™em
+(*
+this
+);
+
+98 
+	}
+}
+
+	@15.35/sales_item.h
+
+1 #iâdeà
+SALESITEM_H
+
+
+2 
+	#SALESITEM_H
+
+
+	)
+
+3 
+	~"™em.h
+"
+
+5 şas 
+	cS®es_™em
+ {
+
+6 
+	mpublic
+:
+
+7 
+	$S®es_™em
+(): 
+	`p
+(0), 
+	`u£
+(
+Ãw
+ 
+¡d
+::
+	$size_t
+(1)) {}
+
+9 
+	$S®e_™em
+(cÚ¡ 
+I‹m_ba£
+& 
+™em
+):
+
+10 
+	`p
+(
+™em
+.
+	`şÚe
+()), 
+	`u£
+(
+Ãw
+ 
+¡d
+::
+	$size_t
+(1)è{
+	}
+}
+
+12 
+	$S®e_™em
+(cÚ¡ 
+S®es_™em
+ &
+i
+):
+
+13 
+	`p
+(
+i
+.
+p
+), 
+	$u£
+(
+i
+.
+u£
+è{ ++*u£; 
+	}
+}
+
+15 ~
+	$S®e_™em
+(è{ 
+	`deü_u£
+(); 
+	}
+}
+
+16 
+	gS®e_™em
+& 
+	gİ”©Ü
+=(cÚ¡ 
+S®es_™em
+&);
+
+18 cÚ¡ 
+I‹m_ba£
+ *
+	gİ”©Ü
+->() const
+
+20 ià(
+	gp
+)
+
+21  
+	gp
+;
+
+23 
+throw
+ 
+	g¡d
+::
+logic_”rÜ
+("unbound Sales_item");
+
+28 cÚ¡ 
+	gI‹m_ba£
+ &
+	gİ”©Ü
+*() const
+
+30 ià(
+	gp
+)
+
+31  *
+	gp
+;
+
+33  
+	g¡d
+::
+logic_”rÜ
+("unbound Sales_items");
+
+36 
+	g´iv©e
+:
+
+37 
+I‹m_ba£
+ *
+p
+;
+
+38 
+	g¡d
+::
+size_t
+ *
+u£
+;
+
+40 
+	$deü_u£
+()
+
+42 ià(--*
+u£
+ == 0) {
+
+43 
+d–‘e
+ 
+p
+;
+
+44 
+d–‘e
+ 
+u£
+;
+
+46 
+	}
+}
+
+	@16.44.h
+
+2 #iâdeà
+QUEUE_H
+
+
+3 
+	#QUEUE_H
+
+
+	)
+
+4 
+	~<io¡»am
+>
+
+5 
+	~<li¡
+>
+
+7 
+	g‹m¶©e
+ <
+şass
+ 
+	gTy³
+> cÏs 
+	gQueue
+;
+
+8 
+	g‹m¶©e
+ <
+şass
+ 
+	gT
+>
+
+9 
+	g¡d
+::
+o¡»am
+& 
+İ”©Ü
+<<(
+¡d
+::o¡»am&, cÚ¡ 
+	gQueue
+<
+	gT
+>&);
+
+11 
+	g‹m¶©e
+ <
+şass
+ 
+	gTy³
+> cÏs 
+	cQueue
+ {
+
+12 
+ä›nd
+ 
+	m¡d
+::
+o¡»am
+& 
+İ”©Ü
+<<(
+¡d
+::o¡»am&, cÚ¡ 
+	mQueue
+<
+	mT
+>&);
+
+13 
+	mpublic
+:
+
+14 
+	$Queue
+() {}
+
+15 
+‹m¶©e
+ <
+şass
+ 
+It
+> 
+	$Queue
+(
+It
+, 
+beg
+, Iˆ
+’d
+): 
+	$™ems
+(
+beg
+, 
+’d
+è{
+	}
+}
+
+17 
+	g‹m¶©e
+ <
+şass
+ 
+	gI‹r
+> 
+	$assign
+(
+I‹r
+ 
+beg
+, I‹¸
+’d
+)
+
+19 
+™ems
+.
+	`assign
+(
+beg
+, 
+’d
+);
+
+21 
+	}
+}
+
+23 
+	gTy³
+& 
+	$äÚt
+()
+
+25  
+™ems
+.
+	`äÚt
+();
+
+26 
+	}
+}
+
+28 cÚ¡ 
+	gTy³
+& 
+	$äÚt
+() const
+
+30  
+™ems
+.
+	`äÚt
+();
+
+31 
+	}
+}
+
+33 
+	$push
+(cÚ¡ 
+Ty³
+ &
+t
+)
+
+35 
+™ems
+.
+	`push_back
+(
+t
+);
+
+36 
+	}
+}
+
+38 
+	$pİ
+()
+
+40 
+™ems
+.
+	`”a£
+(™ems.
+	`begš
+());
+
+41 
+	}
+}
+
+43 
+	g´iv©e
+:
+
+44 
+¡d
+::
+li¡
+<
+Ty³
+> 
+™ems
+;
+
+47 
+	g‹m¶©e
+ <
+şass
+ 
+	gTy³
+>
+
+48 
+	g¡d
+::
+o¡»am
+& 
+İ”©Ü
+<<(
+¡d
+::o¡»am &
+os
+, cÚ¡ 
+	gQueue
+<
+	gTy³
+> &
+	gq
+)
+
+50 
+	gos
+ << "< ";
+
+51 
+ty³Çme
+ 
+	g¡d
+::
+li¡
+<
+Ty³
+>::
+cÚ¡_™”©Ü
+ 
+beg
+ = 
+q
+.
+™ems
+.
+begš
+();
+
+52 
+	gbeg
+ !ğ
+q
+.
+™ems
+.
+’d
+()) {
+
+53 
+os
+ << *
+beg
+ << " ";
+
+54 ++
+	gbeg
+;
+
+56 
+	gos
+ << ">";
+
+57  
+	gos
+;
+
+	@Sales_item.h
+
+5 #iâdeà
+SALESITEM_H
+
+
+6 
+	#SALESITEM_H
+
+
+	)
+
+7 
+	~<io¡»am
+>
+
+8 
+	~<¡ršg
+>
+
+10 şas 
+	cS®es_™em
+ {
+
+11 
+	mpublic
+:
+
+13 
+¡d
+::
+i¡»am
+ &
+šput
+(¡d::i¡»am &
+š
+);
+
+14 
+	m¡d
+::
+o¡»am
+ &
+ouut
+(
+¡d
+::o¡»am &
+out
+) const;
+
+15 
+	$avg_´iû
+() const;
+
+16 
+boŞ
+ 
+	$§me_isbn
+(cÚ¡ 
+S®es_™em
+ &
+rhs
+) const {
+
+17  
+isbn
+ =ğ
+rhs
+.isbn;
+
+22 
+	$S®es_™em
+(): 
+	`un™s_sŞd
+(0), 
+	$»v’ue
+(0.0è{
+	}
+}
+
+24 
+	g´iv©e
+:
+
+25 
+¡d
+::
+¡ršg
+ 
+isbn
+;
+
+26 
+	gun™s_sŞd
+;
+
+27 
+	g»v’ue
+;
+
+	@get.h
+
+1 #iâdeà
+GET_H
+
+
+2 
+	#GE
+
+
+	)
+
+5 
+	g¡d
+::
+i¡»am
+& 
+g‘
+(
+¡d
+::i¡»am& 
+š
+)
+
+	@gnu_files/17/virt.h
+
+30 
+	~<¡ršg
+>
+
+31 
+	~<io¡»am
+>
+
+33 şas 
+	cEndªg”ed
+ {
+
+34 
+	mpublic
+:
+
+35 
+	eStus
+ { 
+ü™iÿl
+, 
+	m’vœÚm’t
+, 
+	mim´ovšg
+ };
+
+36 
+	$Endªg”ed
+(
+Stus
+ 
+¡©
+): 
+	$ªim®_¡©us
+(
+¡©
+è{ 
+	}
+}
+
+37 
+vœtu®
+ ~
+Endªg”ed
+();
+
+38 
+vœtu®
+ 
+	g¡d
+::
+o¡»am
+& 
+´št
+(
+¡d
+::ostream&) const;
+
+39 
+vœtu®
+ 
+	$highlight
+() const;
+
+41 
+´iv©e
+:
+
+42 
+Stus
+ 
+ªim®_¡©us
+;
+
+43 
+	}
+};
+
+45 
+şass
+ 
+	gZooAnim®
+;
+
+46 
+¡d
+::
+o¡»am
+&
+
+47 
+İ”©Ü
+<<(
+¡d
+::
+o¡»am
+&, cÚ¡ 
+ZooAnim®
+&);
+
+49 şas 
+	cZooAnim®
+ {
+
+50 
+	mpublic
+:
+
+51 
+	$ZooAnim®
+() { }
+
+52 
+	`ZooAnim®
+(
+¡d
+::
+¡ršg
+ 
+ªim®
+, 
+boŞ
+ 
+exhib™
+,
+
+53 
+¡d
+::
+¡ršg
+ 
+çmy
+): 
+	`nm
+(
+ªim®
+),
+
+54 
+	`exhib™_¡©
+(
+exhib™
+),
+
+55 
+	$çm_Çme
+(
+çmy
+è{ 
+	}
+}
+
+56 
+	gvœtu®
+ ~
+ZooAnim®
+();
+
+58 
+vœtu®
+ 
+	g¡d
+::
+o¡»am
+& 
+´št
+(
+¡d
+::ostream&) const;
+
+59 
+vœtu®
+ 
+	$pİuÏtiÚ
+() const;
+
+62 
+¡d
+::
+¡ršg
+ 
+	$Çme
+(ècÚ¡ {  
+nm
+; 
+	}
+}
+
+63 
+	g¡d
+::
+¡ršg
+ 
+	$çmy_Çme
+(ècÚ¡ {  
+çm_Çme
+; 
+	}
+}
+
+64 
+boŞ
+ 
+	$ÚExhib™
+(ècÚ¡ {  
+exhib™_¡©
+; 
+	}
+}
+
+66 
+	g´Ùeùed
+:
+
+67 
+¡d
+::
+¡ršg
+ 
+nm
+;
+
+68 
+boŞ
+ 
+	gexhib™_¡©
+;
+
+69 
+	g¡d
+::
+¡ršg
+ 
+çm_Çme
+;
+
+71 
+	g´iv©e
+:
+
+75 şas 
+	cRaccoÚ
+ : 
+public
+ 
+vœtu®
+ 
+ZooAnim®
+ {
+
+76 
+public
+:
+
+77 
+RaccoÚ
+();
+
+78 
+RaccoÚ
+(
+¡d
+::
+¡ršg
+ 
+Çme
+, 
+boŞ
+ 
+ÚExhib™
+=
+Œue
+);
+
+80 
+vœtu®
+ 
+	m¡d
+::
+o¡»am
+& 
+´št
+(
+¡d
+::ostream&) const;
+
+82 
+boŞ
+ 
+	$³‰abË
+(ècÚ¡ { 
+³‰abË_æag
+; }
+
+83 
+	$³‰abË
+(
+boŞ
+ 
+³tv®
+è{
+³‰abË_æag
+ =…‘v®;
+	}
+}
+
+86 
+	g´Ùeùed
+:
+
+87 
+boŞ
+ 
+³‰abË_æag
+;
+
+91 şas 
+	cB—r
+ : 
+vœtu®
+ 
+public
+ 
+ZooAnim®
+ {
+
+92 
+public
+:
+
+94 
+B—r
+(
+¡d
+::
+¡ršg
+ 
+Çme
+, 
+boŞ
+ 
+ÚExhib™
+=
+Œue
+);
+
+95 
+	m´Ùeùed
+:
+
+97 
+	$B—r
+(è: 
+	$dªû_æag
+(
+two_Ëá_ã‘
+) { }
+
+99 
+public
+:
+
+100 
+	eDªûTy³
+ { 
+two_Ëá_ã‘
+, 
+maÿ»Ç
+, 
+çndªgo
+ 
+	}
+};
+
+102 
+vœtu®
+ 
+	g¡d
+::
+o¡»am
+ &
+´št
+(
+¡d
+::ostream&) const;
+
+103 
+vœtu®
+ 
+	g¡d
+::
+¡ršg
+ 
+	$isA
+() const;
+
+104 
+	`mumbË
+();
+
+105 
+	$dªû
+(
+DªûTy³
+) const;
+
+107 
+vœtu®
+ ~
+	`B—r
+();
+
+108 
+´iv©e
+:
+
+109 
+¡d
+::
+¡ršg
+ 
+Çme
+;
+
+110 
+iv®
+;
+
+111 
+DªûTy³
+ 
+dªû_æag
+;
+
+112 
+	}
+};
+
+114 
+şass
+ 
+	gPªda
+ : 
+public
+ 
+B—r
+,
+
+115 
+public
+ 
+	gRaccoÚ
+,…ubliø
+	gEndªg”ed
+ {
+
+116 
+	gpublic
+:
+
+117 
+Pªda
+();
+
+118 
+Pªda
+(
+¡d
+::
+¡ršg
+ 
+Çme
+, 
+boŞ
+ 
+ÚExhib™
+=
+Œue
+);
+
+119 
+vœtu®
+ 
+	g¡d
+::
+o¡»am
+& 
+´št
+(
+¡d
+::ostream&) const;
+
+121 
+boŞ
+ 
+¦“pšg
+(ècÚ¡ { 
+	g¦“pšg_æag
+;}
+
+122 
+¦“pšg
+(
+boŞ
+ 
+Ãwv®
+è{
+	g¦“pšg_æag
+ =‚ewval;}
+
+125 
+	g´Ùeùed
+:
+
+126 
+boŞ
+ 
+¦“pšg_æag
+;
+
+131 
+	gB—r
+::
+B—r
+(
+¡d
+::
+¡ršg
+ 
+Çme
+, 
+boŞ
+ 
+ÚExhib™
+):
+
+132 
+ZooAnim®
+(
+Çme
+, 
+ÚExhib™
+, "Bear") { }
+
+133 
+	gRaccoÚ
+::
+RaccoÚ
+(
+¡d
+::
+¡ršg
+ 
+Çme
+, 
+boŞ
+ 
+ÚExhib™
+)
+
+134 : 
+ZooAnim®
+(
+Çme
+, 
+ÚExhib™
+, "Raccoon") { }
+
+136 
+	gPªda
+::
+Pªda
+(
+¡d
+::
+¡ršg
+ 
+Çme
+, 
+boŞ
+ 
+ÚExhib™
+)
+
+137 : 
+ZooAnim®
+(
+Çme
+, 
+ÚExhib™
+, "Panda"),
+
+138 
+B—r
+(
+Çme
+, 
+ÚExhib™
+),
+
+139 
+RaccoÚ
+(
+Çme
+, 
+ÚExhib™
+),
+
+140 
+Endªg”ed
+(Endªg”ed::
+ü™iÿl
+),
+
+141 
+	$¦“pšg_æag
+(
+çl£
+è{ 
+	}
+}
+
+	@gnu_files/7/decl1.h
+
+30 
+sw­
+(, );
+
+	@gnu_files/7/decl2.h
+
+30 
+sw­
+(&, &);
+
+	@gnu_files/7/ff.h
+
+32 
+ff
+(= 0);
+
+	@open_file.cpp
+
+2 
+	~"İ’_fe.hµ
+"
+
+3 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+5 
+	gif¡»am
+& 
+	$İ’_fe
+(
+if¡»am
+ &
+š
+, cÚ¡ 
+¡ršg
+ &
+fe
+)
+
+7 
+š
+.
+	`şo£
+();
+
+8 
+š
+.
+	`ş—r
+();
+
+9 
+š
+.
+	`İ’
+(
+fe
+.
+	`c_¡r
+());
+
+10  
+š
+;
+
+12 
+	}
+}
+
+	@open_file.h
+
+2 #iâdeà
+OPEN_FLIE
+
+
+3 
+	#OPEN_FILE
+
+
+	)
+
+4 
+usšg
+ 
+Çme¥aû
+ 
+	g¡d
+;
+
+6 
+	gif¡»am
+& 
+İ’_fe
+(
+if¡»am
+ &
+š
+, cÚ¡ 
+¡ršg
+ &
+fe
+);
+
+	@
+1
+.
+1
+/usr/include
+12
+177
+15.35/basket.h
+15.35/item.h
+15.35/sales_item.h
+16.44.h
+Sales_item.h
+get.h
+gnu_files/17/virt.h
+gnu_files/7/decl1.h
+gnu_files/7/decl2.h
+gnu_files/7/ff.h
+open_file.cpp
+open_file.h

@@ -1,0 +1,472 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BASKET_H	15.35/basket.h	2;"	d
+BET_cls	14.35.cc	/^	BET_cls(string::size_type len1, string::size_type len2)$/;"	f	class:BET_cls	access:public	signature:(string::size_type len1, string::size_type len2)
+BET_cls	14.35.cc	/^class BET_cls {$/;"	c	file:
+BET_cls	14.36.cc	/^	BET_cls(string::size_type len1, string::size_type len2)$/;"	f	class:BET_cls	access:public	signature:(string::size_type len1, string::size_type len2)
+BET_cls	14.36.cc	/^class BET_cls {$/;"	c	file:
+BET_cls::BET_cls	14.35.cc	/^	BET_cls(string::size_type len1, string::size_type len2)$/;"	f	class:BET_cls	access:public	signature:(string::size_type len1, string::size_type len2)
+BET_cls::BET_cls	14.36.cc	/^	BET_cls(string::size_type len1, string::size_type len2)$/;"	f	class:BET_cls	access:public	signature:(string::size_type len1, string::size_type len2)
+BET_cls::maxLength	14.35.cc	/^	string::size_type maxLength;$/;"	m	class:BET_cls	file:	access:private
+BET_cls::maxLength	14.36.cc	/^	string::size_type maxLength;$/;"	m	class:BET_cls	file:	access:private
+BET_cls::minLength	14.35.cc	/^	string::size_type minLength;$/;"	m	class:BET_cls	file:	access:private
+BET_cls::minLength	14.36.cc	/^	string::size_type minLength;$/;"	m	class:BET_cls	file:	access:private
+BET_cls::operator ()	14.35.cc	/^	bool operator () (const string &s)$/;"	f	class:BET_cls	access:public	signature:(const string &s)
+BET_cls::operator ()	14.36.cc	/^	bool operator () (const string &s)$/;"	f	class:BET_cls	access:public	signature:(const string &s)
+Basket	15.35/basket.h	/^	Basket(): items(compare) {}$/;"	f	class:Basket	access:public	signature:()
+Basket	15.35/basket.h	/^class Basket {$/;"	c
+Basket::Basket	15.35/basket.h	/^	Basket(): items(compare) {}$/;"	f	class:Basket	access:public	signature:()
+Basket::add_item	15.35/basket.h	/^	void add_item(const sales_item &item)$/;"	f	class:Basket	access:public	signature:(const sales_item &item)
+Basket::comp	15.35/basket.h	/^	typedef bool (*comp) (const sales_item&, const sales_item&);$/;"	t	class:Basket	access:private
+Basket::const_iter	15.35/basket.h	/^	typedef set_type::const_iterator const_iter;$/;"	t	class:Basket	access:public
+Basket::items	15.35/basket.h	/^	std::multiset<sales_item, comp> items;$/;"	m	class:Basket	access:private
+Basket::set_type	15.35/basket.h	/^	typedef std::multies<sales_item, comp> set_type;$/;"	t	class:Basket	access:public
+Basket::size	15.35/basket.h	/^	size_type size(const sales_item &i) const$/;"	f	class:Basket	access:public	signature:(const sales_item &i) const
+Basket::size_type	15.35/basket.h	/^	typedef set_type::size_type size_type;$/;"	t	class:Basket	access:public
+Basket::total	15.35/basket.cc	/^double Basket::total() const$/;"	f	class:Basket	signature:() const
+Basket::total	15.35/basket.h	/^	double total() const;$/;"	p	class:Basket	access:public	signature:() const
+Bear	gnu_files/17/virt.h	/^    Bear() : dance_flag(two_left_feet) { }$/;"	f	class:Bear	access:protected	signature:()
+Bear	gnu_files/17/virt.h	/^    Bear(std::string name, bool onExhibit=true);$/;"	p	class:Bear	access:public	signature:(std::string name, bool onExhibit=true)
+Bear	gnu_files/17/virt.h	/^Bear::Bear(std::string name, bool onExhibit):$/;"	f	class:Bear	signature:(std::string name, bool onExhibit)
+Bear	gnu_files/17/virt.h	/^class Bear : virtual public ZooAnimal {$/;"	c	inherits:ZooAnimal
+Bear::Bear	gnu_files/17/virt.h	/^    Bear() : dance_flag(two_left_feet) { }$/;"	f	class:Bear	access:protected	signature:()
+Bear::Bear	gnu_files/17/virt.h	/^    Bear(std::string name, bool onExhibit=true);$/;"	p	class:Bear	access:public	signature:(std::string name, bool onExhibit=true)
+Bear::Bear	gnu_files/17/virt.h	/^Bear::Bear(std::string name, bool onExhibit):$/;"	f	class:Bear	signature:(std::string name, bool onExhibit)
+Bear::DanceType	gnu_files/17/virt.h	/^    enum DanceType { two_left_feet, macarena, fandango };$/;"	g	class:Bear	access:public
+Bear::dance	gnu_files/17/virt.h	/^    void dance(DanceType) const;$/;"	p	class:Bear	access:public	signature:(DanceType) const
+Bear::dance_flag	gnu_files/17/virt.h	/^    DanceType dance_flag;$/;"	m	class:Bear	access:private
+Bear::fandango	gnu_files/17/virt.h	/^    enum DanceType { two_left_feet, macarena, fandango };$/;"	e	enum:Bear::DanceType
+Bear::isA	gnu_files/17/virt.h	/^    virtual std::string isA() const;$/;"	p	class:Bear	access:public	signature:() const
+Bear::ival	gnu_files/17/virt.h	/^    int    ival;$/;"	m	class:Bear	access:private
+Bear::macarena	gnu_files/17/virt.h	/^    enum DanceType { two_left_feet, macarena, fandango };$/;"	e	enum:Bear::DanceType
+Bear::mumble	gnu_files/17/virt.h	/^    int mumble(int);$/;"	p	class:Bear	access:public	signature:(int)
+Bear::name	gnu_files/17/virt.h	/^    std::string name;$/;"	m	class:Bear	access:private
+Bear::print	gnu_files/17/virt.h	/^    virtual std::ostream &print(std::ostream&) const;$/;"	p	class:Bear	access:public	signature:(std::ostream&) const
+Bear::two_left_feet	gnu_files/17/virt.h	/^    enum DanceType { two_left_feet, macarena, fandango };$/;"	e	enum:Bear::DanceType
+Bear::~Bear	gnu_files/17/virt.h	/^virtual ~Bear();$/;"	p	class:Bear	access:public	signature:()
+Bulk_item	15.35/item.h	/^	Bulk_item(const std::string& book = "",$/;"	f	class:Bulk_item	access:public	signature:(const std::string& book = �, double sales_price = 0.0, size_t qty = 0, double disc_rate = 0.0)
+Bulk_item	15.35/item.h	/^class Bulk_item : public Disc_item {$/;"	c	inherits:Disc_item
+Bulk_item::Bulk_item	15.35/item.h	/^	Bulk_item(const std::string& book = "",$/;"	f	class:Bulk_item	access:public	signature:(const std::string& book = �, double sales_price = 0.0, size_t qty = 0, double disc_rate = 0.0)
+Bulk_item::clone	15.35/item.h	/^	virtual Bulk_item* clone() const$/;"	f	class:Bulk_item	access:public	signature:() const
+Bulk_item::net_price	15.35/item.h	/^	double net_price(size_t cnt) const$/;"	f	class:Bulk_item	access:public	signature:(size_t cnt) const
+DIRS	gnu_files/makefile	/^DIRS = 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18$/;"	m
+DanceType	gnu_files/17/virt.h	/^    enum DanceType { two_left_feet, macarena, fandango };$/;"	g	class:Bear	access:public
+Disc_item	15.35/item.h	/^	Disc_item(const std::string& book = "",$/;"	f	class:Disc_item	access:public	signature:(const std::string& book = �, double sales_price = 0.0, size_t qty = 0, double disc_rate = 0.0)
+Disc_item	15.35/item.h	/^class Disc_item : public Item_base {$/;"	c	inherits:Item_base
+Disc_item::Disc_item	15.35/item.h	/^	Disc_item(const std::string& book = "",$/;"	f	class:Disc_item	access:public	signature:(const std::string& book = �, double sales_price = 0.0, size_t qty = 0, double disc_rate = 0.0)
+Disc_item::discount	15.35/item.h	/^	double discount;$/;"	m	class:Disc_item	access:protected
+Disc_item::discount_policy	15.35/item.h	/^	std::pair<size_t, double> discount_policy() const$/;"	f	class:Disc_item	access:public	signature:() const
+Disc_item::net_price	15.35/item.h	/^	double net_price(size_t) const = 0;$/;"	p	class:Disc_item	access:public	signature:(size_t) const
+Disc_item::quantity	15.35/item.h	/^	size_t quantity;$/;"	m	class:Disc_item	access:protected
+EQ_cls	14.34.cc	/^	EQ_cls(int val = 0): spValue(val) {}$/;"	f	class:EQ_cls	access:public	signature:(int val = 0)
+EQ_cls	14.34.cc	/^class EQ_cls {$/;"	c	file:
+EQ_cls::EQ_cls	14.34.cc	/^	EQ_cls(int val = 0): spValue(val) {}$/;"	f	class:EQ_cls	access:public	signature:(int val = 0)
+EQ_cls::operator ()	14.34.cc	/^	bool operator() (const int &ival)$/;"	f	class:EQ_cls	access:public	signature:(const int &ival)
+EQ_cls::spValue	14.34.cc	/^	int spValue;$/;"	m	class:EQ_cls	file:	access:private
+Endangered	gnu_files/17/virt.h	/^    Endangered(Status stat): animal_status(stat) { }$/;"	f	class:Endangered	access:public	signature:(Status stat)
+Endangered	gnu_files/17/virt.h	/^class Endangered {$/;"	c
+Endangered::Endangered	gnu_files/17/virt.h	/^    Endangered(Status stat): animal_status(stat) { }$/;"	f	class:Endangered	access:public	signature:(Status stat)
+Endangered::Status	gnu_files/17/virt.h	/^    enum Status { critical, environment, improving };$/;"	g	class:Endangered	access:public
+Endangered::animal_status	gnu_files/17/virt.h	/^    Status animal_status;$/;"	m	class:Endangered	access:private
+Endangered::critical	gnu_files/17/virt.h	/^    enum Status { critical, environment, improving };$/;"	e	enum:Endangered::Status
+Endangered::environment	gnu_files/17/virt.h	/^    enum Status { critical, environment, improving };$/;"	e	enum:Endangered::Status
+Endangered::highlight	gnu_files/17/virt.h	/^    virtual void highlight() const;$/;"	p	class:Endangered	access:public	signature:() const
+Endangered::improving	gnu_files/17/virt.h	/^    enum Status { critical, environment, improving };$/;"	e	enum:Endangered::Status
+Endangered::print	gnu_files/17/virt.h	/^    virtual std::ostream& print(std::ostream&) const;$/;"	p	class:Endangered	access:public	signature:(std::ostream&) const
+Endangered::~Endangered	gnu_files/17/virt.h	/^    virtual ~Endangered();$/;"	p	class:Endangered	access:public	signature:()
+Foo	test02.cc	/^class Foo {$/;"	c	file:
+GE	get.h	2;"	d
+GT4	11.9.cc	/^bool GT4(const string &s)$/;"	f	signature:(const string &s)
+GT_cls	14.33.cc	/^	GT_cls(int val = 0): bound(val) {}$/;"	f	class:GT_cls	access:public	signature:(int val = 0)
+GT_cls	14.33.cc	/^class GT_cls {$/;"	c	file:
+GT_cls	14.36.cc	/^	GT_cls(size_t val = 0) : bound(val) {}$/;"	f	class:GT_cls	access:public	signature:(size_t val = 0)
+GT_cls	14.36.cc	/^class GT_cls {$/;"	c	file:
+GT_cls::GT_cls	14.33.cc	/^	GT_cls(int val = 0): bound(val) {}$/;"	f	class:GT_cls	access:public	signature:(int val = 0)
+GT_cls::GT_cls	14.36.cc	/^	GT_cls(size_t val = 0) : bound(val) {}$/;"	f	class:GT_cls	access:public	signature:(size_t val = 0)
+GT_cls::bound	14.33.cc	/^	int bound;$/;"	m	class:GT_cls	file:	access:private
+GT_cls::bound	14.36.cc	/^	std::string::size_type bound;$/;"	m	class:GT_cls	file:	access:private
+GT_cls::operator ()	14.33.cc	/^	bool operator() (const int &ival)$/;"	f	class:GT_cls	access:public	signature:(const int &ival)
+GT_cls::operator ()	14.36.cc	/^	bool operator () (const string &s)$/;"	f	class:GT_cls	access:public	signature:(const string &s)
+HasPtr	test22.cc	/^	HasPtr(const HasPtr &orig):$/;"	f	class:HasPtr	access:public	signature:(const HasPtr &orig)
+HasPtr	test22.cc	/^	HasPtr(int *p, int i): ptr(new U_Ptr(p)), val(i) {}$/;"	f	class:HasPtr	access:public	signature:(int *p, int i)
+HasPtr	test22.cc	/^class HasPtr {$/;"	c	file:
+HasPtr::HasPtr	test22.cc	/^	HasPtr(const HasPtr &orig):$/;"	f	class:HasPtr	access:public	signature:(const HasPtr &orig)
+HasPtr::HasPtr	test22.cc	/^	HasPtr(int *p, int i): ptr(new U_Ptr(p)), val(i) {}$/;"	f	class:HasPtr	access:public	signature:(int *p, int i)
+HasPtr::get_int	test22.cc	/^	int get_int() const { return val;}$/;"	f	class:HasPtr	access:public	signature:() const
+HasPtr::get_ptr	test22.cc	/^	int *get_ptr() const { return ptr->ip;}$/;"	f	class:HasPtr	access:public	signature:() const
+HasPtr::get_ptr_val	test22.cc	/^	int get_ptr_val() const { return *ptr->ip; }$/;"	f	class:HasPtr	access:public	signature:() const
+HasPtr::operator =	test22.cc	/^	HasPtr& operator = (const HasPtr&);$/;"	p	class:HasPtr	file:	access:public	signature:(const HasPtr&)
+HasPtr::operator =	test22.cc	/^HasPtr& HasPtr::operator=(const HasPtr &rhs)$/;"	f	class:HasPtr	signature:(const HasPtr &rhs)
+HasPtr::ptr	test22.cc	/^	U_Ptr *ptr;$/;"	m	class:HasPtr	file:	access:public
+HasPtr::set_int	test22.cc	/^	void set_int(int i) { val = i; }$/;"	f	class:HasPtr	access:public	signature:(int i)
+HasPtr::set_ptr	test22.cc	/^	void set_ptr(int *p) { ptr->ip = p; }$/;"	f	class:HasPtr	access:public	signature:(int *p)
+HasPtr::set_ptr_val	test22.cc	/^	void set_ptr_val(int i) { *ptr->ip = i; }$/;"	f	class:HasPtr	access:public	signature:(int i)
+HasPtr::val	test22.cc	/^	int val;$/;"	m	class:HasPtr	file:	access:public
+ITEM_H	15.35/item.h	2;"	d
+Item_base	15.35/item.h	/^	Item_base(const std::string &book = "",$/;"	f	class:Item_base	access:public	signature:(const std::string &book = �, double sales_price = 0.0)
+Item_base	15.35/item.h	/^class Item_base {$/;"	c
+Item_base::Item_base	15.35/item.h	/^	Item_base(const std::string &book = "",$/;"	f	class:Item_base	access:public	signature:(const std::string &book = �, double sales_price = 0.0)
+Item_base::book	15.35/item.h	/^	std::string book() const$/;"	f	class:Item_base	access:public	signature:() const
+Item_base::clone	15.35/item.h	/^	virtual Item_base* clone() const$/;"	f	class:Item_base	access:public	signature:() const
+Item_base::isbn	15.35/item.h	/^	std::string isbn;$/;"	m	class:Item_base	access:private
+Item_base::net_price	15.35/item.h	/^	virtual double net_price(size_t n) const$/;"	f	class:Item_base	access:public	signature:(size_t n) const
+Item_base::price	15.35/item.h	/^	double price;$/;"	m	class:Item_base	access:protected
+Item_base::~Item_base	15.35/item.h	/^	virtual ~Item_base() {}$/;"	f	class:Item_base	access:public	signature:()
+Lds_item	15.35/item.h	/^	Lds_item(const std::string& book = "",$/;"	f	class:Lds_item	access:public	signature:(const std::string& book = �, double sales_price = 0.0, size_t qty = 0, double diac_rate = 0.0)
+Lds_item	15.35/item.h	/^class Lds_item : public Disc_item {$/;"	c	inherits:Disc_item
+Lds_item::Lds_item	15.35/item.h	/^	Lds_item(const std::string& book = "",$/;"	f	class:Lds_item	access:public	signature:(const std::string& book = �, double sales_price = 0.0, size_t qty = 0, double diac_rate = 0.0)
+Lds_item::clone	15.35/item.h	/^	virtual Lds_item* clone() const$/;"	f	class:Lds_item	access:public	signature:() const
+Lds_item::net_price	15.35/item.h	/^	double net_price(size_t cnt) const$/;"	f	class:Lds_item	access:public	signature:(size_t cnt) const
+NoName	test21.cc	/^	NoName(): pstring(new string), i(0), d(0) {};$/;"	f	struct:NoName	access:public	signature:()
+NoName	test21.cc	/^	NoName(const NoName& other);$/;"	p	struct:NoName	file:	access:public	signature:(const NoName& other)
+NoName	test21.cc	/^NoName::NoName(const NoName& other)$/;"	f	class:NoName	signature:(const NoName& other)
+NoName	test21.cc	/^struct NoName {$/;"	s	file:
+NoName::NoName	test21.cc	/^	NoName(): pstring(new string), i(0), d(0) {};$/;"	f	struct:NoName	access:public	signature:()
+NoName::NoName	test21.cc	/^	NoName(const NoName& other);$/;"	p	struct:NoName	file:	access:public	signature:(const NoName& other)
+NoName::NoName	test21.cc	/^NoName::NoName(const NoName& other)$/;"	f	class:NoName	signature:(const NoName& other)
+NoName::d	test21.cc	/^	double d;$/;"	m	struct:NoName	file:	access:private
+NoName::i	test21.cc	/^	int i;$/;"	m	struct:NoName	file:	access:private
+NoName::pstring	test21.cc	/^	string *pstring;$/;"	m	struct:NoName	file:	access:private
+OPEN_FILE	open_file.h	3;"	d
+Panda	gnu_files/17/virt.h	/^    Panda();$/;"	p	class:Panda	access:public	signature:()
+Panda	gnu_files/17/virt.h	/^    Panda(std::string name, bool onExhibit=true);$/;"	p	class:Panda	access:public	signature:(std::string name, bool onExhibit=true)
+Panda	gnu_files/17/virt.h	/^Panda::Panda(std::string name, bool onExhibit)$/;"	f	class:Panda	signature:(std::string name, bool onExhibit)
+Panda	gnu_files/17/virt.h	/^class Panda : public Bear,$/;"	c	inherits:Bear,Raccoon,Endangered
+Panda::Panda	gnu_files/17/virt.h	/^    Panda();$/;"	p	class:Panda	access:public	signature:()
+Panda::Panda	gnu_files/17/virt.h	/^    Panda(std::string name, bool onExhibit=true);$/;"	p	class:Panda	access:public	signature:(std::string name, bool onExhibit=true)
+Panda::Panda	gnu_files/17/virt.h	/^Panda::Panda(std::string name, bool onExhibit)$/;"	f	class:Panda	signature:(std::string name, bool onExhibit)
+Panda::print	gnu_files/17/virt.h	/^    virtual std::ostream& print(std::ostream&) const;$/;"	p	class:Panda	access:public	signature:(std::ostream&) const
+Panda::sleeping	gnu_files/17/virt.h	/^    bool sleeping() const {return sleeping_flag;}$/;"	f	class:Panda	access:public	signature:() const
+Panda::sleeping	gnu_files/17/virt.h	/^    void sleeping(bool newval) {sleeping_flag = newval;}$/;"	f	class:Panda	access:public	signature:(bool newval)
+Panda::sleeping_flag	gnu_files/17/virt.h	/^    bool sleeping_flag;$/;"	m	class:Panda	access:protected
+QUEUE_H	16.44.h	3;"	d
+Queue	16.44.h	/^	Queue() {}$/;"	f	class:Queue	access:public	signature:()
+Queue	16.44.h	/^	template <class It> Queue(It, beg, It end): items(beg, end) {}$/;"	f	class:Queue	access:public	signature:(It, beg, It end)
+Queue	16.44.h	/^template <class Type> class Queue {$/;"	c
+Queue::Queue	16.44.h	/^	Queue() {}$/;"	f	class:Queue	access:public	signature:()
+Queue::Queue	16.44.h	/^	template <class It> Queue(It, beg, It end): items(beg, end) {}$/;"	f	class:Queue	access:public	signature:(It, beg, It end)
+Queue::assign	16.44.h	/^	template <class Iter> void assign(Iter beg, Iter end)$/;"	f	class:Queue	access:public	signature:(Iter beg, Iter end)
+Queue::front	16.44.h	/^	Type& front()$/;"	f	class:Queue	access:public	signature:()
+Queue::front	16.44.h	/^	const Type& front() const$/;"	f	class:Queue	access:public	signature:() const
+Queue::items	16.44.h	/^	std::list<Type> items;$/;"	m	class:Queue	access:private
+Queue::operator <<	16.44.h	/^	friend std::ostream& operator<<(std::ostream&, const Queue<T>&);$/;"	p	class:Queue	access:friend	signature:(std::ostream&, const Queue<T>&)
+Queue::pop	16.44.h	/^	void pop()$/;"	f	class:Queue	access:public	signature:()
+Queue::push	16.44.h	/^        void push(const Type &t)$/;"	f	class:Queue	access:public	signature:(const Type &t)
+Raccoon	gnu_files/17/virt.h	/^    Raccoon();$/;"	p	class:Raccoon	access:public	signature:()
+Raccoon	gnu_files/17/virt.h	/^    Raccoon(std::string name, bool onExhibit=true);$/;"	p	class:Raccoon	access:public	signature:(std::string name, bool onExhibit=true)
+Raccoon	gnu_files/17/virt.h	/^Raccoon::Raccoon(std::string name, bool onExhibit)$/;"	f	class:Raccoon	signature:(std::string name, bool onExhibit)
+Raccoon	gnu_files/17/virt.h	/^class Raccoon : public virtual ZooAnimal {$/;"	c	inherits:ZooAnimal
+Raccoon::Raccoon	gnu_files/17/virt.h	/^    Raccoon();$/;"	p	class:Raccoon	access:public	signature:()
+Raccoon::Raccoon	gnu_files/17/virt.h	/^    Raccoon(std::string name, bool onExhibit=true);$/;"	p	class:Raccoon	access:public	signature:(std::string name, bool onExhibit=true)
+Raccoon::Raccoon	gnu_files/17/virt.h	/^Raccoon::Raccoon(std::string name, bool onExhibit)$/;"	f	class:Raccoon	signature:(std::string name, bool onExhibit)
+Raccoon::pettable	gnu_files/17/virt.h	/^    bool pettable() const {return pettable_flag;  }$/;"	f	class:Raccoon	access:public	signature:() const
+Raccoon::pettable	gnu_files/17/virt.h	/^    void pettable(bool petval) {pettable_flag = petval;}$/;"	f	class:Raccoon	access:public	signature:(bool petval)
+Raccoon::pettable_flag	gnu_files/17/virt.h	/^    bool pettable_flag;$/;"	m	class:Raccoon	access:protected
+Raccoon::print	gnu_files/17/virt.h	/^    virtual std::ostream& print(std::ostream&) const;$/;"	p	class:Raccoon	access:public	signature:(std::ostream&) const
+SALESITEM_H	15.35/sales_item.h	2;"	d
+SALESITEM_H	Sales_item.h	6;"	d
+Sale_item	15.35/sales_item.h	/^	Sale_item(const Item_base& item):$/;"	f	class:Sales_item	access:public	signature:(const Item_base& item)
+Sale_item	15.35/sales_item.h	/^	Sale_item(const Sales_item &i):$/;"	f	class:Sales_item	access:public	signature:(const Sales_item &i)
+Sales_item	15.35/sales_item.h	/^	Sales_item(): p(0), use(new std::size_t(1)) {}$/;"	f	class:Sales_item	access:public	signature:()
+Sales_item	15.35/sales_item.h	/^class Sales_item {$/;"	c
+Sales_item	Sales_item.h	/^	Sales_item(): units_sold(0), revenue(0.0) {} $/;"	f	class:Sales_item	access:public	signature:()
+Sales_item	Sales_item.h	/^class Sales_item {$/;"	c
+Sales_item::Sale_item	15.35/sales_item.h	/^	Sale_item(const Item_base& item):$/;"	f	class:Sales_item	access:public	signature:(const Item_base& item)
+Sales_item::Sale_item	15.35/sales_item.h	/^	Sale_item(const Sales_item &i):$/;"	f	class:Sales_item	access:public	signature:(const Sales_item &i)
+Sales_item::Sales_item	15.35/sales_item.h	/^	Sales_item(): p(0), use(new std::size_t(1)) {}$/;"	f	class:Sales_item	access:public	signature:()
+Sales_item::Sales_item	Sales_item.h	/^	Sales_item(): units_sold(0), revenue(0.0) {} $/;"	f	class:Sales_item	access:public	signature:()
+Sales_item::avg_price	Sales_item.cc	/^double Sales_item::avg_price() const$/;"	f	class:Sales_item	signature:() const
+Sales_item::avg_price	Sales_item.h	/^	double avg_price() const;$/;"	p	class:Sales_item	access:public	signature:() const
+Sales_item::decr_use	15.35/sales_item.h	/^	void decr_use()$/;"	f	class:Sales_item	access:private	signature:()
+Sales_item::input	Sales_item.cc	/^std::istream& Sales_item::input(std::istream& in)$/;"	f	class:Sales_item	signature:(std::istream& in)
+Sales_item::input	Sales_item.h	/^	std::istream &input(std::istream &in);$/;"	p	class:Sales_item	access:public	signature:(std::istream &in)
+Sales_item::isbn	Sales_item.h	/^	std::string isbn;$/;"	m	class:Sales_item	access:private
+Sales_item::operator *	15.35/sales_item.h	/^	const Item_base &operator*() const$/;"	f	class:Sales_item	access:public	signature:() const
+Sales_item::operator ->	15.35/sales_item.h	/^	const Item_base *operator->() const$/;"	f	class:Sales_item	access:public	signature:() const
+Sales_item::operator =	15.35/sales_item.cc	/^Sales_item& Sales_item::operator=(const Sales_item &rhs)$/;"	f	class:Sales_item	signature:(const Sales_item &rhs)
+Sales_item::operator =	15.35/sales_item.h	/^	Sale_item& operator=(const Sales_item&);$/;"	p	class:Sales_item	access:public	signature:(const Sales_item&)
+Sales_item::output	Sales_item.cc	/^std::ostream& Sales_item::output(std::ostream& out) const$/;"	f	class:Sales_item	signature:(std::ostream& out) const
+Sales_item::output	Sales_item.h	/^	std::ostream &output(std::ostream &out) const;$/;"	p	class:Sales_item	access:public	signature:(std::ostream &out) const
+Sales_item::p	15.35/sales_item.h	/^	Item_base *p;$/;"	m	class:Sales_item	access:private
+Sales_item::revenue	Sales_item.h	/^	double revenue;$/;"	m	class:Sales_item	access:private
+Sales_item::same_isbn	Sales_item.h	/^	bool same_isbn(const Sales_item &rhs) const {$/;"	f	class:Sales_item	access:public	signature:(const Sales_item &rhs) const
+Sales_item::units_sold	Sales_item.h	/^	unsigned units_sold;$/;"	m	class:Sales_item	access:private
+Sales_item::use	15.35/sales_item.h	/^	std::size_t *use;$/;"	m	class:Sales_item	access:private
+Sales_item::~Sale_item	15.35/sales_item.h	/^	~Sale_item() { decr_use(); }$/;"	f	class:Sales_item	access:public	signature:()
+Status	gnu_files/17/virt.h	/^    enum Status { critical, environment, improving };$/;"	g	class:Endangered	access:public
+U_Ptr	test22.cc	/^	U_Ptr(int *p): ip(p), use(1) {}$/;"	f	class:U_Ptr	file:	access:private	signature:(int *p)
+U_Ptr	test22.cc	/^class U_Ptr {$/;"	c	file:
+U_Ptr::U_Ptr	test22.cc	/^	U_Ptr(int *p): ip(p), use(1) {}$/;"	f	class:U_Ptr	file:	access:private	signature:(int *p)
+U_Ptr::ip	test22.cc	/^	int *ip;$/;"	m	class:U_Ptr	file:	access:private
+U_Ptr::use	test22.cc	/^	size_t use;$/;"	m	class:U_Ptr	file:	access:private
+U_Ptr::~U_Ptr	test22.cc	/^	~U_Ptr() { delete ip; }$/;"	f	class:U_Ptr	file:	access:private	signature:()
+Vector	gnu_files/18/vec.cc	/^    Vector(): elements(0), first_free(0), end(0) { }$/;"	f	class:Vector	access:public	signature:()
+Vector	gnu_files/18/vec.cc	/^template <class T> class Vector {$/;"	c	file:
+Vector::Vector	gnu_files/18/vec.cc	/^    Vector(): elements(0), first_free(0), end(0) { }$/;"	f	class:Vector	access:public	signature:()
+Vector::alloc	gnu_files/18/vec.cc	/^    static std::allocator<T> alloc; \/\/ member to handle allocation$/;"	m	class:Vector	file:	access:private
+Vector::capacity	gnu_files/18/vec.cc	/^    size_t capacity() const { return end - elements; }$/;"	f	class:Vector	access:public	signature:() const
+Vector::elements	gnu_files/18/vec.cc	/^    T* elements;       \/\/ pointer to first element in the array$/;"	m	class:Vector	file:	access:private
+Vector::end	gnu_files/18/vec.cc	/^    T* end;            \/\/ pointer to one past the end of the array$/;"	m	class:Vector	file:	access:private
+Vector::first_free	gnu_files/18/vec.cc	/^    T* first_free;     \/\/ pointer to first free element in the array$/;"	m	class:Vector	file:	access:private
+Vector::operator []	gnu_files/18/vec.cc	/^    T& operator[](size_t n) { return elements[n]; }$/;"	f	class:Vector	access:public	signature:(size_t n)
+Vector::operator []	gnu_files/18/vec.cc	/^    const T& operator[](size_t n) const { return elements[n]; }$/;"	f	class:Vector	access:public	signature:(size_t n) const
+Vector::push_back	gnu_files/18/vec.cc	/^    void push_back(const T&);$/;"	p	class:Vector	file:	access:public	signature:(const T&)
+Vector::push_back	gnu_files/18/vec.cc	/^template <class T> void Vector<T>::push_back(const T& t)$/;"	f	class:Vector	signature:(const T& t)
+Vector::reallocate	gnu_files/18/vec.cc	/^    void reallocate(); \/\/ get more space and copy existing elements$/;"	p	class:Vector	file:	access:private	signature:()
+Vector::reallocate	gnu_files/18/vec.cc	/^template <class T> void Vector<T>::reallocate()$/;"	f	class:Vector	signature:()
+Vector::size	gnu_files/18/vec.cc	/^    size_t size() const { return first_free - elements; }$/;"	f	class:Vector	access:public	signature:() const
+ZooAnimal	gnu_files/17/virt.h	/^    ZooAnimal() { }$/;"	f	class:ZooAnimal	access:public	signature:()
+ZooAnimal	gnu_files/17/virt.h	/^    ZooAnimal(std::string animal, bool exhibit,$/;"	f	class:ZooAnimal	access:public	signature:(std::string animal, bool exhibit, std::string family)
+ZooAnimal	gnu_files/17/virt.h	/^class ZooAnimal {$/;"	c
+ZooAnimal::ZooAnimal	gnu_files/17/virt.h	/^    ZooAnimal() { }$/;"	f	class:ZooAnimal	access:public	signature:()
+ZooAnimal::ZooAnimal	gnu_files/17/virt.h	/^    ZooAnimal(std::string animal, bool exhibit,$/;"	f	class:ZooAnimal	access:public	signature:(std::string animal, bool exhibit, std::string family)
+ZooAnimal::exhibit_stat	gnu_files/17/virt.h	/^    bool        exhibit_stat;$/;"	m	class:ZooAnimal	access:protected
+ZooAnimal::fam_name	gnu_files/17/virt.h	/^    std::string fam_name;$/;"	m	class:ZooAnimal	access:protected
+ZooAnimal::family_name	gnu_files/17/virt.h	/^    std::string family_name() const { return fam_name; }$/;"	f	class:ZooAnimal	access:public	signature:() const
+ZooAnimal::name	gnu_files/17/virt.h	/^    std::string name() const { return nm; }$/;"	f	class:ZooAnimal	access:public	signature:() const
+ZooAnimal::nm	gnu_files/17/virt.h	/^    std::string nm;$/;"	m	class:ZooAnimal	access:protected
+ZooAnimal::onExhibit	gnu_files/17/virt.h	/^    bool onExhibit() const { return exhibit_stat; }$/;"	f	class:ZooAnimal	access:public	signature:() const
+ZooAnimal::population	gnu_files/17/virt.h	/^    virtual int population() const;$/;"	p	class:ZooAnimal	access:public	signature:() const
+ZooAnimal::print	gnu_files/17/virt.h	/^    virtual std::ostream& print(std::ostream&) const;$/;"	p	class:ZooAnimal	access:public	signature:(std::ostream&) const
+ZooAnimal::~ZooAnimal	gnu_files/17/virt.h	/^    virtual ~ZooAnimal();$/;"	p	class:ZooAnimal	access:public	signature:()
+absVal	16.1.cc	/^T absVal(T val)$/;"	f	signature:(T val)
+add_item	15.35/basket.h	/^	void add_item(const sales_item &item)$/;"	f	class:Basket	access:public	signature:(const sales_item &item)
+alloc	gnu_files/18/vec.cc	/^    static std::allocator<T> alloc; \/\/ member to handle allocation$/;"	m	class:Vector	file:	access:private
+animal_status	gnu_files/17/virt.h	/^    Status animal_status;$/;"	m	class:Endangered	access:private
+assign	16.44.h	/^	template <class Iter> void assign(Iter beg, Iter end)$/;"	f	class:Queue	access:public	signature:(Iter beg, Iter end)
+avg_price	Sales_item.cc	/^double Sales_item::avg_price() const$/;"	f	class:Sales_item	signature:() const
+avg_price	Sales_item.h	/^	double avg_price() const;$/;"	p	class:Sales_item	access:public	signature:() const
+bigger	7.5.cc	/^int bigger(int i, const int *ip) \/\/此处不需要修改*ip所指向的对象的数值,最好加上const$/;"	f	signature:(int i, const int *ip)
+book	15.35/item.h	/^	std::string book() const$/;"	f	class:Item_base	access:public	signature:() const
+bound	14.33.cc	/^	int bound;$/;"	m	class:GT_cls	file:	access:private
+bound	14.36.cc	/^	std::string::size_type bound;$/;"	m	class:GT_cls	file:	access:private
+capacity	gnu_files/18/vec.cc	/^    size_t capacity() const { return end - elements; }$/;"	f	class:Vector	access:public	signature:() const
+clone	15.35/item.h	/^	virtual Bulk_item* clone() const$/;"	f	class:Bulk_item	access:public	signature:() const
+clone	15.35/item.h	/^	virtual Item_base* clone() const$/;"	f	class:Item_base	access:public	signature:() const
+clone	15.35/item.h	/^	virtual Lds_item* clone() const$/;"	f	class:Lds_item	access:public	signature:() const
+comp	15.35/basket.h	/^	typedef bool (*comp) (const sales_item&, const sales_item&);$/;"	t	class:Basket	access:private
+compare	15.35/basket.h	/^compare(const sales_item &lhs, const sales_item &rhs)$/;"	f	signature:(const sales_item &lhs, const sales_item &rhs)
+const_iter	15.35/basket.h	/^	typedef set_type::const_iterator const_iter;$/;"	t	class:Basket	access:public
+critical	gnu_files/17/virt.h	/^    enum Status { critical, environment, improving };$/;"	e	enum:Endangered::Status
+d	test21.cc	/^	double d;$/;"	m	struct:NoName	file:	access:private
+dance	gnu_files/17/virt.h	/^    void dance(DanceType) const;$/;"	p	class:Bear	access:public	signature:(DanceType) const
+dance_flag	gnu_files/17/virt.h	/^    DanceType dance_flag;$/;"	m	class:Bear	access:private
+decr_use	15.35/sales_item.h	/^	void decr_use()$/;"	f	class:Sales_item	access:private	signature:()
+discount	15.35/item.h	/^	double discount;$/;"	m	class:Disc_item	access:protected
+discount_policy	15.35/item.h	/^	std::pair<size_t, double> discount_policy() const$/;"	f	class:Disc_item	access:public	signature:() const
+elements	gnu_files/18/vec.cc	/^    T* elements;       \/\/ pointer to first element in the array$/;"	m	class:Vector	file:	access:private
+end	gnu_files/18/vec.cc	/^    T* end;            \/\/ pointer to one past the end of the array$/;"	m	class:Vector	file:	access:private
+environment	gnu_files/17/virt.h	/^    enum Status { critical, environment, improving };$/;"	e	enum:Endangered::Status
+exhibit_stat	gnu_files/17/virt.h	/^    bool        exhibit_stat;$/;"	m	class:ZooAnimal	access:protected
+fact	gnu_files/7/fact.cc	/^int fact(int val)$/;"	f	signature:(int val)
+factorial	gnu_files/7/fact.cc	/^int factorial(int val) $/;"	f	signature:(int val)
+fam_name	gnu_files/17/virt.h	/^    std::string fam_name;$/;"	m	class:ZooAnimal	access:protected
+family_name	gnu_files/17/virt.h	/^    std::string family_name() const { return fam_name; }$/;"	f	class:ZooAnimal	access:public	signature:() const
+fandango	gnu_files/17/virt.h	/^    enum DanceType { two_left_feet, macarena, fandango };$/;"	e	enum:Bear::DanceType
+ff	gnu_files/7/ff.h	/^int ff(int = 0);$/;"	p	signature:(int = 0)
+findelem	16.9.cc	/^InIt findelem(InIt first, InIt last, const T& val)$/;"	f	signature:(InIt first, InIt last, const T& val)
+first_free	gnu_files/18/vec.cc	/^    T* first_free;     \/\/ pointer to first free element in the array$/;"	m	class:Vector	file:	access:private
+front	16.44.h	/^	Type& front()$/;"	f	class:Queue	access:public	signature:()
+front	16.44.h	/^	const Type& front() const$/;"	f	class:Queue	access:public	signature:() const
+get	8.3.cc	/^std::istream& get(std::istream& in)$/;"	f	signature:(std::istream& in)
+get	get.cc	/^std::istream& get(std::istream& in)$/;"	f	signature:(std::istream& in)
+get_int	test22.cc	/^	int get_int() const { return val;}$/;"	f	class:HasPtr	access:public	signature:() const
+get_ptr	test22.cc	/^	int *get_ptr() const { return ptr->ip;}$/;"	f	class:HasPtr	access:public	signature:() const
+get_ptr_val	test22.cc	/^	int get_ptr_val() const { return *ptr->ip; }$/;"	f	class:HasPtr	access:public	signature:() const
+global_int	test.cc	/^int global_int;$/;"	v
+highlight	gnu_files/17/virt.h	/^    virtual void highlight() const;$/;"	p	class:Endangered	access:public	signature:() const
+i	test21.cc	/^	int i;$/;"	m	struct:NoName	file:	access:private
+improving	gnu_files/17/virt.h	/^    enum Status { critical, environment, improving };$/;"	e	enum:Endangered::Status
+input	Sales_item.cc	/^std::istream& Sales_item::input(std::istream& in)$/;"	f	class:Sales_item	signature:(std::istream& in)
+input	Sales_item.h	/^	std::istream &input(std::istream &in);$/;"	p	class:Sales_item	access:public	signature:(std::istream &in)
+ip	test22.cc	/^	int *ip;$/;"	m	class:U_Ptr	file:	access:private
+isA	gnu_files/17/virt.h	/^    virtual std::string isA() const;$/;"	p	class:Bear	access:public	signature:() const
+isShorter	11.9.cc	/^bool isShorter(const string &s1, const string &s2)$/;"	f	signature:(const string &s1, const string &s2)
+isShorter	14.35.cc	/^bool isShorter(const string &s1, const string &s2)$/;"	f	signature:(const string &s1, const string &s2)
+isShorter	14.36.cc	/^bool isShorter(const string &s1, const string &s2)$/;"	f	signature:(const string &s1, const string &s2)
+is_pos	gnu_files/7/fact.cc	/^bool is_pos(int i)$/;"	f	signature:(int i)
+isbn	15.35/item.h	/^	std::string isbn;$/;"	m	class:Item_base	access:private
+isbn	Sales_item.h	/^	std::string isbn;$/;"	m	class:Sales_item	access:private
+items	15.35/basket.h	/^	std::multiset<sales_item, comp> items;$/;"	m	class:Basket	access:private
+items	16.44.h	/^	std::list<Type> items;$/;"	m	class:Queue	access:private
+ival	gnu_files/17/virt.h	/^    int    ival;$/;"	m	class:Bear	access:private
+macarena	gnu_files/17/virt.h	/^    enum DanceType { two_left_feet, macarena, fandango };$/;"	e	enum:Bear::DanceType
+main	1.14.cc	/^int main()$/;"	f	signature:()
+main	1.2.2.1.cc	/^int main()$/;"	f	signature:()
+main	1.25.cc	/^int main()$/;"	f	signature:()
+main	10.1.cc	/^int main()$/;"	f	signature:()
+main	10.18.cc	/^int main()$/;"	f	signature:()
+main	10.26.cc	/^int main()$/;"	f	signature:()
+main	10.9.cc	/^int main()$/;"	f	signature:()
+main	11.19.cc	/^int main()$/;"	f	signature:()
+main	11.20.cc	/^int main()$/;"	f	signature:()
+main	11.21.cc	/^int main()$/;"	f	signature:()
+main	11.22.cc	/^int main()$/;"	f	signature:()
+main	11.9.cc	/^int main()$/;"	f	signature:()
+main	14.33.cc	/^int main()$/;"	f	signature:()
+main	14.34.cc	/^int main()$/;"	f	signature:()
+main	14.35.cc	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	14.36.cc	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	15.35/15.35.cc	/^int main()$/;"	f	signature:()
+main	16.1.cc	/^int main()$/;"	f	signature:()
+main	16.2.cc	/^int main()$/;"	f	signature:()
+main	16.9.cc	/^int main()$/;"	f	signature:()
+main	3.13.cc	/^int main()$/;"	f	signature:()
+main	3.17_a.cc	/^int main()$/;"	f	signature:()
+main	3.24.cc	/^int main()$/;"	f	signature:()
+main	3.24_v2.cc	/^int main()$/;"	f	signature:()
+main	4.25.1.cc	/^int main()$/;"	f	signature:()
+main	4.25.2.cc	/^int main()$/;"	f	signature:()
+main	4.28.cc	/^int main()$/;"	f	signature:()
+main	4.34.cc	/^int main()$/;"	f	signature:()
+main	4.8.1.cc	/^int main()$/;"	f	signature:()
+main	4.8.2.cc	/^int main()$/;"	f	signature:()
+main	6.12.cc	/^int main()$/;"	f	signature:()
+main	6.16.cc	/^int main()$/;"	f	signature:()
+main	6.16_a.cc	/^int main()$/;"	f	signature:()
+main	6.25.cc	/^int main()$/;"	f	signature:()
+main	6.9.cc	/^int main()$/;"	f	signature:()
+main	7.20.cc	/^int main()$/;"	f	signature:()
+main	7.31_a.cc	/^int main()$/;"	f	signature:()
+main	7.5.cc	/^int main()$/;"	f	signature:()
+main	8.4.cc	/^int main()$/;"	f	signature:()
+main	9.18.cc	/^int main()$/;"	f	signature:()
+main	9.20.cc	/^int main()$/;"	f	signature:()
+main	9.26.cc	/^int main()$/;"	f	signature:()
+main	9.27.cc	/^int main()$/;"	f	signature:()
+main	9.42.cc	/^int main()$/;"	f	signature:()
+main	9.43.cc	/^int main()$/;"	f	signature:()
+main	gnu_files/1/add.cc	/^int main()$/;"	f	signature:()
+main	gnu_files/18/vec.cc	/^int main()$/;"	f	signature:()
+main	gnu_files/2/pow2.cc	/^int main()$/;"	f	signature:()
+main	gnu_files/3/bits.cc	/^int main() $/;"	f	signature:()
+main	gnu_files/5/cond.cc	/^int main()$/;"	f	signature:()
+main	gnu_files/5/incr.cc	/^int main() $/;"	f	signature:()
+main	gnu_files/5/prec.cc	/^int main() $/;"	f	signature:()
+main	gnu_files/7/fact.cc	/^int main()$/;"	f	signature:()
+main	gnu_files/7/rgcd.cc	/^int main()$/;"	f	signature:()
+main	gnu_files/8/buf.cc	/^int main()$/;"	f	signature:()
+main	gnu_files/8/getc.cc	/^int main()$/;"	f	signature:()
+main	gnu_files/8/prec.cc	/^int main()$/;"	f	signature:()
+main	gnu_files/8/seek.cc	/^int main()$/;"	f	signature:()
+main	gnu_files/8/setw.cc	/^int main()$/;"	f	signature:()
+main	test.cc	/^int main()$/;"	f	signature:()
+main	test01.cc	/^int main()$/;"	f	signature:()
+main	test02.cc	/^int main()$/;"	f	signature:()
+main	test03.cc	/^int main()$/;"	f	signature:()
+main	test04.cc	/^int main()$/;"	f	signature:()
+main	test05.cc	/^int main()$/;"	f	signature:()
+main	test06.cc	/^int main()$/;"	f	signature:()
+main	test07.cc	/^int main()$/;"	f	signature:()
+main	test08.cc	/^int main()$/;"	f	signature:()
+main	test09.cc	/^int main()$/;"	f	signature:()
+main	test10.cc	/^int main()$/;"	f	signature:()
+main	test11.cc	/^int main()$/;"	f	signature:()
+main	test12.cc	/^int main()$/;"	f	signature:()
+main	test13.cc	/^int main()$/;"	f	signature:()
+main	test14.cc	/^int main()$/;"	f	signature:()
+main	test15.cc	/^int main(int argc, char *argv[]) \/\/ argv 是个指针数组,每个指向个参数$/;"	f	signature:(int argc, char *argv[])
+main	test16.cc	/^int main()$/;"	f	signature:()
+main	test17.cc	/^int main()$/;"	f	signature:()
+main	test18.cc	/^int main()$/;"	f	signature:()
+main	test19.cc	/^int main()$/;"	f	signature:()
+main	test20.cc	/^int main()$/;"	f	signature:()
+main	test21.cc	/^int main()$/;"	f	signature:()
+main	test22.cc	/^int main()$/;"	f	signature:()
+main	tranwords.cc	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	tranwords_ver2.cc	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+main	tranwords_ver3.cc	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+make_plural	11.9.cc	/^string make_plural(size_t ctr, const string &word, const string &ending)$/;"	f	signature:(size_t ctr, const string &word, const string &ending)
+make_plural	14.35.cc	/^string make_plural(size_t ctr, const string &word, const string &ending)$/;"	f	signature:(size_t ctr, const string &word, const string &ending)
+make_plural	14.36.cc	/^string make_plural(size_t ctr, const string &word, const string &ending)$/;"	f	signature:(size_t ctr, const string &word, const string &ending)
+maxLength	14.35.cc	/^	string::size_type maxLength;$/;"	m	class:BET_cls	file:	access:private
+maxLength	14.36.cc	/^	string::size_type maxLength;$/;"	m	class:BET_cls	file:	access:private
+minLength	14.35.cc	/^	string::size_type minLength;$/;"	m	class:BET_cls	file:	access:private
+minLength	14.36.cc	/^	string::size_type minLength;$/;"	m	class:BET_cls	file:	access:private
+mostFre	16.12.1.cc	/^typename T::value_type mostFre(T first, T last)$/;"	f	signature:(T first, T last)
+mumble	gnu_files/17/virt.h	/^    int mumble(int);$/;"	p	class:Bear	access:public	signature:(int)
+name	gnu_files/17/virt.h	/^    std::string name() const { return nm; }$/;"	f	class:ZooAnimal	access:public	signature:() const
+name	gnu_files/17/virt.h	/^    std::string name;$/;"	m	class:Bear	access:private
+net_price	15.35/item.h	/^	double net_price(size_t cnt) const$/;"	f	class:Bulk_item	access:public	signature:(size_t cnt) const
+net_price	15.35/item.h	/^	double net_price(size_t cnt) const$/;"	f	class:Lds_item	access:public	signature:(size_t cnt) const
+net_price	15.35/item.h	/^	double net_price(size_t) const = 0;$/;"	p	class:Disc_item	access:public	signature:(size_t) const
+net_price	15.35/item.h	/^	virtual double net_price(size_t n) const$/;"	f	class:Item_base	access:public	signature:(size_t n) const
+nm	gnu_files/17/virt.h	/^    std::string nm;$/;"	m	class:ZooAnimal	access:protected
+onExhibit	gnu_files/17/virt.h	/^    bool onExhibit() const { return exhibit_stat; }$/;"	f	class:ZooAnimal	access:public	signature:() const
+open_file	open_file.cc	/^ifstream& open_file(ifstream &in, const string &file)$/;"	f	signature:(ifstream &in, const string &file)
+open_file	open_file.cpp	/^ifstream& open_file(ifstream &in, const string &file)$/;"	f	signature:(ifstream &in, const string &file)
+operator ()	14.33.cc	/^	bool operator() (const int &ival)$/;"	f	class:GT_cls	access:public	signature:(const int &ival)
+operator ()	14.34.cc	/^	bool operator() (const int &ival)$/;"	f	class:EQ_cls	access:public	signature:(const int &ival)
+operator ()	14.35.cc	/^	bool operator () (const string &s)$/;"	f	class:BET_cls	access:public	signature:(const string &s)
+operator ()	14.36.cc	/^	bool operator () (const string &s)$/;"	f	class:BET_cls	access:public	signature:(const string &s)
+operator ()	14.36.cc	/^	bool operator () (const string &s)$/;"	f	class:GT_cls	access:public	signature:(const string &s)
+operator *	15.35/sales_item.h	/^	const Item_base &operator*() const$/;"	f	class:Sales_item	access:public	signature:() const
+operator ->	15.35/sales_item.h	/^	const Item_base *operator->() const$/;"	f	class:Sales_item	access:public	signature:() const
+operator <<	16.44.h	/^	friend std::ostream& operator<<(std::ostream&, const Queue<T>&);$/;"	p	class:Queue	access:friend	signature:(std::ostream&, const Queue<T>&)
+operator <<	16.44.h	/^std::ostream& operator<<(std::ostream &os, const Queue<Type> &q)$/;"	f	signature:(std::ostream &os, const Queue<Type> &q)
+operator <<	16.44.h	/^std::ostream& operator<<(std::ostream&, const Queue<T>&);$/;"	p	signature:(std::ostream&, const Queue<T>&)
+operator <<	gnu_files/17/virt.h	/^operator<<(std::ostream&, const ZooAnimal&);$/;"	p	signature:(std::ostream&, const ZooAnimal&)
+operator =	15.35/sales_item.cc	/^Sales_item& Sales_item::operator=(const Sales_item &rhs)$/;"	f	class:Sales_item	signature:(const Sales_item &rhs)
+operator =	15.35/sales_item.h	/^	Sale_item& operator=(const Sales_item&);$/;"	p	class:Sales_item	access:public	signature:(const Sales_item&)
+operator =	test22.cc	/^	HasPtr& operator = (const HasPtr&);$/;"	p	class:HasPtr	file:	access:public	signature:(const HasPtr&)
+operator =	test22.cc	/^HasPtr& HasPtr::operator=(const HasPtr &rhs)$/;"	f	class:HasPtr	signature:(const HasPtr &rhs)
+operator >>	16.42.cc	/^istream& operator>> (istream &is, Queue<Type> &q)$/;"	f	signature:(istream &is, Queue<Type> &q)
+operator []	gnu_files/18/vec.cc	/^    T& operator[](size_t n) { return elements[n]; }$/;"	f	class:Vector	access:public	signature:(size_t n)
+operator []	gnu_files/18/vec.cc	/^    const T& operator[](size_t n) const { return elements[n]; }$/;"	f	class:Vector	access:public	signature:(size_t n) const
+output	Sales_item.cc	/^std::ostream& Sales_item::output(std::ostream& out) const$/;"	f	class:Sales_item	signature:(std::ostream& out) const
+output	Sales_item.h	/^	std::ostream &output(std::ostream &out) const;$/;"	p	class:Sales_item	access:public	signature:(std::ostream &out) const
+p	15.35/sales_item.h	/^	Item_base *p;$/;"	m	class:Sales_item	access:private
+pettable	gnu_files/17/virt.h	/^    bool pettable() const {return pettable_flag;  }$/;"	f	class:Raccoon	access:public	signature:() const
+pettable	gnu_files/17/virt.h	/^    void pettable(bool petval) {pettable_flag = petval;}$/;"	f	class:Raccoon	access:public	signature:(bool petval)
+pettable_flag	gnu_files/17/virt.h	/^    bool pettable_flag;$/;"	m	class:Raccoon	access:protected
+pop	16.44.h	/^	void pop()$/;"	f	class:Queue	access:public	signature:()
+population	gnu_files/17/virt.h	/^    virtual int population() const;$/;"	p	class:ZooAnimal	access:public	signature:() const
+price	15.35/item.h	/^	double price;$/;"	m	class:Item_base	access:protected
+print	16.2.cc	/^T1& print(T1& s, T2 val)$/;"	f	signature:(T1& s, T2 val)
+print	gnu_files/17/virt.h	/^    virtual std::ostream &print(std::ostream&) const;$/;"	p	class:Bear	access:public	signature:(std::ostream&) const
+print	gnu_files/17/virt.h	/^    virtual std::ostream& print(std::ostream&) const;$/;"	p	class:Endangered	access:public	signature:(std::ostream&) const
+print	gnu_files/17/virt.h	/^    virtual std::ostream& print(std::ostream&) const;$/;"	p	class:Panda	access:public	signature:(std::ostream&) const
+print	gnu_files/17/virt.h	/^    virtual std::ostream& print(std::ostream&) const;$/;"	p	class:Raccoon	access:public	signature:(std::ostream&) const
+print	gnu_files/17/virt.h	/^    virtual std::ostream& print(std::ostream&) const;$/;"	p	class:ZooAnimal	access:public	signature:(std::ostream&) const
+pstring	test21.cc	/^	string *pstring;$/;"	m	struct:NoName	file:	access:private
+ptr	test22.cc	/^	U_Ptr *ptr;$/;"	m	class:HasPtr	file:	access:public
+push	16.44.h	/^        void push(const Type &t)$/;"	f	class:Queue	access:public	signature:(const Type &t)
+push_back	gnu_files/18/vec.cc	/^    void push_back(const T&);$/;"	p	class:Vector	file:	access:public	signature:(const T&)
+push_back	gnu_files/18/vec.cc	/^template <class T> void Vector<T>::push_back(const T& t)$/;"	f	class:Vector	signature:(const T& t)
+quantity	15.35/item.h	/^	size_t quantity;$/;"	m	class:Disc_item	access:protected
+reallocate	gnu_files/18/vec.cc	/^    void reallocate(); \/\/ get more space and copy existing elements$/;"	p	class:Vector	file:	access:private	signature:()
+reallocate	gnu_files/18/vec.cc	/^template <class T> void Vector<T>::reallocate()$/;"	f	class:Vector	signature:()
+revenue	Sales_item.h	/^	double revenue;$/;"	m	class:Sales_item	access:private
+rgcd	gnu_files/7/rgcd.cc	/^int rgcd(int v1, int v2)$/;"	f	signature:(int v1, int v2)
+same_isbn	Sales_item.h	/^	bool same_isbn(const Sales_item &rhs) const {$/;"	f	class:Sales_item	access:public	signature:(const Sales_item &rhs) const
+set_int	test22.cc	/^	void set_int(int i) { val = i; }$/;"	f	class:HasPtr	access:public	signature:(int i)
+set_ptr	test22.cc	/^	void set_ptr(int *p) { ptr->ip = p; }$/;"	f	class:HasPtr	access:public	signature:(int *p)
+set_ptr_val	test22.cc	/^	void set_ptr_val(int i) { *ptr->ip = i; }$/;"	f	class:HasPtr	access:public	signature:(int i)
+set_type	15.35/basket.h	/^	typedef std::multies<sales_item, comp> set_type;$/;"	t	class:Basket	access:public
+size	15.35/basket.h	/^	size_type size(const sales_item &i) const$/;"	f	class:Basket	access:public	signature:(const sales_item &i) const
+size	gnu_files/18/vec.cc	/^    size_t size() const { return first_free - elements; }$/;"	f	class:Vector	access:public	signature:() const
+size_type	15.35/basket.h	/^	typedef set_type::size_type size_type;$/;"	t	class:Basket	access:public
+sleeping	gnu_files/17/virt.h	/^    bool sleeping() const {return sleeping_flag;}$/;"	f	class:Panda	access:public	signature:() const
+sleeping	gnu_files/17/virt.h	/^    void sleeping(bool newval) {sleeping_flag = newval;}$/;"	f	class:Panda	access:public	signature:(bool newval)
+sleeping_flag	gnu_files/17/virt.h	/^    bool sleeping_flag;$/;"	m	class:Panda	access:protected
+spValue	14.34.cc	/^	int spValue;$/;"	m	class:EQ_cls	file:	access:private
+swap	gnu_files/7/decl1.h	/^void swap(int, int);$/;"	p	signature:(int, int)
+swap	gnu_files/7/decl2.h	/^void swap(int&, int&);$/;"	p	signature:(int&, int&)
+swap	gnu_files/7/swap.cc	/^void swap(int &v1, int &v2) $/;"	f	signature:(int &v1, int &v2)
+total	15.35/basket.cc	/^double Basket::total() const$/;"	f	class:Basket	signature:() const
+total	15.35/basket.h	/^	double total() const;$/;"	p	class:Basket	access:public	signature:() const
+two_left_feet	gnu_files/17/virt.h	/^    enum DanceType { two_left_feet, macarena, fandango };$/;"	e	enum:Bear::DanceType
+units_sold	Sales_item.h	/^	unsigned units_sold;$/;"	m	class:Sales_item	access:private
+use	15.35/sales_item.h	/^	std::size_t *use;$/;"	m	class:Sales_item	access:private
+use	test22.cc	/^	size_t use;$/;"	m	class:U_Ptr	file:	access:private
+val	test22.cc	/^	int val;$/;"	m	class:HasPtr	file:	access:public
+~Bear	gnu_files/17/virt.h	/^virtual ~Bear();$/;"	p	class:Bear	access:public	signature:()
+~Endangered	gnu_files/17/virt.h	/^    virtual ~Endangered();$/;"	p	class:Endangered	access:public	signature:()
+~Item_base	15.35/item.h	/^	virtual ~Item_base() {}$/;"	f	class:Item_base	access:public	signature:()
+~Sale_item	15.35/sales_item.h	/^	~Sale_item() { decr_use(); }$/;"	f	class:Sales_item	access:public	signature:()
+~U_Ptr	test22.cc	/^	~U_Ptr() { delete ip; }$/;"	f	class:U_Ptr	file:	access:private	signature:()
+~ZooAnimal	gnu_files/17/virt.h	/^    virtual ~ZooAnimal();$/;"	p	class:ZooAnimal	access:public	signature:()
