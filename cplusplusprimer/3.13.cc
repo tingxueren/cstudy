@@ -34,5 +34,23 @@ int main()
 		     << "The last element is not been summed "
 		     << "and its value is "
 		     << *(ivec.end()-1) << endl;
+
+	cout << " Sum of each pair of begin and end elements: " << endl;
+
+	cout << "ivec.size() = " << ivec.size() << endl;
+	// ivec.end() 指向末端元素的下一个。
+	// iter1 < iter2 不能改成iter1 != iter2 ,必须严格的
+	// iter1 在 iter2 前面，不然会死循环，段错误
+	vector<int>::iterator iter1, iter2;
+	for (iter1 = ivec.begin(), iter2 = ivec.end() - 1;
+			iter1 < iter2;) {
+		cout << "*iter1 = " << *iter1 << "; *iter2 = " << *iter2 << endl;
+		cout << *iter1 + *iter2 << endl;
+		iter1 = iter1 + 1;
+		iter2 = iter2 - 1;
+	}
+	if (iter1 == iter2) {
+		cout << "The last element is :" << *iter1 << endl;
+	}
 	return 0;
 }	
